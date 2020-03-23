@@ -1,0 +1,2312 @@
+# Copyright (C) 2019 Buttonizer
+# This file is distributed under the same license as the Buttonizer - Smart Floating Action Button plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Buttonizer - Smart Floating Action Button 2.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buttonizer\n"
+"POT-Creation-Date: 2019-11-04T19:41:49+00:00\n"
+"PO-Revision-Date: 2019-11-05 08:02+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: buttonizer-multifunctional-button\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Buttonizer - Smart Floating Action Button"
+msgstr "Buttonizer - Slimme zwevende actieknop"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://buttonizer.pro"
+msgstr "https://buttonizer.pro"
+
+#. Description of the plugin
+msgid ""
+"The Buttonizer is a new way to give a boost to your number of interactions, "
+"actions and conversions from your website visitor by adding one or multiple "
+"Customizable Smart Floating Button in the corner of your website."
+msgstr ""
+"De Buttonizer is een nieuwe manier om je interacties, acties en conversies "
+"te boosten op je website door een of meerdere slimme knoppen toe te voegen "
+"in de hoeken van je website."
+
+#. Author of the plugin
+msgid "Buttonizer"
+msgstr "Buttonizer"
+
+#: app/Admin/Admin.php:119
+msgid "Buttonizer is loading..."
+msgstr "Buttonizer is aan het laden..."
+
+#. Translators: First link goes to our knowledge base, the second link goes to the admin panel.
+#: app/Admin/Admin.php:124
+msgid ""
+"When Buttonizer does not start, <a %1$s>click here</a> to find out what is "
+"going wrong or <a %2$s>click here</a> to return to the WordPress admin "
+"dashboard."
+msgstr ""
+"Wanneer Buttonizer niet start, <a %1$s>klik hier</a> om te kijken wat er "
+"fout gaat of <a %2$s>klik hier</a> om terug te gaan naar het admin dashboard."
+
+#: app/Admin/Admin.php:132
+msgid ""
+"When you have a slow internet connection or slow webserver, give it a "
+"moment..."
+msgstr ""
+"Wanneer je een trage internetverbinding of webserver hebt, een klein "
+"momentje geduld..."
+
+#: app/Admin/Admin.php:137
+msgid ""
+"Hi there! JavaScript is disabled in your browser. Please consider to enable "
+"JavaScript in your browser to use Buttonizer."
+msgstr ""
+"Hoi! Javascript is uitgeschakeld in je browser. Neem de overweging om "
+"javascript in te schakelen om Buttonizer te gebruiken."
+
+#: app/Admin/Translations.php:37
+msgid "Oh, that was not what we were expecting! Something went wrong."
+msgstr "Oh, dat was niet wat ik had verwacht! Er ging iets mis."
+
+#: app/Admin/Translations.php:41
+msgid "Custom javascript error"
+msgstr "Aangepaste Javascript foutmelding"
+
+#: app/Admin/Translations.php:42
+msgid "Your custom javascript ran into an error. Read the error below:"
+msgstr ""
+"Je aangepaste javascript veroorzaakte een foutmelding. Lees de foutmelding "
+"hieronder:"
+
+#: app/Admin/Translations.php:47
+msgid "Could not save settings"
+msgstr "Kon de instellingen niet opslaan"
+
+#: app/Admin/Translations.php:48
+msgid "Something went wrong while saving your settings:"
+msgstr "Er ging iets mis tijdens het opslaan van uw instellingen:"
+
+#: app/Admin/Translations.php:53
+msgid "Only numbers allowed."
+msgstr "Alleen nummers toegestaan."
+
+#: app/Admin/Translations.php:54
+msgid "For this input, only positive numbers are allowed."
+msgstr "Voor deze instelling zijn alleen positieve nummers toegestaan."
+
+#: app/Admin/Translations.php:66
+msgid "Invalid email address."
+msgstr "Ongeldig email adres."
+
+#: app/Admin/Translations.php:67
+msgid ""
+"Invalid phone number. Please only use number for your phone number. Omit any "
+"zeros, brackets or dashes when adding the phone number in international "
+"format."
+msgstr ""
+"Ongeldig telefoonnummer. Gebruik alleen de nummernotatie. Laat nullen, "
+"haakjes of streepjes weg wanneer je gebruik maakt van het internationale "
+"formaat."
+
+#: app/Admin/Translations.php:68
+msgid "This field only allows numbers."
+msgstr "Dit velt staat alleen nummers toe."
+
+#: app/Admin/Translations.php:80
+msgid "Button"
+msgstr "Knop"
+
+#: app/Admin/Translations.php:81
+msgid "Group"
+msgstr "Groep"
+
+#: app/Admin/Translations.php:83 app/Admin/Translations.php:317
+msgid "Settings"
+msgstr "Instellingen"
+
+#: app/Admin/Translations.php:85 app/Admin/Translations.php:407
+msgid "Custom"
+msgstr "Aangepast"
+
+#: app/Admin/Translations.php:87
+msgid "Confirm"
+msgstr "Bevestig"
+
+#: app/Admin/Translations.php:88
+msgid "Search"
+msgstr "Zoek"
+
+#: app/Admin/Translations.php:90
+msgid "Skip"
+msgstr "Overslaan"
+
+#: app/Admin/Translations.php:93
+msgid "Disable"
+msgstr "Deactiveren"
+
+#: app/Admin/Translations.php:94
+msgid "Disabled"
+msgstr "Gedeactiveerd"
+
+#: app/Admin/Translations.php:97 app/Admin/Translations.php:229
+msgid "Save"
+msgstr "Opslaan"
+
+#: app/Admin/Translations.php:98
+msgid "Saving"
+msgstr "Opslaan"
+
+#: app/Admin/Translations.php:99
+msgid "Saving settings"
+msgstr "Aan het opslaan"
+
+#: app/Admin/Translations.php:101
+msgid "Publish"
+msgstr "Publiceer"
+
+#: app/Admin/Translations.php:102
+msgid "Published"
+msgstr "Gepubliceerd"
+
+#: app/Admin/Translations.php:103
+msgid "Publishing..."
+msgstr "Publiceren..."
+
+#: app/Admin/Translations.php:106
+msgid "Warning"
+msgstr "Waarschuwing"
+
+#: app/Admin/Translations.php:108
+msgid "Next"
+msgstr "Volgende"
+
+#: app/Admin/Translations.php:109
+msgid "Previous"
+msgstr "Vorige"
+
+#. translators: The button to save and publish the changes that were made
+#: app/Admin/Translations.php:112 app/Admin/Translations.php:1167
+msgid "Save & publish"
+msgstr "Opslaan & publiceren"
+
+#: app/Admin/Translations.php:123
+msgid "Loading..."
+msgstr "Laden..."
+
+#: app/Admin/Translations.php:124
+msgid "Loading settings..."
+msgstr "Instellingen laden..."
+
+#: app/Admin/Translations.php:125
+msgid "Building bar..."
+msgstr "Balk laden..."
+
+#: app/Admin/Translations.php:126
+msgid "Waiting for your website..."
+msgstr "We wachten op je website..."
+
+#: app/Admin/Translations.php:127
+msgid "It's taking longer than usual, slow website?"
+msgstr "Het duurt langer dan gebruikelijk, langzame website?"
+
+#: app/Admin/Translations.php:128
+msgid "Skip this step"
+msgstr "Sla deze stap over"
+
+#: app/Admin/Translations.php:129
+msgid "Initializing..."
+msgstr "Initialiseren..."
+
+#: app/Admin/Translations.php:130
+msgid "Resetting..."
+msgstr "Resetten..."
+
+#: app/Admin/Translations.php:131
+msgid "Running migration..."
+msgstr "Migratie aan het uitvoeren..."
+
+#. translators: Finishing as in 'Cleaning up files'
+#: app/Admin/Translations.php:133
+msgid "Finishing..."
+msgstr "Afronden..."
+
+#. translators: %s will be replaced with 'Add button'
+#: app/Admin/Translations.php:144 app/Admin/Translations.php:1129
+#: app/Admin/Translations.php:1134
+msgid "Add button"
+msgstr "Knop toevoegen"
+
+#: app/Admin/Translations.php:145
+msgid "Add group"
+msgstr "Groep toevoegen"
+
+#: app/Admin/Translations.php:148
+msgid "New button"
+msgstr "Nieuwe knop"
+
+#: app/Admin/Translations.php:149
+msgid "New group"
+msgstr "Nieuwe groep"
+
+#: app/Admin/Translations.php:152
+msgid "Advanced settings"
+msgstr "Geavanceerde instellingen"
+
+#: app/Admin/Translations.php:154 app/Admin/Translations.php:578
+msgid "Text"
+msgstr "Tekst"
+
+#. translators: Base is meant as default state of the button (not hovering or clicking)
+#: app/Admin/Translations.php:156
+msgid "Base"
+msgstr "Basis"
+
+#. translators: Base is meant as default state of the button (not hovering or clicking)
+#: app/Admin/Translations.php:157 app/Admin/Translations.php:347
+#: app/Admin/Translations.php:359
+msgid "Icon"
+msgstr "Icoon"
+
+#: app/Admin/Translations.php:158
+msgid "Search icon"
+msgstr "Zoek icoon"
+
+#: app/Admin/Translations.php:161
+msgid "Image"
+msgstr "Afbeelding"
+
+#: app/Admin/Translations.php:162
+msgid "Select image"
+msgstr "Selecteer afbeelding"
+
+#: app/Admin/Translations.php:163
+msgid "Change image"
+msgstr "Verander afbeelding"
+
+#: app/Admin/Translations.php:164
+msgid "Select file"
+msgstr "Selecteer bestand"
+
+#: app/Admin/Translations.php:165
+msgid "Change file"
+msgstr "Verander bestand"
+
+#: app/Admin/Translations.php:166
+msgid "Click to remove this image"
+msgstr "Klik om de afbeelding te verwijderen"
+
+#: app/Admin/Translations.php:169
+msgid "First button"
+msgstr "Eerste knop"
+
+#: app/Admin/Translations.php:170
+msgid "Second button"
+msgstr "Tweede knop"
+
+#: app/Admin/Translations.php:173
+msgid "Rename"
+msgstr "Hernoem"
+
+#: app/Admin/Translations.php:176
+msgid "Delete"
+msgstr "Verwijder"
+
+#: app/Admin/Translations.php:179
+msgid "Duplicate"
+msgstr "Dupliceer"
+
+#. translators: This string will be used to replace %s in 'Are you very sure you want to remove this %s?'
+#: app/Admin/Translations.php:182
+msgid "page rule"
+msgstr "pagina regel"
+
+#. translators: This string will be used to replace %s in 'Are you very sure you want to remove this %s?'
+#: app/Admin/Translations.php:184
+msgid "time schedule"
+msgstr "tijdschema"
+
+#. translators: Interaction is meant as hover/click state
+#: app/Admin/Translations.php:187
+msgid "Interaction"
+msgstr "Interactie"
+
+#. translators: Background as in background color
+#: app/Admin/Translations.php:190
+msgid "Background"
+msgstr "Achtergrond"
+
+#: app/Admin/Translations.php:193
+msgid "Need help? Quick-start, tips & tricks"
+msgstr "Hulp nodig? Quick-start, tips & tricks"
+
+#: app/Admin/Translations.php:194
+msgid "Need help? Visit our knowledge base!"
+msgstr "Hulp nodig? Bezoek ons kennis bank!"
+
+#: app/Admin/Translations.php:196
+msgid "Nothing found for:"
+msgstr "Niks gevonden voor:"
+
+#: app/Admin/Translations.php:197
+msgid "Search icons"
+msgstr "Zoek iconen"
+
+#. translators: %1$s will be replaced with a action name, %2$s will be replaced with a link
+#: app/Admin/Translations.php:201
+msgid "Need help? Learn how to use <b>%1$s</b>."
+msgstr ""
+"Hulp nodig? Meer informatie over hoe je de knopactie <b>%1$s</b> gebruikt."
+
+#: app/Admin/Translations.php:214
+msgid "OK"
+msgstr "Okey"
+
+#: app/Admin/Translations.php:215
+msgid "OK, I'll fix this"
+msgstr "Okey, ik los dit op"
+
+#: app/Admin/Translations.php:217
+msgid "Close"
+msgstr "Sluiten"
+
+#: app/Admin/Translations.php:218
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: app/Admin/Translations.php:221 app/Admin/Translations.php:1023
+msgid "Yes please"
+msgstr "Ja graag"
+
+#: app/Admin/Translations.php:222
+msgid "No thank you"
+msgstr "Nee bedankt"
+
+#: app/Admin/Translations.php:225
+msgid "Dismiss"
+msgstr "Negeer"
+
+#: app/Admin/Translations.php:226
+msgid "I've changed my mind"
+msgstr "Ik ben van gedachten veranderd"
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:234
+msgid "Remove %s?"
+msgstr "Verwijder %s?"
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:239
+msgid ""
+"Are you very sure you want to remove this %1$s? Buttons that are still "
+"attached to this %2$s will become visible unless you attach them to another "
+"%3$s or hide them."
+msgstr ""
+"Weet je zeker dat je deze %1$s wilt verwijderen? Knoppen die staan gekoppeld "
+"aan deze %2$s zullen zichtbaar worden tenzij je ze koppelt aan een andere "
+"%3$s."
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:244
+msgid "There are no buttons attached to this %s. You can remove this safely."
+msgstr ""
+"Er zijn geen knoppen gekoppeld aan deze %s. Je kan deze veilig verwijderen."
+
+#. translators: This sentence will be used to remove a 'time schedule/page rule' and there are multiple buttons attached to it. %1$s will be a number, %2$s will be the 'time schedule / page rule'
+#: app/Admin/Translations.php:249
+msgid "There are <b>%1$s</b> buttons attached to this %2$s!"
+msgstr "Er zijn <b>%1$s</b> knoppen gekoppeld aan deze %2$s!"
+
+#. translators: This sentence will be used to remove a time schedule and there is only one button attached to it
+#: app/Admin/Translations.php:254
+msgid "There is <b>1</b> button attached to this %s!"
+msgstr "Er is <b>1</b> knop gekoppeld aan deze %s!"
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:259
+msgid "Do you want to remove this %s?"
+msgstr "Wil je deze %s verwijderen?"
+
+#: app/Admin/Translations.php:273
+msgid "Event tracker"
+msgstr "Event tracker"
+
+#: app/Admin/Translations.php:274
+msgid "Event tracker (experimental)"
+msgstr "Event tracker (experimenteel)"
+
+#: app/Admin/Translations.php:297 app/Admin/Translations.php:1165
+msgid "Revert changes"
+msgstr "Wijzigingen ongedaan maken"
+
+#: app/Admin/Translations.php:298
+msgid "Reverting..."
+msgstr "Ongedaan maken..."
+
+#: app/Admin/Translations.php:300
+msgid "Are you sure you want to revert your changes?"
+msgstr "Weet je zeker dat je je wijzigingen ongedaan wilt maken?"
+
+#: app/Admin/Translations.php:301
+msgid ""
+"The current changes will be overwritten by the current published buttons and "
+"settings."
+msgstr ""
+"Je wijzigingen zullen worden overschreven door de huidige gepubliceerde "
+"knoppen en instellingen."
+
+#: app/Admin/Translations.php:304
+msgid "Could not revert settings"
+msgstr "Kon de instellingen niet ongedaan maken"
+
+#: app/Admin/Translations.php:305
+msgid "Something went wrong while reverting your settings."
+msgstr "Er ging iets mis tijdens het ongedaan maken van uw instellingen."
+
+#: app/Admin/Translations.php:321 app/Admin/Translations.php:1107
+msgid "Menu style"
+msgstr "Menustijl"
+
+#: app/Admin/Translations.php:322 app/Admin/Translations.php:1113
+#: app/Admin/Translations.php:1119
+msgid "Group style"
+msgstr "Groep stijl"
+
+#: app/Admin/Translations.php:323
+msgid "Group icon"
+msgstr "Groep icoon"
+
+#: app/Admin/Translations.php:324
+msgid "Button style"
+msgstr "Knop stijl"
+
+#: app/Admin/Translations.php:325
+msgid "Button icon"
+msgstr "Knop icoon"
+
+#: app/Admin/Translations.php:326 app/Admin/Translations.php:375
+msgid "Label"
+msgstr "Label"
+
+#: app/Admin/Translations.php:330
+msgid "Button name"
+msgstr "Knopnaam"
+
+#: app/Admin/Translations.php:331
+msgid "This is the button name."
+msgstr "Dit is de knopnaam."
+
+#: app/Admin/Translations.php:335
+msgid "Button color"
+msgstr "Knop kleur"
+
+#: app/Admin/Translations.php:336
+msgid ""
+"This is the color of your button group and also the default color for your "
+"buttons within this group."
+msgstr ""
+"Dit is de kleur van de knopgroep en ook gelijk de standaardkleur van de "
+"knoppen in de groep."
+
+#: app/Admin/Translations.php:339
+msgid "Background image"
+msgstr "Achtergrond afbeelding"
+
+#: app/Admin/Translations.php:340
+msgid ""
+"Upload an image if you want an image as a background instead of a color. "
+"Recommended aspect ratio: square (1:1)."
+msgstr ""
+"Upload een afbeelding wanneer je een foto als achtergrond wilt in plaats van "
+"een kleur. Aanbevolen formaat is: vierkant (1:1)."
+
+#: app/Admin/Translations.php:343 app/Admin/Translations.php:355
+msgid "Border radius"
+msgstr "Border-radius"
+
+#: app/Admin/Translations.php:344
+msgid "Change the roundness of this button group."
+msgstr "Verander de rondte van deze knop."
+
+#: app/Admin/Translations.php:348
+msgid "Choose an icon from the icon library."
+msgstr "Kies een icoon uit de icoon bibliotheek."
+
+#: app/Admin/Translations.php:351
+msgid "Icon color"
+msgstr "Icoon kleur"
+
+#: app/Admin/Translations.php:352
+msgid "Change the icon color of this button."
+msgstr "Verander de icoonkleur van deze knop."
+
+#: app/Admin/Translations.php:356
+msgid "Change the border radius of the image."
+msgstr "Verander de hoek-rondte van de afbeelding."
+
+#: app/Admin/Translations.php:360
+msgid ""
+"Choose an image to use as this button or group icon. Recommended aspect "
+"ratio: square (1:1)"
+msgstr ""
+"Kies een afbeelding om deze te gebruiken als knop of groep icoon. Aanbevolen "
+"formaat is: vierkant (1:1)"
+
+#: app/Admin/Translations.php:363
+msgid "Image size"
+msgstr "Afbeeldingsgrootte"
+
+#: app/Admin/Translations.php:364
+msgid "Change the size of the image."
+msgstr "Verander de grootte van de afbeelding."
+
+#: app/Admin/Translations.php:367
+msgid "Graphic"
+msgstr "Grafisch"
+
+#: app/Admin/Translations.php:368
+msgid "Choose whether to use an icon or image as the button icon."
+msgstr ""
+"Kies of je gebruik wilt maken van een icoon of een afbeelding als knop-icoon."
+
+#: app/Admin/Translations.php:371
+msgid "Icon size"
+msgstr "Icoon grootte"
+
+#: app/Admin/Translations.php:372
+msgid "Change the icon size of this button."
+msgstr "Verander de icoon grootte van deze knop."
+
+#: app/Admin/Translations.php:376
+msgid "Change the label of this button."
+msgstr "Verander de label van deze knop."
+
+#: app/Admin/Translations.php:377
+msgid "Label text"
+msgstr "Label tekst"
+
+#: app/Admin/Translations.php:380
+msgid "Label color"
+msgstr "Label kleur"
+
+#: app/Admin/Translations.php:381
+msgid ""
+"Change the text and background color of the label for this button or group."
+msgstr ""
+"Verander de tekst en achtergrondkleur van de label van deze knop of "
+"knopgroep."
+
+#: app/Admin/Translations.php:384
+msgid "Font size & border radius"
+msgstr "Lettertype grootte & border-radius"
+
+#: app/Admin/Translations.php:385
+msgid ""
+"Change the font size and border radius of the label for this button group."
+msgstr ""
+"Verander de font size en rand-hoek van de label voor deze knop of knopgroep."
+
+#: app/Admin/Translations.php:388
+msgid "Animation"
+msgstr "Animatie"
+
+#: app/Admin/Translations.php:389
+msgid ""
+"This will animate this button group to get the attention of the visitor. The "
+"animation repeats itself every 10 seconds."
+msgstr ""
+"Deze optie zal de knopgroep animeren om de aandacht te trekken van de "
+"bezoeker. De animatie wordt om de 10 seconden herhaald."
+
+#: app/Admin/Translations.php:391
+msgid "No animation"
+msgstr "Geen animatie"
+
+#: app/Admin/Translations.php:392
+msgid "Buttonizer Hello"
+msgstr "Buttonizer Hallo"
+
+#: app/Admin/Translations.php:393
+msgid "Bounce"
+msgstr "Springen"
+
+#: app/Admin/Translations.php:394
+msgid "Jelly"
+msgstr "Pudding"
+
+#: app/Admin/Translations.php:395
+msgid "Pulse"
+msgstr "Pulse"
+
+#: app/Admin/Translations.php:399
+msgid "Position"
+msgstr "Positie"
+
+#: app/Admin/Translations.php:400
+msgid "Change the position of this button group."
+msgstr "Verander de positie van de knopgroep."
+
+#: app/Admin/Translations.php:403
+msgid "Bottom right"
+msgstr "Rechts onderin"
+
+#: app/Admin/Translations.php:404
+msgid "Bottom left"
+msgstr "Links onderin"
+
+#: app/Admin/Translations.php:405
+msgid "Top right"
+msgstr "Rechts bovenin"
+
+#: app/Admin/Translations.php:406
+msgid "Top left"
+msgstr "Links bovenin"
+
+#: app/Admin/Translations.php:411
+msgid "Menu Style"
+msgstr "Menustijl"
+
+#: app/Admin/Translations.php:412
+msgid "Change the menu style of this button group."
+msgstr "Verander de menustijl van deze knopgroep."
+
+#: app/Admin/Translations.php:415
+msgid "Default"
+msgstr "Standaard"
+
+#: app/Admin/Translations.php:416
+msgid "Faded"
+msgstr "Faded"
+
+#: app/Admin/Translations.php:417
+msgid "Corner circle"
+msgstr "Hoekcirkel"
+
+#: app/Admin/Translations.php:418
+msgid "Build Up"
+msgstr "Opbouwen"
+
+#: app/Admin/Translations.php:419
+msgid "Pop"
+msgstr "Pop"
+
+#: app/Admin/Translations.php:420
+msgid "Square"
+msgstr "Vierkant"
+
+#: app/Admin/Translations.php:421
+msgid "Rectangle"
+msgstr "Rechthoek"
+
+#: app/Admin/Translations.php:425 app/Admin/Translations.php:429
+msgid "Visibility"
+msgstr "Zichtbaarheid"
+
+#: app/Admin/Translations.php:426
+msgid ""
+"Always show the label, show the label on hover or hide the label on "
+"<u>desktop devices</u>."
+msgstr ""
+"Altijd de label weergeven, alleen weergeven wanneer je er met de muis "
+"overheen gaat, of verberg de label op <u>desktop</u>."
+
+#: app/Admin/Translations.php:430
+msgid "Always show or hide the label on <u>mobile devices</u>."
+msgstr ""
+"Altijd de label weergeven of verberg de label op <u>mobiele apparaten</u>."
+
+#: app/Admin/Translations.php:433
+msgid "Always show label"
+msgstr "Label altijd tonen"
+
+#: app/Admin/Translations.php:434
+msgid "Show label on hover"
+msgstr "Label alleen tonen bij muis-hover"
+
+#: app/Admin/Translations.php:435
+msgid "Hide label"
+msgstr "Label verbergen"
+
+#: app/Admin/Translations.php:438
+msgid "Show on"
+msgstr "Weergeven op"
+
+#: app/Admin/Translations.php:439
+msgid "Device visibility"
+msgstr "Apparaatzichtbaarheid"
+
+#: app/Admin/Translations.php:440
+msgid ""
+"Choose if you want to make this button group visible on desktop and mobile "
+"devices."
+msgstr ""
+"Kies of u deze knopgroep zichtbaar wilt maken op desktops en mobiele "
+"apparaten."
+
+#: app/Admin/Translations.php:441
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: app/Admin/Translations.php:442
+msgid "Desktop"
+msgstr "Desktop"
+
+#: app/Admin/Translations.php:445
+msgid "Start opened"
+msgstr "Start geopend"
+
+#: app/Admin/Translations.php:446
+msgid "This button group starts opened when this setting is enabled."
+msgstr "De knopgroep start geopend wanneer deze instelling geactiveerd is."
+
+#: app/Admin/Translations.php:449
+msgid "Use the same style of main button"
+msgstr "Gebruik de zelfde stijl van de hoofdknop"
+
+#: app/Admin/Translations.php:450
+msgid "When enabled, this button will use the same style as the button group."
+msgstr ""
+"Wanneer deze optie is ingeschakeld zal deze de stijl van de groep gebruiken."
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:454
+msgid "Custom ID"
+msgstr "Aangepast ID"
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:456
+msgid "Adds a custom 'id' HTML attribute to the button."
+msgstr "Voegt een aangepast 'id' HTML attribuut toe aan de knop."
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:458
+msgid "You can add a custom ID to each button for styling purposes."
+msgstr "Je kan aan elke knop een aangepaste ID toevoegen voor extra styling."
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:460
+msgid "ID name"
+msgstr "ID naam"
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:464
+msgid "Custom class"
+msgstr "Aangepaste class"
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:466 app/Admin/Translations.php:474
+msgid "Adds a custom 'class' HTML attribute to the button."
+msgstr "Voegt een aangepast 'class' HTML attribuut toe aan de knop."
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:468 app/Admin/Translations.php:475
+msgid "You can add a custom class to each button for styling purposes."
+msgstr ""
+"Je kan aan elke knop een aangepaste class toevoegen voor extra styling."
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:470
+msgid "Class name"
+msgstr "Class naam"
+
+#: app/Admin/Translations.php:473 app/Admin/Translations.php:819
+msgid "Page rule"
+msgstr "Pagina regel"
+
+#: app/Admin/Translations.php:476
+msgid "Manage page rules"
+msgstr "Beheer pagina regels"
+
+#: app/Admin/Translations.php:477
+msgid "You cannot select the same page rule as it's group!"
+msgstr "Je kan niet dezelfde pagina-regel kiezen als de groep!"
+
+#: app/Admin/Translations.php:480
+msgid "Show button when rule is triggered"
+msgstr "Toon knop wanneer de regel wordt getriggered"
+
+#: app/Admin/Translations.php:481
+msgid "Hide button when rule is triggered"
+msgstr "Verberg knop wanneer de regel wordt getriggered"
+
+#: app/Admin/Translations.php:486 app/Admin/Translations.php:990
+msgid "Exit intent"
+msgstr "Exit intent"
+
+#: app/Admin/Translations.php:487
+msgid "Enable exit intent"
+msgstr "Exit intent inschakelen"
+
+#: app/Admin/Translations.php:488
+msgid ""
+"With this setting, you can trigger Buttonizer to animate before your guest "
+"exits your website."
+msgstr ""
+"Met deze instelling kun je Buttonizer laten animeren wanneer de gast je "
+"website wilt verlaten."
+
+#: app/Admin/Translations.php:489
+msgid ""
+"Please note: Exit intent will <b>not trigger</b> in preview mode, only in "
+"your LIVE website."
+msgstr ""
+"Let op: Exit intent zal niet worden <b>geactiveerd</b> in voorbeeld-modus, "
+"alleen op uw LIVE-website zal dit te zien zijn."
+
+#: app/Admin/Translations.php:491
+msgid "When to trigger?"
+msgstr "Wanneer activeren?"
+
+#: app/Admin/Translations.php:492
+msgid "Trigger when leaving browser window"
+msgstr "Trigger wanneer de browser wordt verlaten"
+
+#: app/Admin/Translations.php:493
+msgid "Trigger on inactivity (2 minutes)"
+msgstr "Trigger op inactiviteit (2 minuten)"
+
+#: app/Admin/Translations.php:496
+msgid "How often should it be triggered?"
+msgstr "Hoe vaak moet het worden geactiveerd?"
+
+#: app/Admin/Translations.php:497
+msgid "Only trigger once per page"
+msgstr "Eenmalig per pagina"
+
+#: app/Admin/Translations.php:498
+msgid "Only trigger once per session"
+msgstr "Eenmalig per bezoek-sessie"
+
+#: app/Admin/Translations.php:499
+msgid "Trigger every time"
+msgstr "Altijd triggeren"
+
+#: app/Admin/Translations.php:503
+msgid "Animation on intent"
+msgstr "Animatie bij intentie"
+
+#: app/Admin/Translations.php:504
+msgid "Focused"
+msgstr "Gefocust"
+
+#: app/Admin/Translations.php:505
+msgid "Open menu"
+msgstr "Open menu"
+
+#: app/Admin/Translations.php:506
+msgid "Jump once and open"
+msgstr "Spring en open"
+
+#: app/Admin/Translations.php:507
+msgid "Flip and open"
+msgstr "Flip en open"
+
+#: app/Admin/Translations.php:512
+msgid "Button action"
+msgstr "Knop actie"
+
+#: app/Admin/Translations.php:513
+msgid "Choose a click action for this button."
+msgstr "Kies een klik-actie voor deze knop."
+
+#: app/Admin/Translations.php:514
+msgid "Select button action"
+msgstr "Selecteer knop-actie"
+
+#: app/Admin/Translations.php:515
+msgid "No button action found for:"
+msgstr "Geen knop-actie gevonden voor:"
+
+#: app/Admin/Translations.php:518
+msgid "Popular actions"
+msgstr "Populaire acties"
+
+#: app/Admin/Translations.php:519
+msgid "Click to chat"
+msgstr "Klik om te chatten"
+
+#: app/Admin/Translations.php:520
+msgid "Social Media"
+msgstr "Sociale media"
+
+#: app/Admin/Translations.php:521
+msgid "Popup"
+msgstr "Pop-up"
+
+#: app/Admin/Translations.php:523
+msgid "Call action (phone number)"
+msgstr "Bel actie (telefoonnummer)"
+
+#: app/Admin/Translations.php:524
+msgid "Mail action (email address)"
+msgstr "E-mail actie (e-mail adres)"
+
+#: app/Admin/Translations.php:525
+msgid "Back to top"
+msgstr "Terug naar boven"
+
+#: app/Admin/Translations.php:526
+msgid "Go back one page"
+msgstr "Vorige pagina"
+
+#: app/Admin/Translations.php:527
+msgid "Share page"
+msgstr "Deel pagina"
+
+#: app/Admin/Translations.php:528
+msgid ""
+"Some sms apps does not support a body tag. When this happens, it will simply "
+"open the sms app with the phone number already filled in."
+msgstr ""
+"Sommige SMS apps bieden niet de mogelijkheid om een bericht mee te sturen. "
+"Wanneer dit gebeurt zal de app alleen het telefoonnummer gebruiken."
+
+#: app/Admin/Translations.php:529
+msgid ""
+"Viber does not support a \"chat with phone number \" link. When a user "
+"clicks on this button it will open their \"add contact\" with the number "
+"filled in."
+msgstr ""
+"Viber ondersteunt geen link om te chatten. Wanneer een gebruiker op deze "
+"knop drukt zal hun \"contact toevoegen\" worden geopend met dit "
+"telefoonnummer vooringesteld."
+
+#. translators: %s and %s will be replaced with links
+#: app/Admin/Translations.php:532
+msgid ""
+"New, Facebook Messenger Chat Widget! First, you'll need to <a "
+"%1$s>whitelist</a> your site on Facebook. Then add your <a %2$s>Page ID</a> "
+"into the input above."
+msgstr ""
+"Nieuw, Facebook Messenger Chat Widget! Als eerste moet je je website <a "
+"%1$s>toestaan</a> via Facebook. Daarna moet je de <a %2$s>Pagina ID</a> "
+"hierboven invullen."
+
+#. translators: %s and %s will be replaced with links
+#: app/Admin/Translations.php:537
+msgid ""
+"You need to install Poptin's WordPress plugin. You can find it <a %1$s>here</"
+"a>. Once you've made a Poptin paste the <a %2$s>direct link</a> into the "
+"input."
+msgstr ""
+"Wanneer je hiervan gebruik wilt maken moet je de Poptin's WordPress plugin "
+"installeren. Deze kun je <a %1$s>hier</a> vinden. Vul daarna hierboven de <a "
+"%2$s>directe link</a> in."
+
+#. translators: %s will become the social media platform, like example: Share on Twitter
+#: app/Admin/Translations.php:542
+msgid "Share on %s"
+msgstr "Delen op %s"
+
+#. translators: %s will become the social media platform, like example: Share via email
+#: app/Admin/Translations.php:548
+msgid "Share via %s"
+msgstr "Delen via %s"
+
+#: app/Admin/Translations.php:553
+msgid "This URL appears to be invalid. The button may not work as expected."
+msgstr ""
+"Dit lijkt op een ongeldige link. De knop werkt mogelijk niet zoals verwacht."
+
+#: app/Admin/Translations.php:554
+msgid ""
+"Do you miss <b>http://</b> or <b>https://</b>? Perhaps an unnecessary space "
+"is added somewhere."
+msgstr ""
+"Mis je <b>http://</b> of <b>https://</b>? Misschien heb je een onnodige "
+"spatie ergens toegevoegd."
+
+#: app/Admin/Translations.php:555
+msgid ""
+"<b>Insecure URL:</b> Sorry to interrupt, but we advice you to use HTTPS for "
+"your URLS. This is a safer way to transport data."
+msgstr ""
+"<b>Onveilige link:</b> Sorry voor het storen, maar we adviseren je om HTTPS "
+"te gebruiken voor je links waar mogelijk. Dit is een veiligere manier voor "
+"het transporteren van data."
+
+#: app/Admin/Translations.php:559
+msgid "Javascript function"
+msgstr "Javascript functie"
+
+#: app/Admin/Translations.php:560
+msgid "Warning! Before you continue..."
+msgstr "Waarschuwing! Voordat je verdergaat..."
+
+#: app/Admin/Translations.php:561
+msgid ""
+"You are changing this button action from custom javascript to a different "
+"action. Your javascript changes will be lost."
+msgstr ""
+"Je veranderd de knopactie van aangepaste javascript naar een andere actie. "
+"Je javascript wijzigingen zullen verloren gaan."
+
+#: app/Admin/Translations.php:562
+msgid "Are you sure you want to proceed?"
+msgstr "Weet je zeker dat je verder wilt gaan?"
+
+#. translators: %s will be replaced with html attributes for the link
+#: app/Admin/Translations.php:567
+msgid ""
+"Fill in your phone number without any spaces and symbols. Read WhatsApps "
+"recommendations by <a %s>clicking here.</a>"
+msgstr ""
+"Vul je telefoonnummer in zonder spaties en symbolen. Lees WhatsApps "
+"aanbevelingen door <a %s>hier te klikken.</a>"
+
+#. translators: %1$s and %2$s will be replaced with links
+#: app/Admin/Translations.php:573
+msgid ""
+"When you want to use Twitter DM you will need to find your Twitter User ID "
+"and allow direct messages from anyone. To find your account ID <a %1$s>click "
+"here</a>. And to read more about how to allow direct messages from anyone, "
+"<a %2$s>click here</a>."
+msgstr ""
+"Om Twitter DM te gebruiken moet je eerst je Twitter User ID vinden en "
+"directe berichten van iedereen toestaan. Om je account ID te vinden <a "
+"%1$s>klik je hier</a>. Om meer informatie te vinden over hoe je directe "
+"berichten van iedereen toestaat, <a %2$s>klik hier</a>."
+
+#: app/Admin/Translations.php:579
+msgid "Message"
+msgstr "Bericht"
+
+#: app/Admin/Translations.php:580
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: app/Admin/Translations.php:582
+msgid "Recipient"
+msgstr "Ontvanger"
+
+#: app/Admin/Translations.php:583
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: app/Admin/Translations.php:584
+msgid "Body"
+msgstr "Inhoud"
+
+#: app/Admin/Translations.php:591
+msgid "Open new tab"
+msgstr "Open in een nieuw tabblad"
+
+#: app/Admin/Translations.php:592
+msgid "When the button is clicked, open in new tab."
+msgstr "Wanneer er op de knop wordt geklikt, open in een nieuw tabblad."
+
+#: app/Admin/Translations.php:596
+msgid "Filters"
+msgstr "Filters"
+
+#: app/Admin/Translations.php:597
+msgid "Styling"
+msgstr "Stijl"
+
+#: app/Admin/Translations.php:598
+msgid "Timeout & Scroll"
+msgstr "Time-out & Scrollen"
+
+#: app/Admin/Translations.php:610 app/Admin/Translations.php:1079
+msgid "Buttonizer settings"
+msgstr "Buttonizer instellingen"
+
+#: app/Admin/Translations.php:613
+msgid "Icon library"
+msgstr "Icoon set"
+
+#: app/Admin/Translations.php:614
+msgid "free"
+msgstr "gratis"
+
+#: app/Admin/Translations.php:615
+msgid "Latest (automatic)"
+msgstr "Laatste (automatisch)"
+
+#: app/Admin/Translations.php:616
+msgid ""
+"If your theme automatically loads in a library, just select the correct icon "
+"library instead."
+msgstr ""
+"Wanneer je thema automatisch iconen inlaad moet je de juiste icoon-"
+"bibliotheek kiezen."
+
+#: app/Admin/Translations.php:620
+msgid "Select version"
+msgstr "Selecteer versie"
+
+#: app/Admin/Translations.php:621
+msgid ""
+"Select the correct version of the library in order to use the icons in "
+"Buttonizer."
+msgstr ""
+"Selecteer de juiste versie van de iconen die je gebruikt op je website zodat "
+"je deze kunt selecteren in Buttonizer."
+
+#: app/Admin/Translations.php:626
+msgid ""
+"You have selected an icon library that has premium icons. Enter the library "
+"license code to view and use these."
+msgstr ""
+"Je hebt een icoon bibliotheek gekozen die premium iconen bevat. Vul de icoon-"
+"licentie in om deze weer te geven."
+
+#: app/Admin/Translations.php:627
+msgid "How does this work?"
+msgstr "Hoe werkt dit?"
+
+#. translators: String will be replaced with 'integrity' or 'license'
+#: app/Admin/Translations.php:632
+msgid "Enter %s code"
+msgstr "Vul de %s code in"
+
+#: app/Admin/Translations.php:639
+msgid "Import icon library"
+msgstr "Iconen inladen"
+
+#: app/Admin/Translations.php:640
+msgid ""
+"Should Buttonizer import the icon library into your theme? If your theme "
+"already imports the library you can disable this."
+msgstr ""
+"Moet Buttonizer de iconen importeren in je thema? Wanneer je thema al iconen "
+"inlaad kan je deze optie uitschakelen."
+
+#: app/Admin/Translations.php:646
+msgid ""
+"When enabled, Buttonizer will automatically log clicks to your Google "
+"Analytics website. You can force Buttonizer not to use the Google Analytics "
+"by disabling this switch."
+msgstr ""
+"Wanneer deze optie is ingeschakeld zal Buttonizer automatisch de knopklikken "
+"loggen naar Google Analytics. Je kan door de schuif hierboven uit te zetten "
+"Buttonizer forceren om geen gebruik te maken van Google Analytics."
+
+#. translators: Please keep the code-example 'UA-000000-2'
+#: app/Admin/Translations.php:649
+msgid "Insert the Google Analytics tracking code here. Example: UA-000000-2"
+msgstr "Vul hier je Google Analytics tracking code in. Voorbeeld: UA-000000-2"
+
+#: app/Admin/Translations.php:651
+msgid "Where can I see my click data of my buttons in Google Analytics?"
+msgstr ""
+"Waar kan ik mijn klik-data vinden van mijn knoppen in Google Analytics?"
+
+#: app/Admin/Translations.php:656
+msgid "Other settings"
+msgstr "Overige instellingen"
+
+#: app/Admin/Translations.php:659
+msgid "Show admin top bar"
+msgstr "Weergeven in de admin bovenbalk"
+
+#: app/Admin/Translations.php:660
+msgid "Hide Buttonizer in the admin top bar by disabling this setting."
+msgstr ""
+"Verberg Buttonizer in de admin top balk door deze instelling uit te "
+"schakelen."
+
+#: app/Admin/Translations.php:664
+msgid "Show tooltips"
+msgstr "Tooltips weergeven"
+
+#: app/Admin/Translations.php:665
+msgid "Hide the tooltips by disabling this setting."
+msgstr "Verberg tooltips door deze instelling uit te schakelen."
+
+#: app/Admin/Translations.php:669
+msgid "Subdomain support"
+msgstr "Subdomein ondersteuning"
+
+#: app/Admin/Translations.php:670
+msgid ""
+"Some WordPress websites use subdomains for content purposes. Enable this "
+"setting to allow Buttonizer to load on your subdomains. Only enable this "
+"when you need it."
+msgstr ""
+"Sommige WordPress website gebruiken subdomeinen om content weer te geven. Je "
+"kan Buttonizer toestemming geven om ook op deze subdomeinen te laden. Zet "
+"deze functie alleen aan als je dit nodig hebt."
+
+#: app/Admin/Translations.php:676
+msgid "Reset"
+msgstr "Reset"
+
+#: app/Admin/Translations.php:677
+msgid "This is a way to reset Buttonizer to the default settings."
+msgstr ""
+"Dit is een manier om Buttonizer terug naar de begin-instellingen te laten "
+"gaan."
+
+#: app/Admin/Translations.php:680
+msgid "What will happen when I click the red button below?"
+msgstr "Wat gebeurt er als ik op de rode knop hieronder druk?"
+
+#: app/Admin/Translations.php:681
+msgid ""
+"The plugin will get a 'factory reset'. All settings of Buttonizer will get "
+"deleted, reverting back to when you first installed and activated Buttonizer."
+msgstr ""
+"De plugin zal teruggaan naar de 'fabrieksinstellingen'. Alle instellingen "
+"van Buttonizer zullen worden verwijderd, terug naar het begin toen je net "
+"Buttonizer installeerde."
+
+#: app/Admin/Translations.php:685
+msgid "Why would I do that?"
+msgstr "Waarom zou ik dat doen?"
+
+#: app/Admin/Translations.php:686
+msgid ""
+"Perhaps you ruined your buttons, categories or settings and would like to "
+"start from scratch. Or maybe you just feel trying the reset button..."
+msgstr ""
+"Mogelijk heb je je knoppen, categorieën of instellingen geruïneerd en ben je "
+"toe aan een nieuw begin. Of misschien wil gewoon je de resetknop "
+"uitproberen..."
+
+#: app/Admin/Translations.php:690
+msgid "I have a license, what about that?"
+msgstr "Ik heb een licentie, wat gebeurt daarmee?"
+
+#: app/Admin/Translations.php:691
+msgid ""
+"No worries! Nothing will happen with your license! It only resets the "
+"following:"
+msgstr ""
+"Maak je geen zorgen! Er gebeurt niets met je licentie! Het zal alleen de "
+"volgende instellingen resetten:"
+
+#: app/Admin/Translations.php:694
+msgid "Your buttons"
+msgstr "Jouw knoppen"
+
+#: app/Admin/Translations.php:695
+msgid "Your button groups"
+msgstr "Jouw knop groepen"
+
+#: app/Admin/Translations.php:696
+msgid "All time schedules"
+msgstr "Alle tijdschema's"
+
+#: app/Admin/Translations.php:697
+msgid "All page rules"
+msgstr "Alle pagina regels"
+
+#: app/Admin/Translations.php:698
+msgid "All other settings of Buttonizer"
+msgstr "Alle andere instellingen van Buttonizer"
+
+#: app/Admin/Translations.php:699
+msgid "All published settings"
+msgstr "Alle gepubliceerde instellingen"
+
+#: app/Admin/Translations.php:704
+msgid "Okay, sounds good. What then?"
+msgstr "Okey, klinkt goed. En dan?"
+
+#: app/Admin/Translations.php:705
+msgid ""
+"Buttonizer will revert back to the default settings and feel like a fresh "
+"installation. That's all."
+msgstr ""
+"Buttonizer zal gaan naar de standaard instellingen en zal zich gedragen als "
+"een nieuwe installatie. Dat is het enige."
+
+#: app/Admin/Translations.php:709
+msgid "Okay, I'm ready!"
+msgstr "Okey, ik ben er klaar voor!"
+
+#: app/Admin/Translations.php:710
+msgid ""
+"Press the red button below to reset Buttonizer. There will be no more "
+"warnings."
+msgstr ""
+"Druk op de rode knop hieronder om Buttonizer te resetten. Er zullen geen "
+"waarschuwingen meer volgen."
+
+#: app/Admin/Translations.php:711
+msgid "Reset Buttonizer!"
+msgstr "Reset Buttonizer!"
+
+#: app/Admin/Translations.php:724
+msgid "Loaded changes from previous session"
+msgstr "Aanpassingen geladen van de vorige sessie"
+
+#: app/Admin/Translations.php:726
+msgid ""
+"You left the Buttonizer preview window. You will not see the changes you "
+"make."
+msgstr ""
+"Je hebt de Buttonizer voorbeeldscherm verlaten. Wijzigingen die je maakt "
+"zullen niet worden weergegeven."
+
+#: app/Admin/Translations.php:727
+msgid "Return to preview"
+msgstr "Terugkeren naar voorbeeld"
+
+#: app/Admin/Translations.php:728
+msgid "Desktop preview"
+msgstr "Desktop voorbeeld"
+
+#: app/Admin/Translations.php:729
+msgid "Tablet preview"
+msgstr "Tablet voorbeeld"
+
+#: app/Admin/Translations.php:730
+msgid "Mobile preview"
+msgstr "Mobiel voorbeeld"
+
+#. translators: %s becomes version number (eg 2.4.2)
+#: app/Admin/Translations.php:735
+msgid "Version %s"
+msgstr "Versie %s"
+
+#: app/Admin/Translations.php:739
+msgid "Knowledge base"
+msgstr "Kennisbank"
+
+#: app/Admin/Translations.php:740
+msgid "Find out everything you need to know about Buttonizer"
+msgstr "Ontdek alles wat je moet weten over Buttonizer"
+
+#: app/Admin/Translations.php:743
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: app/Admin/Translations.php:745
+msgid "I need support"
+msgstr "Ik heb hulp nodig"
+
+#: app/Admin/Translations.php:746
+msgid "Direct support with the Buttonizer developers"
+msgstr "Directe ondersteuning van de Buttonizer developers"
+
+#: app/Admin/Translations.php:749
+msgid "Community"
+msgstr "Community"
+
+#: app/Admin/Translations.php:750
+msgid "Interact with other Buttonizers"
+msgstr "Communiceer met andere Buttonizers"
+
+#: app/Admin/Translations.php:753
+msgid "Buttonizer tour (recommended!)"
+msgstr "Buttonizer tour (aanbevolen!)"
+
+#: app/Admin/Translations.php:754
+msgid "Start the 2 minute tour"
+msgstr "Start de 2 minuten tour"
+
+#: app/Admin/Translations.php:758
+msgid "Buttonizer account"
+msgstr "Buttonizer account"
+
+#: app/Admin/Translations.php:760
+msgid "My Account"
+msgstr "Mijn account"
+
+#: app/Admin/Translations.php:763
+msgid "Upgrade or pricing"
+msgstr "Upgraden en prijzen"
+
+#: app/Admin/Translations.php:766
+msgid "Affiliation"
+msgstr "Partner worden"
+
+#: app/Admin/Translations.php:767
+msgid "Earn $ by promoting Buttonizer"
+msgstr "Verdien $ voor het promoten van Buttonizer"
+
+#: app/Admin/Translations.php:770
+msgid "Options"
+msgstr "Opties"
+
+#: app/Admin/Translations.php:774
+msgid "Now editing:"
+msgstr "Nu aan het bewerken:"
+
+#: app/Admin/Translations.php:775
+msgid "This creates a new group with 2 buttons inside."
+msgstr "Dit maakt een nieuwe groep aan met 2 knoppen."
+
+#: app/Admin/Translations.php:776
+msgid "This creates a new button, outside other groups."
+msgstr "Dit maakt een knop aan, buiten  de andere groepen."
+
+#: app/Admin/Translations.php:777
+msgid "Learn more about groups and buttons"
+msgstr "Lees meer over groepen en knoppen"
+
+#: app/Admin/Translations.php:778
+msgid "You can't drag the only button left in a group!"
+msgstr ""
+"Je kan deze knop niet slepen aangezien dit de enige knop is die over is!"
+
+#: app/Admin/Translations.php:779
+msgid "Convert to group"
+msgstr "Converteren naar groep"
+
+#: app/Admin/Translations.php:782
+msgid "Delete button"
+msgstr "Verwijder knop"
+
+#: app/Admin/Translations.php:783
+msgid "Delete group"
+msgstr "Verwijder groep"
+
+#: app/Admin/Translations.php:784
+msgid "Are you sure you want to remove this button?"
+msgstr "Weet je zeker dat je deze knop wilt verwijderen?"
+
+#: app/Admin/Translations.php:785
+msgid "Are you sure you want to remove this group?"
+msgstr "Weet je zeker dat je deze groep wilt verwijderen?"
+
+#. translators: %s will be replaced with a number
+#: app/Admin/Translations.php:788
+msgid ""
+"Are you sure you want to remove this full group? It contains %s buttons."
+msgstr ""
+"Weet je heel zeker dat je de gehele groep wilt verwijderen? De groep bevat "
+"%s knoppen."
+
+#. translators: %s will be replaced with the button name
+#: app/Admin/Translations.php:794
+msgid "Are you sure you want to remove the button called '%s'?"
+msgstr "Weet je zeker dat je de knop '%s' wilt verwijderen?"
+
+#: app/Admin/Translations.php:798
+msgid "You cannot delete this button because this the only button left."
+msgstr "Je kan deze knop niet verwijderen omdat het de enige knop is."
+
+#: app/Admin/Translations.php:799
+msgid "You cannot delete this group because this the only group left."
+msgstr "Je kan deze groep niet verwijderen omdat het de enige groep is."
+
+#: app/Admin/Translations.php:812
+msgid "Page rules"
+msgstr "Paginaregels"
+
+#: app/Admin/Translations.php:813
+msgid "Page Rule Manager"
+msgstr "Pagina regel beheer"
+
+#: app/Admin/Translations.php:814
+msgid ""
+"You can setup page rules via this window. When you add pages or definitions "
+"to this page rule, the buttons attached to this page rule will be shown or "
+"hidden depending on their settings as soon this rule is triggered."
+msgstr ""
+"Je kan pagina regels instellen via dit venster. Wanneer je pagina's of "
+"definities toevoegt aan deze pagina regel zullen knoppen die hieraan "
+"gekoppeld staan worden weergegeven of verborgen, afhankelijk van je "
+"instellingen zodra de regel wordt getriggerd."
+
+#: app/Admin/Translations.php:815
+msgid ""
+"You can setup page rules that will get triggered on specific pages or user "
+"roles. You can create unlimited page rules with multiple rules to trigger."
+msgstr ""
+"Je kan pagina instellingen instellen die zullen worden getriggerd op "
+"specifieke pagina's of gebruikersrollen. Je kan een onbeperkt aantal pagina "
+"regels toevoegen met verschillende condities."
+
+#: app/Admin/Translations.php:816
+msgid "Add page rule"
+msgstr "Pagina regel toevoegen"
+
+#: app/Admin/Translations.php:817
+msgid "Add rule"
+msgstr "Regel toevoegen"
+
+#: app/Admin/Translations.php:818
+msgid "Name your page rule:"
+msgstr "Geef de pagina regel een naam:"
+
+#: app/Admin/Translations.php:820
+msgid "Show the button on any page"
+msgstr "Laat de knop op elke pagina zien"
+
+#: app/Admin/Translations.php:821
+msgid "Remove page rule"
+msgstr "Pagina regel verwijderen"
+
+#: app/Admin/Translations.php:825
+msgid "All conditions must meet (AND)"
+msgstr "Moet voldoen aan alle condities (EN)"
+
+#: app/Admin/Translations.php:826
+msgid "At least one condition must meet (OR)"
+msgstr "Moet voldoen aan minimaal 1 conditie (OF)"
+
+#: app/Admin/Translations.php:830
+msgid "and"
+msgstr "en"
+
+#: app/Admin/Translations.php:831
+msgid "or"
+msgstr "of"
+
+#: app/Admin/Translations.php:834
+msgid "Page"
+msgstr "Pagina"
+
+#: app/Admin/Translations.php:835
+msgid "Page title contains"
+msgstr "Pagina titel bevat"
+
+#: app/Admin/Translations.php:836
+msgid "Blog"
+msgstr "Blog"
+
+#: app/Admin/Translations.php:837
+msgid "Blog title contains"
+msgstr "Blog titel bevat"
+
+#: app/Admin/Translations.php:838
+msgid "Category"
+msgstr "Categorie"
+
+#: app/Admin/Translations.php:839
+msgid "URL contains"
+msgstr "URL bevat"
+
+#: app/Admin/Translations.php:840
+msgid "URL begins with"
+msgstr "URL begint met"
+
+#: app/Admin/Translations.php:841
+msgid "URL ends with"
+msgstr "URL eindigt met"
+
+#: app/Admin/Translations.php:842
+msgid "User has role"
+msgstr "Gebruiker heeft specifieke rol"
+
+#: app/Admin/Translations.php:845
+msgid "Select one or more items."
+msgstr "Selecteer een of meer items."
+
+#: app/Admin/Translations.php:846
+msgid "Are you sure you want to remove this rule?"
+msgstr "Weet je zeker dat je deze regel wilt verwijderen?"
+
+#: app/Admin/Translations.php:847
+msgid "Aborted. Each page rule must keep at least one rule."
+msgstr "Afgebroken. Elke pagina regel moet in ieder geval één regel houden."
+
+#: app/Admin/Translations.php:848
+msgid "You still have selected values, are you sure you want to remove this?"
+msgstr ""
+"Je hebt nog geselecteerde waarden, weet je zeker dat je deze wilt "
+"verwijderen?"
+
+#: app/Admin/Translations.php:849
+msgid "Rule value"
+msgstr "Regel waarde"
+
+#: app/Admin/Translations.php:860
+msgid "Time schedules"
+msgstr "Tijdschema's"
+
+#: app/Admin/Translations.php:861
+msgid "Time schedule"
+msgstr "Tijdschema"
+
+#: app/Admin/Translations.php:862
+msgid "Time schedule manager"
+msgstr "Tijdschema beheer"
+
+#: app/Admin/Translations.php:863
+msgid ""
+"You can setup time schedules that will get triggered during specific times "
+"of a day. It is even possible to change the schedule actions for specific "
+"days. You can create an unlimited amount of schedules."
+msgstr ""
+"Je kan tijdschema's instellen die zullen worden getriggerd op specifieke "
+"tijdstippen van een dag. Het is zelfs mogelijk om de tijdschema's aan te "
+"passen voor specifieke dagen. Je kan een onbeperkt aantal tijdschema's "
+"aanmaken."
+
+#: app/Admin/Translations.php:866
+msgid "Add schedule"
+msgstr "Tijdschema toevoegen"
+
+#: app/Admin/Translations.php:867
+msgid "Add date"
+msgstr "Datum toevoegen"
+
+#: app/Admin/Translations.php:868
+msgid "New schedule"
+msgstr "Nieuwe tijdschema"
+
+#: app/Admin/Translations.php:869
+msgid "Name the new time schedule:"
+msgstr "Geef het nieuwe tijdsschema een naam:"
+
+#: app/Admin/Translations.php:870
+msgid "Rename schedule to:"
+msgstr "Hernoem tijdschema naar:"
+
+#: app/Admin/Translations.php:871
+msgid "Show the button at any time"
+msgstr "De knop altijd weergeven"
+
+#. translators: %s becomes weekday or specific date ('Trigger on monday' or 'Trigger om January 1, 2019')
+#: app/Admin/Translations.php:874
+msgid "Trigger on %s"
+msgstr "Toon op %s"
+
+#. translators: 'till' as in '10:00 till 11:30'
+#: app/Admin/Translations.php:878
+msgid "till"
+msgstr "tot"
+
+#: app/Admin/Translations.php:881
+msgid "Remove schedule"
+msgstr "Tijdschema verwijderen"
+
+#: app/Admin/Translations.php:882
+msgid "You must keep at least one schedule"
+msgstr "Je moet minimaal één tijdschema behouden"
+
+#: app/Admin/Translations.php:883
+msgid "Current timezone:"
+msgstr "Huidige tijdzone:"
+
+#: app/Admin/Translations.php:886
+msgid "Remove date"
+msgstr "Datum verwijderen"
+
+#: app/Admin/Translations.php:887
+msgid "Are you sure you want to remove this date?"
+msgstr "Weet je zeker dat je deze datum wilt verwijderen?"
+
+#. translators: The strings will be replaced with time (example: 10:10)
+#: app/Admin/Translations.php:894
+msgid "Sorry, the time '%1$s' was invalid. Reverting back to '%2$s'."
+msgstr ""
+"Sorry, de gekozen tijd '%1$s' is niet geldig. De tijd wordt teruggezet naar "
+"'%2$s'."
+
+#. translators: The strings will be replaced with time (example: 10:10)
+#: app/Admin/Translations.php:900
+msgid ""
+"The start time '%1$s' conflicts with the end time '%2$s'. Time has been "
+"reverted to '%3$s'. Make sure you have at least 5 minutes overlap."
+msgstr ""
+"De starttijd '%1$s' heeft een conflict met de eindtijd '%2$s. De tijd is "
+"teruggezet naar '%3$s'. Zorg dat je minimaal 5 minuten speling hebt."
+
+#. translators: The strings will be replaced with time (example: 10:10)
+#: app/Admin/Translations.php:906
+msgid ""
+"The end time '%1$s' conflicts with the start time '%2$s'. Time has been "
+"reverted to '%3$s'. Make sure you have at least 5 minutes overlap."
+msgstr ""
+"De eindtijd '%1$s' heeft een conflict met de starttijd '%2$s'. De tijd is "
+"teruggezet naar '%3$s'. Zorg dat je minimaal 5 minuten speling hebt."
+
+#: app/Admin/Translations.php:913
+msgid "Weekdays"
+msgstr "Weekdagen"
+
+#: app/Admin/Translations.php:914
+msgid "Monday"
+msgstr "maandag"
+
+#: app/Admin/Translations.php:915
+msgid "Tuesday"
+msgstr "dinsdag"
+
+#: app/Admin/Translations.php:916
+msgid "Wednesday"
+msgstr "woensdag"
+
+#: app/Admin/Translations.php:917
+msgid "Thursday"
+msgstr "donderdag"
+
+#: app/Admin/Translations.php:918
+msgid "Friday"
+msgstr "vrijdag"
+
+#: app/Admin/Translations.php:919
+msgid "Saturday"
+msgstr "zaterdag"
+
+#: app/Admin/Translations.php:920
+msgid "Sunday"
+msgstr "zondag"
+
+#: app/Admin/Translations.php:923
+msgid "Exclude dates"
+msgstr "Uitgezonderde dagen"
+
+#: app/Admin/Translations.php:924
+msgid ""
+"You are able to add specific dates to show or hide the buttons attached to "
+"this time scheme. So you can say something like this: \"<i>I am opened on "
+"January 22th until 22:00 (10 PM) because of some special evening we organize."
+"</i>\". You can add those dates and configure them. The rule will overwrite "
+"the default settings for that weekday."
+msgstr ""
+"Je hebt de mogelijkheid om specifieke data te selecteren om knoppen te "
+"verbergen of weer te geven die aan dit tijdschema gekoppeld zijn. Je kan dit "
+"bijvoorbeeld in de volgende situatie gebruiken: \"<i>Ik ben op 22 januari "
+"geopend tot 22:00 vanwege een speciaal evenement dat we organiseren.</i>\". "
+"Deze data kun je toevoegen en configureren. Deze datum zal de normale "
+"instellingen van deze dag overschrijven."
+
+#: app/Admin/Translations.php:928
+msgid "Start triggering buttons from"
+msgstr "Start triggering knoppen vanaf"
+
+#: app/Admin/Translations.php:929
+msgid "Click to add start date"
+msgstr "Klik om een startdatum te selecteren"
+
+#. translators: The string will become a date
+#: app/Admin/Translations.php:933
+msgid ""
+"Warning! Your start date '%s' hast past the end date of this schedule. If "
+"you do not change this date the schedule will not work."
+msgstr ""
+"Waarschuwing! Je startdatum '%s' is later dan de einddatum van dit "
+"tijdschema. Als je dit niet aanpast zal de tijdschema niet werken."
+
+#: app/Admin/Translations.php:940
+msgid "Stop triggering buttons after (optional)"
+msgstr "Stop triggering knoppen na (optioneel)"
+
+#: app/Admin/Translations.php:941
+msgid "Click to add ending date"
+msgstr "Klik om een einddatum te selecteren"
+
+#: app/Admin/Translations.php:942
+msgid "Select a date in the datepicker below"
+msgstr "Selecteer een datum in de datumkiezen hieronder"
+
+#. translators: The string will become a date
+#: app/Admin/Translations.php:945
+msgid ""
+"Warning! Your end date '%s' has past the start date of this schedule. If you "
+"do not change this date the schedule will not work."
+msgstr ""
+"Waarschuwing! Je einddatum '%s' is voor de startdatum van dit tijdschema. "
+"Als je dit niet aanpast zal het tijdschema niet werken."
+
+#: app/Admin/Translations.php:959
+msgid "Hi Buttonizer!"
+msgstr "Hoi Buttonizer!"
+
+#: app/Admin/Translations.php:960
+msgid ""
+"It appears you've installed Buttonizer 2.0 before. But, you installed "
+"version 1.5 again later on and updated back to 2.0!"
+msgstr ""
+"Het lijkt er op dat je Buttonizer 2.0 al eens eerder hebt geïnstalleerd en "
+"toen bent teruggegaan naar versie 1.5. Nu ben je geüpdatet naar versie 2.0!"
+
+#: app/Admin/Translations.php:961
+msgid ""
+"The migration progress did not run as it did back then. In order to convert "
+"your buttons, press the button below!"
+msgstr ""
+"De automatische migratie is nu niet uitgevoerd omdat dit al eerder is "
+"gebeurt. Om je knoppen opnieuw te migreren naar de nieuwste versie druk je "
+"op de knop hieronder!"
+
+#. translators: %1$s and %2$s will become HTML icons as preview
+#: app/Admin/Translations.php:964
+msgid ""
+"If this window keeps popping up, even when you've tried to convert the "
+"buttons, try to reset Buttonizer. Go to the 'cog' icon (%1$s) on the top "
+"bar, select 'Options %2$s' and the tab 'Reset' and follow the instructions."
+msgstr ""
+"Wanneer dit scherm blijft opkomen, zelfs wanneer je hebt geprobeerd om de "
+"knoppen te migreren, probeer dan Buttonizer te resetten. Ga naar het "
+"'tandwiel' icoon (%1$s) in de bovenste balk. Ga dan naar 'Opties %2$s' en "
+"open het tabje 'Reset' en volg de instructies."
+
+#: app/Admin/Translations.php:968
+msgid "Convert my buttons!"
+msgstr "Migreer mijn knoppen!"
+
+#: app/Admin/Translations.php:980
+msgid "Premium feature"
+msgstr "Premium functie"
+
+#: app/Admin/Translations.php:981
+msgid ""
+"Hi there, this function is a premium feature. We will describe what this "
+"feature will do:"
+msgstr ""
+"Hoi daar, deze functie is voor onze premium gebruikers. We zullen "
+"beschrijven wat deze functie zal doen:"
+
+#: app/Admin/Translations.php:982
+msgid "What you get as a premium user:"
+msgstr "Wat je krijgt als premium gebruiker:"
+
+#: app/Admin/Translations.php:983
+msgid "Go pro"
+msgstr "Wordt premium gebruiker"
+
+#: app/Admin/Translations.php:986
+msgid "Show button(groups) using the advanced time schedules"
+msgstr "Toon knoppen op basis van geavanceerde tijdschema's"
+
+#: app/Admin/Translations.php:987
+msgid "Show button(groups) on specific pages using advanced page rules"
+msgstr "Toon knoppen op specifieke pagina's met geavanceerde paginaregels"
+
+#: app/Admin/Translations.php:988
+msgid "Create multiple button groups"
+msgstr "Mogelijkheid om meer knopgroepen te maken"
+
+#: app/Admin/Translations.php:989
+msgid "Custom button background &amp; icon image"
+msgstr "Aangepaste knopachtergrond & pictogram afbeelding"
+
+#: app/Admin/Translations.php:991
+msgid "Show or hide on scroll"
+msgstr "Weergeven of verbergen tijdens scrollen"
+
+#: app/Admin/Translations.php:992
+msgid "Show on timeout"
+msgstr "Weergeven na bepaalde tijd"
+
+#: app/Admin/Translations.php:993
+msgid "Be able to set CSS class names and button IDs"
+msgstr "Gebruik maken van CSS class namen en ID's"
+
+#: app/Admin/Translations.php:994
+msgid "Execute javascript on button clicks"
+msgstr "Javascript uitvoeren bij een knop klik"
+
+#: app/Admin/Translations.php:998
+msgid "My first time schedule"
+msgstr "Mijn eerste tijdschema"
+
+#: app/Admin/Translations.php:1002
+msgid "My first page rule"
+msgstr "Mijn eerste pagina regel"
+
+#: app/Admin/Translations.php:1004
+msgid "You are able to add multiple groups on different positions"
+msgstr ""
+"Je hebt de mogelijkheid om meerdere groepen aan te maken op verschillende "
+"posities"
+
+#: app/Admin/Translations.php:1015
+msgid "Welcome to Buttonizer"
+msgstr "Welkom bij Buttonizer"
+
+#. translators: %s will become 'Buttonizer'
+#: app/Admin/Translations.php:1018
+msgid "We are pleased to welcome you to <b>%s</b>!"
+msgstr "We verwelkomen u graag bij <b>%s</b>!"
+
+#: app/Admin/Translations.php:1021
+msgid ""
+"We've created a tour for our new users. Would you like to take the tour?"
+msgstr ""
+"We hebben een tour gemaakt voor onze nieuwe gebruikers. Wil je deze tour "
+"volgen?"
+
+#: app/Admin/Translations.php:1022
+msgid "No thanks, I know how it works"
+msgstr "Nee bedankt, ik weet hoe het werkt"
+
+#: app/Admin/Translations.php:1025
+msgid "Exit tour"
+msgstr "Tour beëindigen"
+
+#: app/Admin/Translations.php:1028
+msgid "Welcome to the Buttonizer tour!"
+msgstr "Welkom bij de Buttonizer tour!"
+
+#: app/Admin/Translations.php:1029
+msgid ""
+"Start the tour and save time. Master the Buttonizer skills in only two "
+"minutes."
+msgstr ""
+"Start de tour en bespaar tijd. Beheers de Buttonizer-vaardigheden in slechts "
+"twee minuten."
+
+#. translators: First %1$s will be an left-key icon, second %2$s will be right-key icon, third %3$s will be an keyboard icon
+#: app/Admin/Translations.php:1032
+msgid "You can use the %1$s and %2$s keys on your %3$s to navigate."
+msgstr ""
+"Je kan gebruik maken van de %1$s en %2$s toetsen op je %3$s om te navigeren."
+
+#: app/Admin/Translations.php:1037
+msgid "Buttonizer bar"
+msgstr "Buttonizer balk"
+
+#: app/Admin/Translations.php:1038
+msgid ""
+"Manage all your Floating Action Buttons and Floating menu's in the "
+"Buttonizer bar."
+msgstr ""
+"Beheer al je Floating Action Buttons en Floating menu's in de Buttonizer "
+"balk."
+
+#: app/Admin/Translations.php:1041
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: app/Admin/Translations.php:1042
+msgid ""
+"Watch the impact of your changes in the preview pane. Your buttons will only "
+"be visible to your website visitor after you click on 'Publish'."
+msgstr ""
+"Bekijk de impact van uw wijzigingen in het voorbeeldvenster. De knoppen zijn "
+"alleen zichtbaar voor uw websitebezoeker nadat je op 'Publiceren' hebt "
+"geklikt."
+
+#: app/Admin/Translations.php:1045
+msgid "Top bar"
+msgstr "Bovenbalk"
+
+#: app/Admin/Translations.php:1046
+msgid "In the top bar, you can:"
+msgstr "In de bovenbalk kan je:"
+
+#: app/Admin/Translations.php:1049
+msgid "Click the <b>'X'</b> to go back to WordPress"
+msgstr "Op de <b>'X'</b>drukken om terug te gaan naar WordPress"
+
+#: app/Admin/Translations.php:1050
+msgid "<b>Revert</b> changes you have made"
+msgstr "Wijzigingen die je hebt aangebracht <b>ongedaan maken</b>"
+
+#: app/Admin/Translations.php:1051
+msgid "<b>Publish</b> all your changes"
+msgstr "<b>Publiceer</b> jouw wijzigingen"
+
+#: app/Admin/Translations.php:1052
+msgid "Access the <b>general settings</b>"
+msgstr "Open de <b>algemene instellingen</b>"
+
+#. translators: %s will be replaced with an arrow and an ENTER (new line)
+#: app/Admin/Translations.php:1058
+msgid "Click here %s to go to Buttonizer's general settings."
+msgstr "Klik hier %s om naar Buttonizer's algemene instellingen te gaan."
+
+#: app/Admin/Translations.php:1063
+msgid "Menu"
+msgstr "Menu"
+
+#: app/Admin/Translations.php:1066
+msgid ""
+"Want to know what you can do with Buttonizer? Take a look at our knowledge "
+"base!"
+msgstr ""
+"Wil weten wat je nog meer kan doen met Buttonizer? Neem een kijkje in onze "
+"kennisbank!"
+
+#: app/Admin/Translations.php:1067
+msgid "Visit our support page for help from us or other users."
+msgstr ""
+"Bezoek onze support pagina en vraag om hulp van ons of andere gebruikers."
+
+#: app/Admin/Translations.php:1068
+msgid "Visit our community page and interact with other Buttonizer users!"
+msgstr "Bezoek onze community en communiceer met andere Buttonizer gebruikers!"
+
+#: app/Admin/Translations.php:1069
+msgid "View your account details and license."
+msgstr "Bekijk je account informatie en licentie."
+
+#: app/Admin/Translations.php:1070
+msgid "Upgrade or extend your license."
+msgstr "Premium kopen of verleng je licentie."
+
+#: app/Admin/Translations.php:1071
+msgid "Happy with the plugin? Become an ambassador and earn some cash ;-)"
+msgstr "Vind je de plugin leuk? Wordt een ambassadeur en verdien geld ;-)"
+
+#: app/Admin/Translations.php:1072
+msgid "Change general settings like icon libraries and Google Analytics."
+msgstr ""
+"Verander algemene instellingen zoals icoon bibliotheken en Google Analytics."
+
+#: app/Admin/Translations.php:1076
+msgid "Click on <b>Options</b> to open Buttonizer's general settings."
+msgstr ""
+"Klik op <b>Opties</b> om de algemene instellingen te openen van Buttonizer."
+
+#: app/Admin/Translations.php:1082
+msgid ""
+"In this section, you will be able to choose other icon libraries, the icon "
+"library version and whether Buttonizer should import the icon library."
+msgstr ""
+"In deze sectie is het mogelijk om andere icoon bibliotheken te kiezen, welke "
+"versie en of Buttonizer deze moet laden op je pagina's."
+
+#: app/Admin/Translations.php:1083
+msgid ""
+"Want to track your button events? Place your Google Analytics code here!"
+msgstr ""
+"Wil je de knop-events bijhouden? Plaats jouw Google Analytics code hier!"
+
+#: app/Admin/Translations.php:1084
+msgid "Completely reset Buttonizers data."
+msgstr "Reset alle Buttonizer data."
+
+#: app/Admin/Translations.php:1088
+msgid "Button group"
+msgstr "Knop groep"
+
+#: app/Admin/Translations.php:1089
+msgid "A button group contains buttons."
+msgstr "Een groep heeft knoppen."
+
+#: app/Admin/Translations.php:1090
+msgid ""
+"Button groups are only visible when there are <u><b>2 or more buttons</b></"
+"u> within the group."
+msgstr ""
+"Knopgroepen zijn alleen zichtbaar wanneer er <u><b>2 of meer knoppen</b></u> "
+"zichtbaar zijn in de groep."
+
+#: app/Admin/Translations.php:1091
+msgid ""
+"The buttons in a button group are dedicated to one position. Add multiple "
+"button groups if you want to create more floating action buttons dedicated "
+"to different positions."
+msgstr ""
+"De knoppen in een knopgroep zijn toegewijd aan één positie. Maak meerdere "
+"knopgroepen aan om op verschillende posities knoppen te hebben."
+
+#: app/Admin/Translations.php:1094
+msgid "Click here to show group settings."
+msgstr "Klik hier om de groepsinstellingen te zien."
+
+#: app/Admin/Translations.php:1097
+msgid "Group settings"
+msgstr "Groep instellingen"
+
+#: app/Admin/Translations.php:1098
+msgid "Change the style of the button group here."
+msgstr "Je kan de stijl van de groep hier aanpassen."
+
+#: app/Admin/Translations.php:1099
+msgid "Click on the left arrow to go back."
+msgstr "Klik op de linker pijl om terug te gaan."
+
+#: app/Admin/Translations.php:1102 app/Admin/Translations.php:1155
+msgid "Position & device visibility"
+msgstr "Positie & apparaat zichtbaarheid"
+
+#: app/Admin/Translations.php:1103 app/Admin/Translations.php:1156
+msgid ""
+"When you change the position of the button group it will move the whole "
+"group, including the buttons."
+msgstr ""
+"Wanneer je de positie aanpast van de knopgroep zal de volledige groep "
+"verplaatst worden, inclusief de sub-knoppen."
+
+#: app/Admin/Translations.php:1104
+msgid ""
+"Choose whether you want the <b><u>whole group</u></b> to be visible on "
+"desktop or mobile devices."
+msgstr ""
+"Je kan kiezen of je de <b><u>volledige groep</u></b> zichtbaar wilt hebben "
+"op desktop of mobiele apparaten."
+
+#: app/Admin/Translations.php:1108
+msgid "Setup Buttonizer to open automatically!"
+msgstr "Stel Buttonizer in om automatisch te openen!"
+
+#: app/Admin/Translations.php:1109
+msgid "Change the style of your floating menu."
+msgstr "Verander de stijl van je menu."
+
+#: app/Admin/Translations.php:1110
+msgid ""
+"Buttonizer will animate every 10 seconds in order to capture the visitor's "
+"attention."
+msgstr ""
+"Buttonizer zal elke 10 seconden worden geanimeerd om de aandacht van de "
+"bezoeker te krijgen."
+
+#: app/Admin/Translations.php:1114
+msgid "Change the color of the button group."
+msgstr "Verander de kleur van de knopgroep."
+
+#: app/Admin/Translations.php:1115
+msgid "Change the border radius of the button group!"
+msgstr "Pas de border-radius aan van de knop groep!"
+
+#: app/Admin/Translations.php:1116 app/Admin/Translations.php:1121
+msgid "Choose an image to use as a background of the button group."
+msgstr ""
+"Kies een afbeelding om deze te gebruiken als achtergrond van de knopgroep."
+
+#: app/Admin/Translations.php:1120
+msgid "Choose your favorite icon from your selected icon library."
+msgstr "Kies je favoriete icoon uit de geselecteerde icoon bibliotheek."
+
+#: app/Admin/Translations.php:1123
+msgid "Quick setting to show or hide buttons depending device!"
+msgstr "Snel-instelling om knoppen per apparaat weer te geven!"
+
+#: app/Admin/Translations.php:1125
+msgid "Click here to add a new button."
+msgstr "Klik hier om een nieuwe knop toe te voegen."
+
+#. translators: %s will be replaced with 'Add button'
+#: app/Admin/Translations.php:1128
+msgid "Don't click on next... Click on '%s'"
+msgstr "Klik niet op de volgende knop, klik op '%s'"
+
+#. translators: %s will be replaced with 'Add button'
+#: app/Admin/Translations.php:1133
+msgid "If you don't want to click '%s', I can do you the honor :)"
+msgstr "Als je niet op '%s' wilt klikken, dan zal ik de eer nemen!"
+
+#: app/Admin/Translations.php:1136
+msgid "Here, on the left... If you won't click it, I will click it >:-)"
+msgstr ""
+"Hier, aan de linker kant... Als jij er niet op drukt, zal ik erop drukken "
+">:-)"
+
+#: app/Admin/Translations.php:1137
+msgid "Hello? Please click that button..."
+msgstr "Hallo? Klik alsjeblieft op die knop..."
+
+#: app/Admin/Translations.php:1140
+msgid ""
+"You have created a new button! This is a button. Buttons are contained "
+"within a group."
+msgstr ""
+"Je hebt een nieuwe knop gemaakt! Dit is een knop. Knoppen zijn altijd een "
+"deel van een groep."
+
+#: app/Admin/Translations.php:1141
+msgid "Click here to open the menu."
+msgstr "Klik om het menu te openen."
+
+#: app/Admin/Translations.php:1143
+msgid "Edit the style of the button."
+msgstr "Verander de stijl van de knop."
+
+#: app/Admin/Translations.php:1144
+msgid ""
+"Make the button appear/hide on certain pages and during certain times! This "
+"function is only available for our premium users."
+msgstr ""
+"Geef knoppen weer of verberg ze op basis van pagina's en tijd! Deze functie "
+"is alleen beschikbaar voor onze premium gebruikers."
+
+#: app/Admin/Translations.php:1145
+msgid "Rename the button."
+msgstr "Hernoem knop."
+
+#: app/Admin/Translations.php:1146
+msgid "Make a copy of the button."
+msgstr "Maak een kopie van de knop."
+
+#: app/Admin/Translations.php:1147
+msgid "Delete the button."
+msgstr "Verwijder knop."
+
+#: app/Admin/Translations.php:1149
+msgid "Click here to show the button settings."
+msgstr "Klik hier om de knopinstellingen te openen."
+
+#: app/Admin/Translations.php:1151
+msgid "Button settings"
+msgstr "Knop instellingen"
+
+#: app/Admin/Translations.php:1152
+msgid "These are the button settings. Pretty similar to the group settings."
+msgstr ""
+"Dit zijn de knop instellingen. Vrijwel gelijk aan de groepsinstellingen."
+
+#: app/Admin/Translations.php:1157
+msgid ""
+"You can choose whether you want the <b><u>whole group</u></b> to be visible "
+"on desktop or mobile devices."
+msgstr ""
+"Je kan kiezen of je de <b><u>volledige groep</u></b> zichtbaar wilt hebben "
+"op desktop of mobiele apparaten."
+
+#: app/Admin/Translations.php:1160
+msgid ""
+"When enabled, the button will copy the button and label style of the group."
+msgstr ""
+"Wanneer deze optie is ingeschakeld zal deze de stijl van de groep worden "
+"gebruiken."
+
+#: app/Admin/Translations.php:1161
+msgid "By turning it of you can change the style of the button."
+msgstr ""
+"Door deze instelling uit te schakelen kan je de stijl van deze knop "
+"aanpassen."
+
+#: app/Admin/Translations.php:1164
+msgid "Revert or save"
+msgstr "Wijzigingen ongedaan maken of opslaan"
+
+#: app/Admin/Translations.php:1166
+msgid "Delete all the changes you've made this session."
+msgstr "Verwijder alle aanpassingen die je deze sessie hebt gemaakt."
+
+#: app/Admin/Translations.php:1168
+msgid "Save and publish the changes you've made this session."
+msgstr "Sla de wijzigingen die je hebt gemaakt op en publiceer deze."
+
+#: app/Admin/Translations.php:1171
+msgid "That was it!"
+msgstr "Dat was het!"
+
+#. translators: %s will be the link to the community forums
+#: app/Admin/Translations.php:1174
+msgid ""
+"Thank you for taking the tour, that's all folks! We hope you're ready to "
+"start implementing Buttonizer to meet your goals! If you have any questions, "
+"ask them on the %s forums!"
+msgstr ""
+"Bedankt dat je deze tour hebt genomen, dat was alles! We hopen dat je er "
+"klaar voor bent om te starten met het gebruiken van Buttonizer om je doelen "
+"te bereiken! Als je nog vragen over hebt kun je terecht op onze %s!"
+
+#: app/Admin/Translations.php:1177
+msgid ""
+"If you have any feedback regarding the Buttonizer Tour, we'd love to hear it!"
+msgstr ""
+"Laat het ons weten indien je feedback hebt over de Buttonizer Tour, we horen "
+"het graag!"
+
+#~ msgid "Mail"
+#~ msgstr "E-mail"
+
+#~ msgid "Admin topbar button"
+#~ msgstr "Admin balk knop"
+
+#~ msgid ""
+#~ "There are many reasons to reset Buttonizer. One could be, you ruined your "
+#~ "Buttonizer buttons, the settings, categories. Or maybe you just want to "
+#~ "try this reset button?"
+#~ msgstr ""
+#~ "Er zijn veel redenen om Buttonizer te resetten. Een daarvan kan zijn dat "
+#~ "je al je Buttonizer knoppen hebt geruïneerd, de instellingen of de "
+#~ "categorieën. Of je wilt deze reset knop eens proberen?"
+
+#~ msgid "A deep dive in all the Buttonizer possibilities"
+#~ msgstr "Een diepe duik in alle Buttonizer mogelijkheden"
+
+#~ msgid ""
+#~ "Always show, show on hover or hide the label. Choose for desktop and "
+#~ "mobile devices!"
+#~ msgstr ""
+#~ "Altijd de label laten zien, wanneer je er met je muis overheen gaat of "
+#~ "altijd verbergen. Kies voor mobiel & desktop!"
