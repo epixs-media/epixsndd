@@ -1,0 +1,714 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: BuzzNews\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-18 08:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.3"
+
+#: spiderbuzz/template-parts/content.php:28
+msgid "  Posted By:"
+msgstr ""
+
+#: spiderbuzz/template-parts/content.php:45
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#. used between list items, there is a space after the comma
+#: spiderbuzz/inc/template-tags.php:67
+msgid ", "
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:267
+msgid "404 Not Found"
+msgstr ""
+
+#: index.php:42 archive.php:34 search.php:35 spiderbuzz/core/extras.php:272
+msgid "<"
+msgstr ""
+
+#: index.php:43 archive.php:35 search.php:36 spiderbuzz/core/extras.php:273
+msgid ">"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:458
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:462
+msgid "Add File"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:422
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:426
+msgid "Add Image"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:82
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:32
+#: spiderbuzz/core/class-register-widget.php:47
+#: spiderbuzz/core/class-register-widget.php:62
+#: spiderbuzz/core/class-register-widget.php:78
+#: spiderbuzz/core/class-register-widget.php:94
+#: spiderbuzz/core/class-register-widget.php:109
+#: spiderbuzz/core/class-register-widget.php:124
+msgid "Add widgets here."
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:30
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:73
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:30
+#: spiderbuzz/widgets/buzznews-listpost.php:30
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:30
+#: spiderbuzz/widgets/buzznews-gridpost.php:30
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:30
+#: spiderbuzz/customizer/panels/home/slider.php:63
+#: spiderbuzz/customizer/panels/home/slider.php:145
+#: spiderbuzz/customizer/panels/home/slider.php:208
+#: spiderbuzz/customizer/panels/home/before_footer_post.php:60
+#: spiderbuzz/customizer/panels/home/featured-story.php:64
+msgid "all"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/archive.php:11
+msgid "Archive & Blog Page"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:268
+msgid "Archives"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/before_footer_post.php:11
+msgid "Before Footer Post"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:19
+msgid "BN Sidebar: Grid Layout"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:19
+msgid "BN Sidebar: Most Read"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:19
+msgid "BN Sidebar: Post List"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:19
+msgid "BN: Big Post And List Post"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/buzznews-gridpost.php:19
+msgid "BN:Post Grid Layout"
+msgstr ""
+
+#. Base ID
+#: spiderbuzz/widgets/buzznews-listpost.php:19
+msgid "BN:Post List Layout"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/theme-layout.php:33
+msgid "Box Layout"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/breadcrumb.php:11
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:265
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:264
+msgid "Browse:"
+msgstr ""
+
+#. Name of the theme
+msgid "BuzzNews"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"BuzzNews is modern, clean, colorful and responsive store theme. It can be "
+"used for blogs, informative, news and other creative websites. It uses an "
+"amazing WordPress Customizer for theme options.Demo: http://demo.spiderbuzz."
+"com/buzznews/"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:22
+msgid "buzznews-right-sidebar"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/theme-layout.php:22
+msgid "buzznews-theme-fullwidth"
+msgstr ""
+
+#: spiderbuzz/template-parts/content.php:63
+msgid "Categories:"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/category-postlist.php:11
+msgid "Category Postlist"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/category-postlist.php:74
+msgid "Category Postlist Number of Post"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:458
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:460
+msgid "Change File"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:422
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:424
+msgid "Change Image"
+msgstr ""
+
+#. %s is the page number.
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:274
+#, php-format
+msgid "Comment Page %s"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: spiderbuzz/core/common-functions.php:116
+msgid "Contact Form 7"
+msgstr ""
+
+#: spiderbuzz/template-parts/content.php:68
+msgid "Continue reading "
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: spiderbuzz/template-parts/content-single.php:41
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:790
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:1219
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/basic.php:55
+msgid "Date Format"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/basic.php:76
+msgid "Default"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/before_footer_post.php:31
+msgid "Disable Before Footer Post"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/breadcrumb.php:30
+msgid "Disable Breadcrumb Sections"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/category-postlist.php:32
+msgid "Disable Category Postlist"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/featured-story.php:34
+msgid "Disable Featured Post"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:31
+msgid "Disable Slider"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:196
+msgid "Disable Slider Right Post"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:115
+msgid "Disable Tranding News"
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:20
+msgid "Display Big Post And List Post Layout."
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-gridpost.php:20
+msgid "Display Latest Posts."
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-listpost.php:20
+msgid "Display Post List Layout."
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:20
+msgid "Display sidebar grid post layout."
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:20
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:20
+msgid "Display Sidebar Post List."
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: spiderbuzz/inc/template-tags.php:104
+#: spiderbuzz/template-parts/content-page.php:43
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/breadcrumb.php:31
+msgid "Enable/Disable Breadcrumb Sections."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:53
+msgid "Enable/Disable slider post post exclusive."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:197
+msgid "Enable/Disable Slider Right Post Section."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:32
+msgid "Enable/Disable Slider Section."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/featured-story.php:94
+msgid "Featured Number of Post"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/featured-story.php:11
+msgid "Featured Post"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:76
+msgid "Footer First"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:122
+msgid "Footer Four"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:92
+msgid "Footer Second"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:107
+msgid "Footer Third"
+msgstr ""
+
+#. Name of the template
+msgid "Front Page Template"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home.php:11
+msgid "Frontpage Settings"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:12
+msgid "Frontpage Slider"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/theme-layout.php:32
+#: spiderbuzz/customizer/panels/general/post-layout.php:34
+msgid "Full Width"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general.php:11
+msgid "General Settings"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:386
+msgid "Hex Value"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:266
+msgid "Home"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:60
+msgid "Homepage Content"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:45
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:772
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://spiderbuzz.com"
+msgstr ""
+
+#. URI of the theme
+msgid "https://spiderbuzz.com/wordpress-themes/buzznews/"
+msgstr ""
+
+#: spiderbuzz/core/extras.php:224
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/basic.php:71
+#: spiderbuzz/customizer/panels/general/basic.php:75
+msgid "Human Readable"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/basic.php:65
+msgid "human-readable"
+msgstr ""
+
+#: spiderbuzz/template-parts/content-404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: spiderbuzz/template-parts/content-none.php:48
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:125
+msgid "Latest News"
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:29
+#: spiderbuzz/widgets/buzznews-gridpost.php:29
+msgid "Latest Posts"
+msgstr ""
+
+#. %s: post title
+#: spiderbuzz/inc/template-tags.php:87
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:32
+msgid "Left Sidebar"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:239
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: spiderbuzz/inc/template-tags.php:74
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-listpost.php:126
+msgid "Load More"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:276
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:738
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:755
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:789
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:845
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:1215
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:29
+msgid "Most read"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/before_footer_post.php:41
+#: spiderbuzz/customizer/panels/home/featured-story.php:44
+msgid "Most Viewed"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/before_footer_post.php:50
+#: spiderbuzz/customizer/panels/home/featured-story.php:53
+msgid "Most viewed Post"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:447
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:452
+msgid "No File Selected"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:411
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:416
+msgid "No Image Selected"
+msgstr ""
+
+#: spiderbuzz/template-parts/content-none.php:18
+msgid "Nothing Found"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/archive.php:31
+msgid "Number of excerpt limit word."
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/before_footer_post.php:90
+msgid "Number of Post"
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:45
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:45
+#: spiderbuzz/widgets/buzznews-listpost.php:45
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:45
+#: spiderbuzz/widgets/buzznews-gridpost.php:45
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:45
+msgid "Number of posts:"
+msgstr ""
+
+#: spiderbuzz/template-parts/content-404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#. %s is the page number.
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:272
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: spiderbuzz/template-parts/content-single.php:56
+#: spiderbuzz/template-parts/content-page.php:30
+msgid "Pages:"
+msgstr ""
+
+#. %s: post author.
+#: spiderbuzz/inc/template-tags.php:50
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: spiderbuzz/inc/template-tags.php:34
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:52
+msgid "Post Exclusive"
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-listpost.php:29
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:29
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:29
+msgid "Post List view"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:28
+msgid "Post Sidebar Layout"
+msgstr ""
+
+#. 1: list of categories.
+#: spiderbuzz/inc/template-tags.php:70
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: spiderbuzz/core/class-buzznews-after-setup-theme.php:138
+msgid "Primary"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: spiderbuzz/core/extras.php:227
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: spiderbuzz/template-parts/content-none.php:28
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: spiderbuzz/core/class-buzznews-loop.php:292
+msgid "RELATED ARTICLES"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:421
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:486
+msgid "Remove"
+msgstr ""
+
+#: spiderbuzz/core/class-register-widget.php:30
+#: spiderbuzz/customizer/panels/general/post-layout.php:33
+msgid "Right Sidebar"
+msgstr ""
+
+#: spiderbuzz/customizer/custom-controls/repeater/class-control-repeater.php:74
+msgid "row"
+msgstr ""
+
+#. 1: search string
+#: spiderbuzz/core/common-functions.php:76
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. %s is the search query.
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:270
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:41
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:41
+#: spiderbuzz/widgets/buzznews-listpost.php:41
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:41
+#: spiderbuzz/widgets/buzznews-gridpost.php:41
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:41
+msgid "Select a post category:"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:71
+#: spiderbuzz/customizer/panels/home/slider.php:216
+#: spiderbuzz/customizer/panels/home/before_footer_post.php:68
+#: spiderbuzz/customizer/panels/home/featured-story.php:72
+msgid "Select Category"
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:42
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:42
+#: spiderbuzz/widgets/buzznews-listpost.php:42
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:42
+#: spiderbuzz/widgets/buzznews-gridpost.php:42
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:42
+msgid "Show all posts"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/post-layout.php:12
+msgid "Sidebar Layout"
+msgstr ""
+
+#: header.php:32
+msgid "Skip to content"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/category-postlist.php:54
+msgid "slect the category"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:93
+msgid "Slider Number of Post"
+msgstr ""
+
+#: spiderbuzz/template-parts/content-none.php:41
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Author of the theme
+msgid "spiderbuzz"
+msgstr ""
+
+#. 1: list of tags.
+#: spiderbuzz/inc/template-tags.php:77
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/theme-layout.php:12
+#: spiderbuzz/customizer/panels/general/theme-layout.php:28
+msgid "Theme Layout"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: spiderbuzz/core/extras.php:234
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: spiderbuzz/widgets/buzznews-sidebar-gridpost.php:37
+#: spiderbuzz/widgets/buzznews-sidebar-mostread-list.php:37
+#: spiderbuzz/widgets/buzznews-listpost.php:37
+#: spiderbuzz/widgets/buzznews-sidebar-list.php:37
+#: spiderbuzz/widgets/buzznews-gridpost.php:37
+#: spiderbuzz/widgets/buzznews-bigpost-list.php:37
+msgid "Title:"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:153
+msgid "Tranding News Category"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:175
+#: spiderbuzz/customizer/panels/home/slider.php:238
+msgid "Tranding News Number of Post"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/home/slider.php:134
+msgid "Tranding News Title"
+msgstr ""
+
+#: spiderbuzz/core/extras.php:1006
+msgid "View all posts by"
+msgstr ""
+
+#: spiderbuzz/core/extras.php:1012
+msgid "Website"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:278
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:818
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: spiderbuzz/customizer/panels/general/archive.php:30
+msgid "Word Limit Excerpt"
+msgstr ""
+
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:788
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:817
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:844
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:871
+#: spiderbuzz/compatibility/class-breadcrumb-trail.php:1211
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
