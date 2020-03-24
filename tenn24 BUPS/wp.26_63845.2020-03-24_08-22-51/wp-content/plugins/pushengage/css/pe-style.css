@@ -1,0 +1,171 @@
+a:focus,a:visited { 
+outline-style: none !important;
+    outline-color: transparent !important !important;
+    outline:none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+body,html{overflow-x: hidden !important;}
+
+@media (min-width: 1200px){
+.container {
+    width: 85% !important;
+}
+}
+
+@media (min-width: 767px) and (max-width: 1199px){
+.container {
+    width: 90% !important;
+}
+}
+@media (max-width: 768px){
+.container {
+    width: 96% !important;
+}
+}
+
+.nav.pe-nav-tab {
+   background: #ffffff;
+   font-weight: normal;
+   border: 1px solid rgba(34, 36, 38, 0.15);
+   box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15) !important;
+   border-radius: 4px;
+   height: 60px;
+   line-height: 60px;
+   display: inline-table;
+}
+
+.content-header {
+   display: flex !important;
+}
+
+.nav.pe-nav-tab li{
+border-right: 1px solid rgba(34, 36, 38, 0.15);
+}
+.nav.pe-nav-tab li a{
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.03);
+    color: rgba(0, 0, 0, 0.95);
+    margin-right: 0px;
+        height: 60px;
+     line-height: 38px;
+     border-radius: 0px;
+     border:0px;
+     font-size: 16.8px;
+}
+#wpcontent{background: #f7f7f7}
+
+
+.nav.pe-nav-tab li.active,.nav.pe-nav-tab li a:active,.nav.pe-nav-tab li a:focus{
+  background: rgba(0, 0, 0, 0.05);
+    color: rgba(0, 0, 0, 0.95);
+    border-right: 1px solid rgba(34, 36, 38, 0.15);
+    
+
+}
+
+.nav.pe-nav-tab li.active:after, .nav.pe-nav-tab li.active:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.nav.pe-nav-tab li.active:after {
+  border-color:  rgba(136, 183, 213, 0);
+  border-top-color: #ececec;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.nav.pe-nav-tab li.active:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-top-color: rgba(34, 36, 38, 0.15);
+  border-width: 11px;
+  margin-left: -11px;
+}
+
+.nav.pe-nav-tab li a:hover{
+  border-radius: 0px;
+  border: 0px;
+  color: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+
+}
+.pe-instruction-content{
+border-radius: 0.28571429rem;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+        margin-top: 20px;
+}
+.no-padding{padding: 0px !important}
+h1.pe-header{margin: 20px 0;}
+h1.inst-header{text-transform: uppercase;font-size: 20px}
+.m-t-20{margin-top: 20px}
+.container.pe-container{margin-top:20px;}
+.container.pe-container .row{}
+.pe-container .col-sm-12{padding: 0px !important}
+.center-text{text-align: center;}
+
+.nav-line>li.active>a, .nav-line>li.active>a:hover, .nav-line>li.active>a:focus {
+    color: inherit !important;
+    cursor: default !important;
+    background-color: transparent  ;
+    border-bottom: 3px solid #0565c7 !important;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+}
+.nav.nav-tabs.nav-line.pe-inst-step-tab li a{
+  color: rgba(0, 0, 0, 0.95);
+  padding: 10px 30px;
+}
+.nav-line>li>a, .nav-line>li>a:focus{
+  border:0px;
+    
+}
+.nav-line>li>a:hover{
+  border-bottom: 3px solid #bbb !important;
+  background: transparent;
+}
+.pe-instruction-content .pe-inst-step-box{
+  padding:5px 20px !important;
+}
+.pe-inst-step-content{padding: 5px 0px 0px 20px;}
+.pe-inst-step-content .pe-inst-step-title{
+  font-size: 17px;
+  
+}
+.pe-inst-step-content img{padding: 30px 30px 0px 30px;}
+.col-sm-12.pe-instruction-content{
+  padding-bottom: 50px !important;
+  margin-bottom: 30px !important;
+}
+.for-symbol{color:#0565c7;    font-size: 20px;
+    line-height: 10px;
+    font-weight: bold;}
+
+.pe-setup-content form{
+  width: 330px;
+    margin: 34px auto 50px auto;
+    border-radius: 0.28571429rem;
+    border: 1px solid rgba(34, 36, 38, 0.15);
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+    padding: 20px 20px 30px 20px;
+}
+
+.pe-setup-content form input{
+      width: 283px;
+    height: 34px;
+}
+.link-decoration{text-decoration: underline;}
+
+
