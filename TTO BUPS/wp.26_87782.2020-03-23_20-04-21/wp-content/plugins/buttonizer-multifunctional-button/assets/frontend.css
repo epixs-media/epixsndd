@@ -1,0 +1,3001 @@
+/*!
+ * 
+ * This file is part of the Buttonizer plugin that is downloadable through Wordpress.org, 
+ * please do not redistribute this plugin or the files without any written permission of the author.
+ * 
+ * If you need support, contact us at support@buttonizer.pro or visit our community website 
+ * https://community.buttonizer.pro/
+ * 
+ * Buttonizer is Freemium software. The free version (build) does not contain premium functionality.
+ * 
+ * (C) 2017-2020 Buttonizer
+ * 
+ */
+/**
+ * Default buttonizer style
+ */
+.buttonizer.buttonizer-style-default .buttonizer-button-list {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+  .buttonizer.buttonizer-style-default .buttonizer-button-list .buttonizer-button {
+    position: absolute;
+    left: 9px;
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+    visibility: hidden; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-default.top.right .buttonizer-button-list .buttonizer-button {
+    top: 9px; }
+  .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        top: 70px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        top: 120px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        top: 170px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        top: 220px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        top: 270px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        top: 320px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        top: 370px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-default.top.right .buttonizer-button-list .buttonizer-button {
+    top: 9px; }
+  .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        top: 70px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        top: 120px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        top: 170px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        top: 220px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        top: 270px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        top: 320px; }
+      .buttonizer.buttonizer-style-default.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        top: 370px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-default.top.left .buttonizer-button-list .buttonizer-button {
+    top: 9px; }
+  .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        top: 70px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        top: 120px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        top: 170px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        top: 220px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        top: 270px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        top: 320px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        top: 370px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-default.top.left .buttonizer-button-list .buttonizer-button {
+    top: 9px; }
+  .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        top: 70px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        top: 120px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        top: 170px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        top: 220px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        top: 270px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        top: 320px; }
+      .buttonizer.buttonizer-style-default.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        top: 370px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-default.bottom.right .buttonizer-button-list .buttonizer-button {
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        bottom: 70px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        bottom: 120px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        bottom: 170px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        bottom: 220px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        bottom: 270px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        bottom: 320px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        bottom: 370px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-default.bottom.right .buttonizer-button-list .buttonizer-button {
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        bottom: 70px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        bottom: 120px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        bottom: 170px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        bottom: 220px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        bottom: 270px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        bottom: 320px; }
+      .buttonizer.buttonizer-style-default.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        bottom: 370px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-default.bottom.left .buttonizer-button-list .buttonizer-button {
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        bottom: 70px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        bottom: 120px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        bottom: 170px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        bottom: 220px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        bottom: 270px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        bottom: 320px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        bottom: 370px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-default.bottom.left .buttonizer-button-list .buttonizer-button {
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        bottom: 70px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        bottom: 120px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        bottom: 170px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        bottom: 220px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        bottom: 270px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        bottom: 320px; }
+      .buttonizer.buttonizer-style-default.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        bottom: 370px; } }
+
+/**
+ * Default buttonizer style
+ */
+.buttonizer.buttonizer-style-faded .buttonizer-button-list .buttonizer-button {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 300ms ease-in;
+  -moz-transition: all 300ms ease-in;
+  -webkit-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    left: 50px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      top: 70px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      top: 120px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      top: 170px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      top: 220px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      top: 270px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      top: 320px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      top: 370px; }
+  .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    left: 7px; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      -moz-transition: left 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: left 300ms 150ms, opacity 300ms 150ms;
+      transition: left 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      -moz-transition: left 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: left 300ms 300ms, opacity 300ms 300ms;
+      transition: left 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      -moz-transition: left 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: left 300ms 450ms, opacity 300ms 450ms;
+      transition: left 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      -moz-transition: left 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: left 300ms 600ms, opacity 300ms 600ms;
+      transition: left 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      -moz-transition: left 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: left 300ms 750ms, opacity 300ms 750ms;
+      transition: left 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      -moz-transition: left 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: left 300ms 900ms, opacity 300ms 900ms;
+      transition: left 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      -moz-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      transition: left 300ms 1050ms, opacity 300ms 1050ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    left: 50px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      top: 70px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      top: 120px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      top: 170px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      top: 220px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      top: 270px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      top: 320px; }
+    .buttonizer.buttonizer-style-faded.top.right .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      top: 370px; }
+  .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    left: 7px; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      -moz-transition: left 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: left 300ms 150ms, opacity 300ms 150ms;
+      transition: left 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      -moz-transition: left 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: left 300ms 300ms, opacity 300ms 300ms;
+      transition: left 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      -moz-transition: left 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: left 300ms 450ms, opacity 300ms 450ms;
+      transition: left 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      -moz-transition: left 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: left 300ms 600ms, opacity 300ms 600ms;
+      transition: left 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      -moz-transition: left 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: left 300ms 750ms, opacity 300ms 750ms;
+      transition: left 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      -moz-transition: left 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: left 300ms 900ms, opacity 300ms 900ms;
+      transition: left 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      -moz-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      transition: left 300ms 1050ms, opacity 300ms 1050ms; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    right: 50px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      top: 70px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      top: 120px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      top: 170px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      top: 220px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      top: 270px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      top: 320px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      top: 370px; }
+  .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    right: 7px; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      -moz-transition: right 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: right 300ms 150ms, opacity 300ms 150ms;
+      transition: right 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      -moz-transition: right 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: right 300ms 300ms, opacity 300ms 300ms;
+      transition: right 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      -moz-transition: right 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: right 300ms 450ms, opacity 300ms 450ms;
+      transition: right 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      -moz-transition: right 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: right 300ms 600ms, opacity 300ms 600ms;
+      transition: right 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      -moz-transition: right 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: right 300ms 750ms, opacity 300ms 750ms;
+      transition: right 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      -moz-transition: right 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: right 300ms 900ms, opacity 300ms 900ms;
+      transition: right 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      -moz-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      transition: right 300ms 1050ms, opacity 300ms 1050ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    right: 50px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      top: 70px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      top: 120px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      top: 170px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      top: 220px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      top: 270px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      top: 320px; }
+    .buttonizer.buttonizer-style-faded.top.left .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      top: 370px; }
+  .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    right: 7px; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      -moz-transition: right 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: right 300ms 150ms, opacity 300ms 150ms;
+      transition: right 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      -moz-transition: right 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: right 300ms 300ms, opacity 300ms 300ms;
+      transition: right 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      -moz-transition: right 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: right 300ms 450ms, opacity 300ms 450ms;
+      transition: right 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      -moz-transition: right 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: right 300ms 600ms, opacity 300ms 600ms;
+      transition: right 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      -moz-transition: right 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: right 300ms 750ms, opacity 300ms 750ms;
+      transition: right 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      -moz-transition: right 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: right 300ms 900ms, opacity 300ms 900ms;
+      transition: right 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      -moz-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      transition: right 300ms 1050ms, opacity 300ms 1050ms; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    left: 50px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      bottom: 70px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      bottom: 120px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      bottom: 170px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      bottom: 220px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      bottom: 270px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      bottom: 320px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      bottom: 370px; }
+  .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    left: 7px; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      -moz-transition: left 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: left 300ms 150ms, opacity 300ms 150ms;
+      transition: left 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      -moz-transition: left 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: left 300ms 300ms, opacity 300ms 300ms;
+      transition: left 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      -moz-transition: left 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: left 300ms 450ms, opacity 300ms 450ms;
+      transition: left 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      -moz-transition: left 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: left 300ms 600ms, opacity 300ms 600ms;
+      transition: left 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      -moz-transition: left 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: left 300ms 750ms, opacity 300ms 750ms;
+      transition: left 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      -moz-transition: left 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: left 300ms 900ms, opacity 300ms 900ms;
+      transition: left 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      -moz-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      transition: left 300ms 1050ms, opacity 300ms 1050ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    left: 50px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      bottom: 70px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      bottom: 120px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      bottom: 170px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      bottom: 220px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      bottom: 270px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      bottom: 320px; }
+    .buttonizer.buttonizer-style-faded.bottom.right .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      bottom: 370px; }
+  .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    left: 7px; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      -moz-transition: left 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: left 300ms 150ms, opacity 300ms 150ms;
+      transition: left 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      -moz-transition: left 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: left 300ms 300ms, opacity 300ms 300ms;
+      transition: left 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      -moz-transition: left 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: left 300ms 450ms, opacity 300ms 450ms;
+      transition: left 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      -moz-transition: left 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: left 300ms 600ms, opacity 300ms 600ms;
+      transition: left 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      -moz-transition: left 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: left 300ms 750ms, opacity 300ms 750ms;
+      transition: left 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      -moz-transition: left 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: left 300ms 900ms, opacity 300ms 900ms;
+      transition: left 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      -moz-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: left 300ms 1050ms, opacity 300ms 1050ms;
+      transition: left 300ms 1050ms, opacity 300ms 1050ms; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    right: 50px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      bottom: 70px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      bottom: 120px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      bottom: 170px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      bottom: 220px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      bottom: 270px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      bottom: 320px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      bottom: 370px; }
+  .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    right: 7px; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+      -moz-transition: right 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: right 300ms 150ms, opacity 300ms 150ms;
+      transition: right 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+      -moz-transition: right 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: right 300ms 300ms, opacity 300ms 300ms;
+      transition: right 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+      -moz-transition: right 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: right 300ms 450ms, opacity 300ms 450ms;
+      transition: right 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+      -moz-transition: right 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: right 300ms 600ms, opacity 300ms 600ms;
+      transition: right 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+      -moz-transition: right 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: right 300ms 750ms, opacity 300ms 750ms;
+      transition: right 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+      -moz-transition: right 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: right 300ms 900ms, opacity 300ms 900ms;
+      transition: right 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+      -moz-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      transition: right 300ms 1050ms, opacity 300ms 1050ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    right: 50px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      bottom: 70px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      bottom: 120px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      bottom: 170px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      bottom: 220px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      bottom: 270px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      bottom: 320px; }
+    .buttonizer.buttonizer-style-faded.bottom.left .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      bottom: 370px; }
+  .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible;
+    right: 7px; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+      -moz-transition: right 300ms 150ms, opacity 300ms 150ms;
+      -webkit-transition: right 300ms 150ms, opacity 300ms 150ms;
+      transition: right 300ms 150ms, opacity 300ms 150ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+      -moz-transition: right 300ms 300ms, opacity 300ms 300ms;
+      -webkit-transition: right 300ms 300ms, opacity 300ms 300ms;
+      transition: right 300ms 300ms, opacity 300ms 300ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+      -moz-transition: right 300ms 450ms, opacity 300ms 450ms;
+      -webkit-transition: right 300ms 450ms, opacity 300ms 450ms;
+      transition: right 300ms 450ms, opacity 300ms 450ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+      -moz-transition: right 300ms 600ms, opacity 300ms 600ms;
+      -webkit-transition: right 300ms 600ms, opacity 300ms 600ms;
+      transition: right 300ms 600ms, opacity 300ms 600ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+      -moz-transition: right 300ms 750ms, opacity 300ms 750ms;
+      -webkit-transition: right 300ms 750ms, opacity 300ms 750ms;
+      transition: right 300ms 750ms, opacity 300ms 750ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+      -moz-transition: right 300ms 900ms, opacity 300ms 900ms;
+      -webkit-transition: right 300ms 900ms, opacity 300ms 900ms;
+      transition: right 300ms 900ms, opacity 300ms 900ms; }
+    .buttonizer.buttonizer-style-faded.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+      -moz-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      -webkit-transition: right 300ms 1050ms, opacity 300ms 1050ms;
+      transition: right 300ms 1050ms, opacity 300ms 1050ms; } }
+
+/**
+ * Default buttonizer style
+ */
+.buttonizer.buttonizer-style-corner-circle .buttonizer-button-list {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+  .buttonizer.buttonizer-style-corner-circle .buttonizer-button-list .buttonizer-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    text-decoration: none; }
+    .buttonizer.buttonizer-style-corner-circle .buttonizer-button-list .buttonizer-button:hover .buttonizer-label {
+      opacity: 1;
+      visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle .buttonizer-button-list .buttonizer-button .buttonizer-label {
+      opacity: 0;
+      visibility: hidden; }
+      .buttonizer.buttonizer-style-corner-circle .buttonizer-button-list .buttonizer-button .buttonizer-label:hover {
+        opacity: 0;
+        visibility: hidden;
+        display: none; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-corner-circle.top.right .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    left: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        top: 8px;
+        left: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        top: 55px;
+        left: -41px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 150ms, left 0.2s 150ms;
+        -webkit-transition: top 0.2s 150ms, left 0.2s 150ms;
+        transition: top 0.2s 150ms, left 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        top: 85px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 300ms, left 0.2s 300ms;
+        -webkit-transition: top 0.2s 300ms, left 0.2s 300ms;
+        transition: top 0.2s 300ms, left 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        top: 8px;
+        left: -130px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 450ms, left 0.2s 450ms;
+        -webkit-transition: top 0.2s 450ms, left 0.2s 450ms;
+        transition: top 0.2s 450ms, left 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        left: -105px;
+        top: 70px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 600ms, left 0.2s 600ms;
+        -webkit-transition: top 0.2s 600ms, left 0.2s 600ms;
+        transition: top 0.2s 600ms, left 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        left: -56px;
+        top: 119px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 750ms, left 0.2s 750ms;
+        -webkit-transition: top 0.2s 750ms, left 0.2s 750ms;
+        transition: top 0.2s 750ms, left 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        top: 150px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 900ms;
+        -webkit-transition: top 0.2s 900ms;
+        transition: top 0.2s 900ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-corner-circle.top.right .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    left: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        top: 8px;
+        left: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        top: 55px;
+        left: -41px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 150ms, left 0.2s 150ms;
+        -webkit-transition: top 0.2s 150ms, left 0.2s 150ms;
+        transition: top 0.2s 150ms, left 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        top: 85px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 300ms, left 0.2s 300ms;
+        -webkit-transition: top 0.2s 300ms, left 0.2s 300ms;
+        transition: top 0.2s 300ms, left 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        top: 8px;
+        left: -130px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 450ms, left 0.2s 450ms;
+        -webkit-transition: top 0.2s 450ms, left 0.2s 450ms;
+        transition: top 0.2s 450ms, left 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        left: -105px;
+        top: 70px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 600ms, left 0.2s 600ms;
+        -webkit-transition: top 0.2s 600ms, left 0.2s 600ms;
+        transition: top 0.2s 600ms, left 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        left: -56px;
+        top: 119px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 750ms, left 0.2s 750ms;
+        -webkit-transition: top 0.2s 750ms, left 0.2s 750ms;
+        transition: top 0.2s 750ms, left 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        top: 150px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 900ms;
+        -webkit-transition: top 0.2s 900ms;
+        transition: top 0.2s 900ms; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-corner-circle.top.left .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    right: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        top: 8px;
+        right: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        top: 55px;
+        right: -41px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 150ms, right 0.2s 150ms;
+        -webkit-transition: top 0.2s 150ms, right 0.2s 150ms;
+        transition: top 0.2s 150ms, right 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        top: 85px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 300ms, right 0.2s 300ms;
+        -webkit-transition: top 0.2s 300ms, right 0.2s 300ms;
+        transition: top 0.2s 300ms, right 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        top: 8px;
+        right: -130px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 450ms, right 0.2s 450ms;
+        -webkit-transition: top 0.2s 450ms, right 0.2s 450ms;
+        transition: top 0.2s 450ms, right 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        right: -105px;
+        top: 70px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 600ms, right 0.2s 600ms;
+        -webkit-transition: top 0.2s 600ms, right 0.2s 600ms;
+        transition: top 0.2s 600ms, right 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        right: -56px;
+        top: 119px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 750ms, right 0.2s 750ms;
+        -webkit-transition: top 0.2s 750ms, right 0.2s 750ms;
+        transition: top 0.2s 750ms, right 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        top: 150px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 900ms;
+        -webkit-transition: top 0.2s 900ms;
+        transition: top 0.2s 900ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-corner-circle.top.left .buttonizer-button-list .buttonizer-button {
+    top: 9px;
+    right: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        top: 8px;
+        right: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        top: 55px;
+        right: -41px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 150ms, right 0.2s 150ms;
+        -webkit-transition: top 0.2s 150ms, right 0.2s 150ms;
+        transition: top 0.2s 150ms, right 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        top: 85px;
+        z-index: 9998;
+        -moz-transition: top 0.2s 300ms, right 0.2s 300ms;
+        -webkit-transition: top 0.2s 300ms, right 0.2s 300ms;
+        transition: top 0.2s 300ms, right 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        top: 8px;
+        right: -130px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 450ms, right 0.2s 450ms;
+        -webkit-transition: top 0.2s 450ms, right 0.2s 450ms;
+        transition: top 0.2s 450ms, right 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        right: -105px;
+        top: 70px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 600ms, right 0.2s 600ms;
+        -webkit-transition: top 0.2s 600ms, right 0.2s 600ms;
+        transition: top 0.2s 600ms, right 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        right: -56px;
+        top: 119px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 750ms, right 0.2s 750ms;
+        -webkit-transition: top 0.2s 750ms, right 0.2s 750ms;
+        transition: top 0.2s 750ms, right 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        top: 150px;
+        z-index: 9997;
+        -moz-transition: top 0.2s 900ms;
+        -webkit-transition: top 0.2s 900ms;
+        transition: top 0.2s 900ms; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-corner-circle.bottom.right .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    left: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        bottom: 8px;
+        left: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        bottom: 55px;
+        left: -41px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 150ms, left 0.2s 150ms;
+        -webkit-transition: bottom 0.2s 150ms, left 0.2s 150ms;
+        transition: bottom 0.2s 150ms, left 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        bottom: 85px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 300ms, left 0.2s 300ms;
+        -webkit-transition: bottom 0.2s 300ms, left 0.2s 300ms;
+        transition: bottom 0.2s 300ms, left 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        bottom: 8px;
+        left: -130px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 450ms, left 0.2s 450ms;
+        -webkit-transition: bottom 0.2s 450ms, left 0.2s 450ms;
+        transition: bottom 0.2s 450ms, left 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        left: -105px;
+        bottom: 70px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 600ms, left 0.2s 600ms;
+        -webkit-transition: bottom 0.2s 600ms, left 0.2s 600ms;
+        transition: bottom 0.2s 600ms, left 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        left: -56px;
+        bottom: 119px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 750ms, left 0.2s 750ms;
+        -webkit-transition: bottom 0.2s 750ms, left 0.2s 750ms;
+        transition: bottom 0.2s 750ms, left 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        bottom: 150px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 900ms;
+        -webkit-transition: bottom 0.2s 900ms;
+        transition: bottom 0.2s 900ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-corner-circle.bottom.right .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    left: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        bottom: 8px;
+        left: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        bottom: 55px;
+        left: -41px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 150ms, left 0.2s 150ms;
+        -webkit-transition: bottom 0.2s 150ms, left 0.2s 150ms;
+        transition: bottom 0.2s 150ms, left 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        bottom: 85px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 300ms, left 0.2s 300ms;
+        -webkit-transition: bottom 0.2s 300ms, left 0.2s 300ms;
+        transition: bottom 0.2s 300ms, left 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        bottom: 8px;
+        left: -130px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 450ms, left 0.2s 450ms;
+        -webkit-transition: bottom 0.2s 450ms, left 0.2s 450ms;
+        transition: bottom 0.2s 450ms, left 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        left: -105px;
+        bottom: 70px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 600ms, left 0.2s 600ms;
+        -webkit-transition: bottom 0.2s 600ms, left 0.2s 600ms;
+        transition: bottom 0.2s 600ms, left 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        left: -56px;
+        bottom: 119px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 750ms, left 0.2s 750ms;
+        -webkit-transition: bottom 0.2s 750ms, left 0.2s 750ms;
+        transition: bottom 0.2s 750ms, left 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        bottom: 150px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 900ms;
+        -webkit-transition: bottom 0.2s 900ms;
+        transition: bottom 0.2s 900ms; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-corner-circle.bottom.left .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    right: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+        bottom: 8px;
+        right: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+        bottom: 55px;
+        right: -41px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 150ms, right 0.2s 150ms;
+        -webkit-transition: bottom 0.2s 150ms, right 0.2s 150ms;
+        transition: bottom 0.2s 150ms, right 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+        bottom: 85px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 300ms, right 0.2s 300ms;
+        -webkit-transition: bottom 0.2s 300ms, right 0.2s 300ms;
+        transition: bottom 0.2s 300ms, right 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+        bottom: 8px;
+        right: -130px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 450ms, right 0.2s 450ms;
+        -webkit-transition: bottom 0.2s 450ms, right 0.2s 450ms;
+        transition: bottom 0.2s 450ms, right 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+        right: -105px;
+        bottom: 70px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 600ms, right 0.2s 600ms;
+        -webkit-transition: bottom 0.2s 600ms, right 0.2s 600ms;
+        transition: bottom 0.2s 600ms, right 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+        right: -56px;
+        bottom: 119px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 750ms, right 0.2s 750ms;
+        -webkit-transition: bottom 0.2s 750ms, right 0.2s 750ms;
+        transition: bottom 0.2s 750ms, right 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+        bottom: 150px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 900ms;
+        -webkit-transition: bottom 0.2s 900ms;
+        transition: bottom 0.2s 900ms; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-corner-circle.bottom.left .buttonizer-button-list .buttonizer-button {
+    bottom: 9px;
+    right: 9px; }
+  .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+        bottom: 8px;
+        right: -70px;
+        z-index: 9998; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+        bottom: 55px;
+        right: -41px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 150ms, right 0.2s 150ms;
+        -webkit-transition: bottom 0.2s 150ms, right 0.2s 150ms;
+        transition: bottom 0.2s 150ms, right 0.2s 150ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+        bottom: 85px;
+        z-index: 9998;
+        -moz-transition: bottom 0.2s 300ms, right 0.2s 300ms;
+        -webkit-transition: bottom 0.2s 300ms, right 0.2s 300ms;
+        transition: bottom 0.2s 300ms, right 0.2s 300ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+        bottom: 8px;
+        right: -130px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 450ms, right 0.2s 450ms;
+        -webkit-transition: bottom 0.2s 450ms, right 0.2s 450ms;
+        transition: bottom 0.2s 450ms, right 0.2s 450ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+        right: -105px;
+        bottom: 70px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 600ms, right 0.2s 600ms;
+        -webkit-transition: bottom 0.2s 600ms, right 0.2s 600ms;
+        transition: bottom 0.2s 600ms, right 0.2s 600ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+        right: -56px;
+        bottom: 119px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 750ms, right 0.2s 750ms;
+        -webkit-transition: bottom 0.2s 750ms, right 0.2s 750ms;
+        transition: bottom 0.2s 750ms, right 0.2s 750ms; }
+      .buttonizer.buttonizer-style-corner-circle.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+        bottom: 150px;
+        z-index: 9997;
+        -moz-transition: bottom 0.2s 900ms;
+        -webkit-transition: bottom 0.2s 900ms;
+        transition: bottom 0.2s 900ms; } }
+
+/**
+ * Default buttonizer style
+ */
+.buttonizer.buttonizer-style-building-up .buttonizer-button-list {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+  .buttonizer.buttonizer-style-building-up .buttonizer-button-list .buttonizer-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-building-up.top.right .buttonizer-button-list .buttonizer-button {
+    left: 9px;
+    top: 9px; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    top: 70px; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    top: 120px;
+    -moz-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    transition: top 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    top: 170px;
+    -moz-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    transition: top 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    top: 220px;
+    -moz-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    transition: top 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    top: 270px;
+    -moz-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    transition: top 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    top: 320px;
+    -moz-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    transition: top 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    top: 370px;
+    -moz-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    transition: top 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-building-up.top.right .buttonizer-button-list .buttonizer-button {
+    left: 9px;
+    top: 9px; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    top: 70px; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    top: 120px;
+    -moz-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    transition: top 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    top: 170px;
+    -moz-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    transition: top 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    top: 220px;
+    -moz-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    transition: top 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    top: 270px;
+    -moz-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    transition: top 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    top: 320px;
+    -moz-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    transition: top 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    top: 370px;
+    -moz-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    transition: top 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-building-up.top.left .buttonizer-button-list .buttonizer-button {
+    right: 9px;
+    top: 9px; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    top: 70px; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    top: 120px;
+    -moz-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    transition: top 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    top: 170px;
+    -moz-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    transition: top 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    top: 220px;
+    -moz-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    transition: top 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    top: 270px;
+    -moz-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    transition: top 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    top: 320px;
+    -moz-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    transition: top 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    top: 370px;
+    -moz-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    transition: top 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-building-up.top.left .buttonizer-button-list .buttonizer-button {
+    right: 9px;
+    top: 9px; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    top: 70px; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    top: 120px;
+    -moz-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: top 0.2s 150ms, opacity 150ms 150ms;
+    transition: top 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    top: 170px;
+    -moz-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: top 0.2s 300ms, opacity 150ms 300ms;
+    transition: top 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    top: 220px;
+    -moz-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: top 0.2s 450ms, opacity 150ms 450ms;
+    transition: top 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    top: 270px;
+    -moz-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: top 0.2s 600ms, opacity 150ms 600ms;
+    transition: top 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    top: 320px;
+    -moz-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: top 0.2s 750ms, opacity 150ms 750ms;
+    transition: top 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    top: 370px;
+    -moz-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: top 0.2s 900ms, opacity 150ms 900ms;
+    transition: top 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-building-up.bottom.right .buttonizer-button-list .buttonizer-button {
+    left: 9px;
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    bottom: 70px; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    bottom: 120px;
+    -moz-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    transition: bottom 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    bottom: 170px;
+    -moz-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    transition: bottom 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    bottom: 220px;
+    -moz-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    transition: bottom 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    bottom: 270px;
+    -moz-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    transition: bottom 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    bottom: 320px;
+    -moz-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    transition: bottom 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    bottom: 370px;
+    -moz-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    transition: bottom 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-building-up.bottom.right .buttonizer-button-list .buttonizer-button {
+    left: 9px;
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    bottom: 70px; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    bottom: 120px;
+    -moz-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    transition: bottom 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    bottom: 170px;
+    -moz-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    transition: bottom 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    bottom: 220px;
+    -moz-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    transition: bottom 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    bottom: 270px;
+    -moz-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    transition: bottom 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    bottom: 320px;
+    -moz-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    transition: bottom 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    bottom: 370px;
+    -moz-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    transition: bottom 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-building-up.bottom.left .buttonizer-button-list .buttonizer-button {
+    right: 9px;
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    bottom: 70px; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    bottom: 120px;
+    -moz-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    transition: bottom 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    bottom: 170px;
+    -moz-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    transition: bottom 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    bottom: 220px;
+    -moz-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    transition: bottom 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    bottom: 270px;
+    -moz-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    transition: bottom 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    bottom: 320px;
+    -moz-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    transition: bottom 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    bottom: 370px;
+    -moz-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    transition: bottom 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-building-up.bottom.left .buttonizer-button-list .buttonizer-button {
+    right: 9px;
+    bottom: 9px; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    bottom: 70px; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    bottom: 120px;
+    -moz-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    -webkit-transition: bottom 0.2s 150ms, opacity 150ms 150ms;
+    transition: bottom 0.2s 150ms, opacity 150ms 150ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    bottom: 170px;
+    -moz-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    -webkit-transition: bottom 0.2s 300ms, opacity 150ms 300ms;
+    transition: bottom 0.2s 300ms, opacity 150ms 300ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    bottom: 220px;
+    -moz-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    -webkit-transition: bottom 0.2s 450ms, opacity 150ms 450ms;
+    transition: bottom 0.2s 450ms, opacity 150ms 450ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    bottom: 270px;
+    -moz-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    -webkit-transition: bottom 0.2s 600ms, opacity 150ms 600ms;
+    transition: bottom 0.2s 600ms, opacity 150ms 600ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    bottom: 320px;
+    -moz-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    -webkit-transition: bottom 0.2s 750ms, opacity 150ms 750ms;
+    transition: bottom 0.2s 750ms, opacity 150ms 750ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    bottom: 370px;
+    -moz-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    -webkit-transition: bottom 0.2s 900ms, opacity 150ms 900ms;
+    transition: bottom 0.2s 900ms, opacity 150ms 900ms; }
+  .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-building-up.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+/**
+ * Default buttonizer style
+ */
+.buttonizer.buttonizer-style-pop .buttonizer-button-list {
+  opacity: 1;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+  .buttonizer.buttonizer-style-pop .buttonizer-button-list .buttonizer-button {
+    position: absolute;
+    left: 9px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-desktop-1 {
+    top: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-desktop-2 {
+    top: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-desktop-3 {
+    top: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-desktop-4 {
+    top: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-desktop-5 {
+    top: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-desktop-6 {
+    top: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-desktop-7 {
+    top: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-mobile-1 {
+    top: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-mobile-2 {
+    top: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-mobile-3 {
+    top: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-mobile-4 {
+    top: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-mobile-5 {
+    top: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-mobile-6 {
+    top: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right .buttonizer-button.button-mobile-7 {
+    top: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.top.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-desktop-1 {
+    top: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-desktop-2 {
+    top: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-desktop-3 {
+    top: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-desktop-4 {
+    top: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-desktop-5 {
+    top: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-desktop-6 {
+    top: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-desktop-7 {
+    top: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-mobile-1 {
+    top: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-mobile-2 {
+    top: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-mobile-3 {
+    top: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-mobile-4 {
+    top: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-mobile-5 {
+    top: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-mobile-6 {
+    top: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left .buttonizer-button.button-mobile-7 {
+    top: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.top.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-desktop-1 {
+    bottom: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-desktop-2 {
+    bottom: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-desktop-3 {
+    bottom: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-desktop-4 {
+    bottom: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-desktop-5 {
+    bottom: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-desktop-6 {
+    bottom: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-desktop-7 {
+    bottom: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-mobile-1 {
+    bottom: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-mobile-2 {
+    bottom: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-mobile-3 {
+    bottom: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-mobile-4 {
+    bottom: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-mobile-5 {
+    bottom: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-mobile-6 {
+    bottom: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right .buttonizer-button.button-mobile-7 {
+    bottom: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.bottom.right.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-desktop-1 {
+    bottom: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-desktop-2 {
+    bottom: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-desktop-3 {
+    bottom: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-desktop-4 {
+    bottom: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-desktop-5 {
+    bottom: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-desktop-6 {
+    bottom: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-desktop-7 {
+    bottom: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-desktop-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-mobile-1 {
+    bottom: 70px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-mobile-2 {
+    bottom: 120px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-mobile-3 {
+    bottom: 170px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-mobile-4 {
+    bottom: 220px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-mobile-5 {
+    bottom: 270px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-mobile-6 {
+    bottom: 320px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left .buttonizer-button.button-mobile-7 {
+    bottom: 370px;
+    transform: scale(0); }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-7 {
+    transform: scale(1);
+    transition: transform 0.2s 245ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-6 {
+    transform: scale(1);
+    transition: transform 0.2s 210ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-5 {
+    transform: scale(1);
+    transition: transform 0.2s 175ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-4 {
+    transform: scale(1);
+    transition: transform 0.2s 140ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-3 {
+    transform: scale(1);
+    transition: transform 0.2s 105ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-2 {
+    transform: scale(1);
+    transition: transform 0.2s 70ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button.button-mobile-1 {
+    transform: scale(1);
+    transition: transform 0.2s 35ms; }
+  .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+    .buttonizer.buttonizer-style-pop.bottom.left.opened .buttonizer-button-list .buttonizer-button {
+      opacity: 1;
+      visibility: visible; } }
+
+/**
+ * Default buttonizer style
+ */
+.buttonizer.buttonizer-style-square .buttonizer-head {
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1; }
+
+.buttonizer.buttonizer-style-square .buttonizer-button {
+  border-radius: 0px;
+  box-shadow: none; }
+  .buttonizer.buttonizer-style-square .buttonizer-button:hover .buttonizer-label {
+    opacity: 1;
+    visibility: visible; }
+  .buttonizer.buttonizer-style-square .buttonizer-button .buttonizer-label {
+    opacity: 0;
+    visibility: hidden;
+    padding: 0 20px;
+    height: 56px !important;
+    line-height: 56px !important; }
+    .buttonizer.buttonizer-style-square .buttonizer-button .buttonizer-label:hover {
+      opacity: 0;
+      visibility: hidden;
+      display: none; }
+
+.buttonizer.buttonizer-style-square .buttonizer-button-list {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+  .buttonizer.buttonizer-style-square .buttonizer-button-list .buttonizer-button {
+    position: absolute;
+    left: 0px;
+    line-height: 53px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out; }
+
+.buttonizer.buttonizer-style-square.opened .buttonizer-button-list {
+  opacity: 1;
+  visibility: visible; }
+  .buttonizer.buttonizer-style-square.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-desktop-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-desktop-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-desktop-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-desktop-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-desktop-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-desktop-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-desktop-7 {
+    top: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-mobile-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-mobile-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-mobile-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-mobile-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-mobile-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-mobile-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-square.top.right .buttonizer-button.button-mobile-7 {
+    top: 336px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-desktop-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-desktop-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-desktop-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-desktop-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-desktop-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-desktop-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-desktop-7 {
+    top: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-mobile-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-mobile-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-mobile-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-mobile-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-mobile-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-mobile-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-square.top.left .buttonizer-button.button-mobile-7 {
+    top: 336px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-desktop-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-desktop-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-desktop-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-desktop-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-desktop-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-desktop-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-desktop-7 {
+    bottom: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-mobile-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-mobile-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-mobile-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-mobile-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-mobile-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-mobile-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-square.bottom.right .buttonizer-button.button-mobile-7 {
+    bottom: 336px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-desktop-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-desktop-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-desktop-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-desktop-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-desktop-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-desktop-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-desktop-7 {
+    bottom: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-mobile-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-mobile-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-mobile-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-mobile-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-mobile-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-mobile-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-square.bottom.left .buttonizer-button.button-mobile-7 {
+    bottom: 336px; } }
+
+/**
+ * Default buttonizer style
+ */
+.buttonizer.buttonizer-style-rectangle .buttonizer-head {
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1; }
+
+.buttonizer.buttonizer-style-rectangle .buttonizer-button {
+  border-radius: 0px;
+  box-shadow: none;
+  display: flex; }
+  .buttonizer.buttonizer-style-rectangle .buttonizer-button:hover .buttonizer-label {
+    opacity: 1;
+    visibility: visible; }
+  .buttonizer.buttonizer-style-rectangle .buttonizer-button .buttonizer-label {
+    padding: 0 20px;
+    height: 56px !important;
+    line-height: 56px !important;
+    border-radius: 0px; }
+
+.buttonizer.buttonizer-style-rectangle .buttonizer-button-list {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out; }
+  .buttonizer.buttonizer-style-rectangle .buttonizer-button-list .buttonizer-button {
+    position: absolute;
+    left: 0px;
+    line-height: 53px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out; }
+
+.buttonizer.buttonizer-style-rectangle.opened .buttonizer-button-list {
+  opacity: 1;
+  visibility: visible; }
+  .buttonizer.buttonizer-style-rectangle.opened .buttonizer-button-list .buttonizer-button {
+    opacity: 1;
+    visibility: visible; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-desktop-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-desktop-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-desktop-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-desktop-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-desktop-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-desktop-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-desktop-7 {
+    top: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-mobile-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-mobile-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-mobile-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-mobile-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-mobile-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-mobile-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-rectangle.top.right .buttonizer-button.button-mobile-7 {
+    top: 336px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-desktop-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-desktop-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-desktop-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-desktop-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-desktop-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-desktop-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-desktop-7 {
+    top: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-mobile-1 {
+    top: 0px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-mobile-2 {
+    top: 56px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-mobile-3 {
+    top: 112px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-mobile-4 {
+    top: 168px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-mobile-5 {
+    top: 224px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-mobile-6 {
+    top: 280px; }
+  .buttonizer.buttonizer-style-rectangle.top.left .buttonizer-button.button-mobile-7 {
+    top: 336px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-desktop-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-desktop-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-desktop-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-desktop-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-desktop-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-desktop-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-desktop-7 {
+    bottom: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button .buttonizer-label {
+    right: 55px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-mobile-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-mobile-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-mobile-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-mobile-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-mobile-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-mobile-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.right .buttonizer-button.button-mobile-7 {
+    bottom: 336px; } }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-desktop-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-desktop-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-desktop-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-desktop-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-desktop-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-desktop-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-desktop-7 {
+    bottom: 336px; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button .buttonizer-label {
+    left: 55px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-mobile-1 {
+    bottom: 0px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-mobile-2 {
+    bottom: 56px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-mobile-3 {
+    bottom: 112px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-mobile-4 {
+    bottom: 168px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-mobile-5 {
+    bottom: 224px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-mobile-6 {
+    bottom: 280px; }
+  .buttonizer.buttonizer-style-rectangle.bottom.left .buttonizer-button.button-mobile-7 {
+    bottom: 336px; } }
+
+/*
+ * Buttonizer Animation - Hello
+ */
+.buttonizer.attention-animation-true.buttonizer-animation-hello .buttonizer-head {
+  -webkit-animation: buttonizer-hello 2s linear;
+  animation: buttonizer-hello 2s linear; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-hello > .buttonizer-button.button-desktop-1, .buttonizer.attention-animation-true.buttonizer-animation-hello > .buttonizer-button.button-mobile-1 {
+  -webkit-animation: buttonizer-hello 2s linear;
+  animation: buttonizer-hello 2s linear; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-desktop-has-1.attention-animation-true.buttonizer-animation-hello .buttonizer-button-list .button-desktop-1 {
+    -webkit-animation: buttonizer-hello 2s linear;
+    animation: buttonizer-hello 2s linear; }
+  .buttonizer.buttonizer-desktop-has-1.attention-animation-true.buttonizer-animation-hello .buttonizer-head {
+    -webkit-animation: none;
+    animation: none; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-mobile-has-1.attention-animation-true.buttonizer-animation-hello .buttonizer-button-list .button-mobile-1 {
+    -webkit-animation: buttonizer-hello 2s linear;
+    animation: buttonizer-hello 2s linear; }
+  .buttonizer.buttonizer-mobile-has-1.attention-animation-true.buttonizer-animation-hello .buttonizer-head {
+    -webkit-animation: none;
+    animation: none; } }
+
+/* Animation */
+@-webkit-keyframes buttonizer-hello {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  10%,
+  20% {
+    -webkit-transform: scale(0.9) rotate(-8deg);
+    transform: scale(0.9) rotate(-8deg);
+    opacity: 1; }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: scale(1.3) rotate(8deg);
+    transform: scale(1.3) rotate(8deg);
+    opacity: 1; }
+  40%,
+  60% {
+    -webkit-transform: scale(1.3) rotate(-8deg);
+    transform: scale(1.3) rotate(-8deg);
+    opacity: 1; }
+  100%,
+  80% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0); } }
+
+@keyframes buttonizer-hello {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
+  10%,
+  20% {
+    -webkit-transform: scale(0.9) rotate(-8deg);
+    -ms-transform: scale(0.9) rotate(-8deg);
+    transform: scale(0.9) rotate(-8deg);
+    opacity: 1; }
+  30%,
+  50%,
+  70% {
+    -webkit-transform: scale(1.3) rotate(8deg);
+    -ms-transform: scale(1.3) rotate(8deg);
+    transform: scale(1.3) rotate(8deg);
+    opacity: 1; }
+  40%,
+  60% {
+    -webkit-transform: scale(1.3) rotate(-8deg);
+    -ms-transform: scale(1.3) rotate(-8deg);
+    transform: scale(1.3) rotate(-8deg);
+    opacity: 1; }
+  100%,
+  80% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0); } }
+
+/*
+ * Buttonizer Animation - Bounce
+ */
+.buttonizer.attention-animation-true.buttonizer-animation-bounce .buttonizer-head {
+  -webkit-animation: buttonizer-bounce 1s linear;
+  animation: buttonizer-bounce 1s linear; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-bounce > .buttonizer-button.button-desktop-1, .buttonizer.attention-animation-true.buttonizer-animation-bounce > .buttonizer-button.button-mobile-1 {
+  -webkit-animation: buttonizer-bounce 1s linear;
+  animation: buttonizer-bounce 1s linear; }
+
+@media screen and (min-width: 770px) {
+  .buttonizer.buttonizer-desktop-has-1.attention-animation-true.buttonizer-animation-bounce .buttonizer-button-list .button-desktop-1 {
+    -webkit-animation: buttonizer-bounce 1s linear;
+    animation: buttonizer-bounce 1s linear; }
+  .buttonizer.buttonizer-desktop-has-1.attention-animation-true.buttonizer-animation-bounce .buttonizer-head {
+    -webkit-animation: none;
+    animation: none; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.buttonizer-mobile-has-1.attention-animation-true.buttonizer-animation-bounce .buttonizer-button-list .button-mobile-1 {
+    -webkit-animation: buttonizer-bounce 1s linear;
+    animation: buttonizer-bounce 1s linear; }
+  .buttonizer.buttonizer-mobile-has-1.attention-animation-true.buttonizer-animation-bounce .buttonizer-head {
+    -webkit-animation: none;
+    animation: none; } }
+
+/* Animation */
+@-webkit-keyframes buttonizer-bounce {
+  0%, 10%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40%,
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+    opacity: 1; } }
+
+@keyframes buttonizer-bounce {
+  0%, 10%, 100%, 20%, 50%, 80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); }
+  40%,
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+    opacity: 1; } }
+
+/*
+ * Buttonizer Animation - Jumping
+ */
+.buttonizer.attention-animation-true.buttonizer-animation-bounce .buttonizer-head {
+  -webkit-animation: buttonizer-bounce 1s linear;
+  animation: buttonizer-bounce 1s linear; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-bounce.buttonizer-desktop-has-1.buttonizer-mobile-has-1 .buttonizer-button {
+  -webkit-animation: buttonizer-bounce 1s linear;
+  animation: buttonizer-bounce 1s linear; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-jump .buttonizer-head {
+  -webkit-animation: buttonizer-jump 1s linear;
+  animation: buttonizer-jump 1s linear; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-jump.buttonizer-desktop-has-1.buttonizer-mobile-has-1 .buttonizer-button {
+  -webkit-animation: buttonizer-jump 1s linear;
+  animation: buttonizer-jump 1s linear; }
+
+@-webkit-keyframes buttonizer-jump {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); }
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+
+@keyframes buttonizer-jump {
+  0% {
+    transform: translateY(0); }
+  20% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  50% {
+    transform: translateY(0); }
+  60% {
+    transform: translateY(-15px); }
+  80% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(0); } }
+
+/*
+ * Buttonizer Animation - Flip
+ */
+/* premium:start */
+.buttonizer.attention-animation-true.buttonizer-animation-flip .buttonizer-head {
+  -webkit-animation: buttonizer-flip 1s linear;
+  animation: buttonizer-flip 1s linear;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-flip > .buttonizer-button.button-desktop-1, .buttonizer.attention-animation-true.buttonizer-animation-flip > .buttonizer-button.button-mobile-1 {
+  -webkit-animation: buttonizer-flip 1s linear;
+  animation: buttonizer-flip 1s linear;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible; }
+
+@-webkit-keyframes buttonizer-flip {
+  0% {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(0) rotateY(-1turn);
+    transform: perspective(400px) scaleX(1) translateZ(0) rotateY(-1turn);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  40% {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-190deg);
+    transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  50% {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-170deg);
+    transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translateZ(0) rotateY(0deg);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translateZ(0) rotateY(0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  to {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(0) rotateY(0deg);
+    transform: perspective(400px) scaleX(1) translateZ(0) rotateY(0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+@keyframes buttonizer-flip {
+  0% {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(0) rotateY(-1turn);
+    transform: perspective(400px) scaleX(1) translateZ(0) rotateY(-1turn);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  40% {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-190deg);
+    transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  50% {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-170deg);
+    transform: perspective(400px) scaleX(1) translateZ(150px) rotateY(-170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translateZ(0) rotateY(0deg);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translateZ(0) rotateY(0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  to {
+    -webkit-transform: perspective(400px) scaleX(1) translateZ(0) rotateY(0deg);
+    transform: perspective(400px) scaleX(1) translateZ(0) rotateY(0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+/* premium:end */
+/*
+ * Buttonizer Animation - Pulse
+ */
+/* premium:start */
+.buttonizer.attention-animation-true.buttonizer-animation-pulse .buttonizer-head:before, .buttonizer.attention-animation-true.buttonizer-animation-pulse .buttonizer-head:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background: #f01938;
+  border-radius: 50%; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-pulse .buttonizer-head:before {
+  animation: buttonizer-pulse 1.8s 0s ease-out;
+  -webkit-animation: buttonizer-pulse 1.8s 0s ease-out; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-pulse .buttonizer-head:after {
+  animation: buttonizer-pulse 1.8s 0.333s ease-out;
+  -webkit-animation: buttonizer-pulse 1.8s 0.333s ease-out; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-desktop-1:before, .buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-desktop-1:after, .buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-mobile-1:before, .buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-mobile-1:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: block;
+  background: #f01938;
+  border-radius: 50%; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-desktop-1:before, .buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-mobile-1:before {
+  animation: buttonizer-pulse 1.8s 0s ease-out;
+  -webkit-animation: buttonizer-pulse 1.8s 0s ease-out; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-desktop-1:after, .buttonizer.attention-animation-true.buttonizer-animation-pulse > .buttonizer-button.button-mobile-1:after {
+  animation: buttonizer-pulse 1.8s 0.333s ease-out;
+  -webkit-animation: buttonizer-pulse 1.8s 0.333s ease-out; }
+
+@-webkit-keyframes buttonizer-pulse {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  5% {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  100% {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; } }
+
+@keyframes buttonizer-pulse {
+  0% {
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  5% {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; }
+  100% {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; } }
+
+/* premium:end */
+/*
+ * Buttonizer Animation - Jelly
+ */
+/* premium:start */
+.buttonizer.attention-animation-true.buttonizer-animation-jelly .buttonizer-head {
+  -webkit-animation: buttonizer-jelly 1s linear;
+  animation: buttonizer-jelly 1s linear; }
+
+.buttonizer.attention-animation-true.buttonizer-animation-jelly > .buttonizer-button.button-desktop-1, .buttonizer.attention-animation-true.buttonizer-animation-jelly > .buttonizer-button.button-mobile-1 {
+  -webkit-animation: buttonizer-jelly 1s linear;
+  animation: buttonizer-jelly 1s linear; }
+
+@-webkit-keyframes buttonizer-jelly {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1); }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1); }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1); }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1); }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1); }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+@keyframes buttonizer-jelly {
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1); }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1); }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1); }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1); }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1); }
+  to {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); } }
+
+/* premium:end */
+.buttonizer.button-mobile-only {
+  display: none; }
+
+.buttonizer.button-hide {
+  display: none; }
+
+@media screen and (max-width: 769px) {
+  .buttonizer.button-mobile-only {
+    display: block; }
+  .buttonizer.button-desktop-only {
+    display: none;
+    background: red; } }
+
+.buttonizer {
+  position: fixed;
+  z-index: 99999;
+  transition: ease-in-out 250ms; }
+  .buttonizer .buttonizer-button {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    width: 56px;
+    height: 56px;
+    max-width: none !important;
+    color: #FFFFFF;
+    background: #48A4DC;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    text-align: center;
+    text-decoration: none;
+    margin-top: 5px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; }
+    .buttonizer .buttonizer-button:hover {
+      box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+    .buttonizer .buttonizer-button i, .buttonizer .buttonizer-button img {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%); }
+    .buttonizer .buttonizer-button .buttonizer-label {
+      position: absolute;
+      display: block;
+      top: 50%;
+      transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      color: #ffffff;
+      background: #4e4c4c;
+      font-size: 12px;
+      white-space: nowrap;
+      padding: 5px 15px;
+      height: auto !important;
+      line-height: initial;
+      transition: all 0.1s ease-out;
+      -moz-transition: all 0.1s ease-out;
+      -webkit-transition: all 0.1s ease-out;
+      -o-transition: all 0.1s ease-out;
+      border-radius: 3px;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px; }
+      .buttonizer .buttonizer-button .buttonizer-label.buttonizer-label-popup {
+        right: -7px !important;
+        pointer-events: none;
+        padding: 5px 6px;
+        animation: fadeOut 1.5s linear 1 normal forwards;
+        -moz-animation: fadeOut 1.5s linear 1 normal forwards;
+        -o-animation: fadeOut 1.5s linear 1 normal forwards;
+        -webkit-animation: fadeOut 1.5s linear 1 normal forwards; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 0; }
+  5% {
+    opacity: 1; }
+  50% {
+    opacity: 1; }
+  80% {
+    opacity: 0.6; }
+  100% {
+    opacity: 0; } }
+    .buttonizer .buttonizer-button.buttonizer-head {
+      z-index: 9999; }
+      .buttonizer .buttonizer-button.buttonizer-head .buttonizer-label {
+        transition: all 250ms ease-out;
+        -moz-transition: all 250ms ease-out;
+        -webkit-transition: all 250ms ease-out;
+        -o-transition: all 250ms ease-out; }
+      .buttonizer .buttonizer-button.buttonizer-head i, .buttonizer .buttonizer-button.buttonizer-head svg, .buttonizer .buttonizer-button.buttonizer-head img {
+        display: inline-block;
+        font-style: normal;
+        text-align: center;
+        transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        -webkit-transition: all 0.2s ease-out;
+        -o-transition: all 0.2s ease-out; }
+  .buttonizer.opened .buttonizer-button.buttonizer-head .buttonizer-label {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out; }
+  .buttonizer.opened .buttonizer-button.buttonizer-head i, .buttonizer.opened .buttonizer-button.buttonizer-head svg, .buttonizer.opened .buttonizer-button.buttonizer-head img {
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -moz-transform: translate(-50%, -50%) rotate(45deg);
+    -o-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg); }
+  .buttonizer.buttonizer-hide {
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(0, 50px); }
+
+@media screen and (min-width: 770px) {
+  .buttonizer .buttonizer-button.label-desktop-hidden .buttonizer-label {
+    display: none; }
+  .buttonizer .buttonizer-button.show-label-desktop-hover .buttonizer-label {
+    opacity: 0;
+    visibility: hidden;
+    margin-right: -4px; }
+  .buttonizer .buttonizer-button.show-label-desktop-hover:hover .buttonizer-label {
+    opacity: 1;
+    visibility: visible;
+    margin-right: 0; }
+    .buttonizer .buttonizer-button.show-label-desktop-hover:hover .buttonizer-label:hover {
+      opacity: 0;
+      visibility: hidden;
+      display: none; }
+  .buttonizer .buttonizer-button.button-hide-desktop {
+    display: none; }
+  .buttonizer.buttonizer-desktop-has-1 .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+  .buttonizer.buttonizer-desktop-has-1 .buttonizer-button.button-desktop-1 {
+    width: 56px;
+    height: 56px;
+    left: 0 !important;
+    bottom: 0 !important;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1); }
+  .buttonizer.buttonizer-desktop-has-1 .buttonizer-head {
+    opacity: 0;
+    overflow: hidden;
+    z-index: -11; }
+  .buttonizer.buttonizer-desktop-has-0 {
+    display: none; } }
+
+@media screen and (max-width: 769px) {
+  .buttonizer .buttonizer-button.label-mobile-hidden .buttonizer-label {
+    display: none; }
+  .buttonizer .buttonizer-button.show-label-mobile-hover .buttonizer-label {
+    opacity: 0;
+    visibility: hidden;
+    margin-right: -4px; }
+  .buttonizer .buttonizer-button.show-label-mobile-hover:hover .buttonizer-label {
+    opacity: 1;
+    visibility: visible;
+    margin-right: 0; }
+    .buttonizer .buttonizer-button.show-label-mobile-hover:hover .buttonizer-label:hover {
+      opacity: 0;
+      visibility: hidden;
+      display: none; }
+  .buttonizer .buttonizer-button.button-hide-mobile {
+    display: none; }
+  .buttonizer.buttonizer-mobile-has-1 .buttonizer-button-list {
+    opacity: 1;
+    visibility: visible; }
+  .buttonizer.buttonizer-mobile-has-1 .buttonizer-button.button-mobile-1 {
+    width: 56px;
+    height: 56px;
+    left: 0 !important;
+    bottom: 0 !important;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1); }
+  .buttonizer.buttonizer-mobile-has-1 .buttonizer-head {
+    opacity: 0;
+    overflow: hidden;
+    z-index: -11; }
+  .buttonizer.buttonizer-mobile-has-0 {
+    display: none; } }
+
+.buttonizer.right .buttonizer-button .buttonizer-label {
+  right: 55px;
+  text-align: right; }
+
+.buttonizer.right .buttonizer-button.buttonizer-head .buttonizer-label {
+  right: 65px; }
+
+.buttonizer.right .buttonizer-button.buttonizer-mobile-has-1 .buttonizer-button.button-mobile-1 .buttonizer-label, .buttonizer.right .buttonizer-button.buttonizer-mobile-has-1 .buttonizer-button.button-desktop-1 .buttonizer-label {
+  right: 70px; }
+
+.buttonizer.right.buttonizer-desktop-has-1 .buttonizer-label, .buttonizer.right.buttonizer-mobile-has-1 .buttonizer-label {
+  right: 65px; }
+
+.buttonizer.left .buttonizer-button .buttonizer-label {
+  left: 55px;
+  text-align: left; }
+
+.buttonizer.left .buttonizer-button.buttonizer-head .buttonizer-label {
+  left: 65px; }
+
+.buttonizer.left .buttonizer-button.buttonizer-mobile-has-1 .buttonizer-button.button-mobile-1 .buttonizer-label, .buttonizer.left .buttonizer-button.buttonizer-mobile-has-1 .buttonizer-button.button-desktop-1 .buttonizer-label {
+  left: 70px; }
+
+.buttonizer.left.buttonizer-desktop-has-1 .buttonizer-label, .buttonizer.left.buttonizer-mobile-has-1 .buttonizer-label {
+  left: 65px; }

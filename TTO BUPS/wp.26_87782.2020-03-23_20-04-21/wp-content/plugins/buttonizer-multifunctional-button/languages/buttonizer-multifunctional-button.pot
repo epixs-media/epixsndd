@@ -1,0 +1,1963 @@
+# Copyright (C) 2019 Buttonizer
+# This file is distributed under the same license as the Buttonizer - Smart Floating Action Button plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Buttonizer - Smart Floating Action Button 2.0.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/buttonizer\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-11-04T19:41:49+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: buttonizer-multifunctional-button\n"
+
+#. Plugin Name of the plugin
+msgid "Buttonizer - Smart Floating Action Button"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://buttonizer.pro"
+msgstr ""
+
+#. Description of the plugin
+msgid "The Buttonizer is a new way to give a boost to your number of interactions, actions and conversions from your website visitor by adding one or multiple Customizable Smart Floating Button in the corner of your website."
+msgstr ""
+
+#. Author of the plugin
+msgid "Buttonizer"
+msgstr ""
+
+#: app/Admin/Admin.php:119
+msgid "Buttonizer is loading..."
+msgstr ""
+
+#. Translators: First link goes to our knowledge base, the second link goes to the admin panel.
+#: app/Admin/Admin.php:124
+msgid "When Buttonizer does not start, <a %1$s>click here</a> to find out what is going wrong or <a %2$s>click here</a> to return to the WordPress admin dashboard."
+msgstr ""
+
+#: app/Admin/Admin.php:132
+msgid "When you have a slow internet connection or slow webserver, give it a moment..."
+msgstr ""
+
+#: app/Admin/Admin.php:137
+msgid "Hi there! JavaScript is disabled in your browser. Please consider to enable JavaScript in your browser to use Buttonizer."
+msgstr ""
+
+#: app/Admin/Translations.php:37
+msgid "Oh, that was not what we were expecting! Something went wrong."
+msgstr ""
+
+#: app/Admin/Translations.php:41
+msgid "Custom javascript error"
+msgstr ""
+
+#: app/Admin/Translations.php:42
+msgid "Your custom javascript ran into an error. Read the error below:"
+msgstr ""
+
+#: app/Admin/Translations.php:47
+msgid "Could not save settings"
+msgstr ""
+
+#: app/Admin/Translations.php:48
+msgid "Something went wrong while saving your settings:"
+msgstr ""
+
+#: app/Admin/Translations.php:53
+msgid "Only numbers allowed."
+msgstr ""
+
+#: app/Admin/Translations.php:54
+msgid "For this input, only positive numbers are allowed."
+msgstr ""
+
+#: app/Admin/Translations.php:66
+msgid "Invalid email address."
+msgstr ""
+
+#: app/Admin/Translations.php:67
+msgid "Invalid phone number. Please only use number for your phone number. Omit any zeros, brackets or dashes when adding the phone number in international format."
+msgstr ""
+
+#: app/Admin/Translations.php:68
+msgid "This field only allows numbers."
+msgstr ""
+
+#: app/Admin/Translations.php:80
+msgid "Button"
+msgstr ""
+
+#: app/Admin/Translations.php:81
+msgid "Group"
+msgstr ""
+
+#: app/Admin/Translations.php:83
+#: app/Admin/Translations.php:317
+msgid "Settings"
+msgstr ""
+
+#: app/Admin/Translations.php:85
+#: app/Admin/Translations.php:407
+msgid "Custom"
+msgstr ""
+
+#: app/Admin/Translations.php:87
+msgid "Confirm"
+msgstr ""
+
+#: app/Admin/Translations.php:88
+msgid "Search"
+msgstr ""
+
+#: app/Admin/Translations.php:90
+msgid "Skip"
+msgstr ""
+
+#: app/Admin/Translations.php:93
+msgid "Disable"
+msgstr ""
+
+#: app/Admin/Translations.php:94
+msgid "Disabled"
+msgstr ""
+
+#: app/Admin/Translations.php:97
+#: app/Admin/Translations.php:229
+msgid "Save"
+msgstr ""
+
+#: app/Admin/Translations.php:98
+msgid "Saving"
+msgstr ""
+
+#: app/Admin/Translations.php:99
+msgid "Saving settings"
+msgstr ""
+
+#: app/Admin/Translations.php:101
+msgid "Publish"
+msgstr ""
+
+#: app/Admin/Translations.php:102
+msgid "Published"
+msgstr ""
+
+#: app/Admin/Translations.php:103
+msgid "Publishing..."
+msgstr ""
+
+#: app/Admin/Translations.php:106
+msgid "Warning"
+msgstr ""
+
+#: app/Admin/Translations.php:108
+msgid "Next"
+msgstr ""
+
+#: app/Admin/Translations.php:109
+msgid "Previous"
+msgstr ""
+
+#. translators: The button to save and publish the changes that were made
+#: app/Admin/Translations.php:112
+#: app/Admin/Translations.php:1167
+msgid "Save & publish"
+msgstr ""
+
+#: app/Admin/Translations.php:123
+msgid "Loading..."
+msgstr ""
+
+#: app/Admin/Translations.php:124
+msgid "Loading settings..."
+msgstr ""
+
+#: app/Admin/Translations.php:125
+msgid "Building bar..."
+msgstr ""
+
+#: app/Admin/Translations.php:126
+msgid "Waiting for your website..."
+msgstr ""
+
+#: app/Admin/Translations.php:127
+msgid "It's taking longer than usual, slow website?"
+msgstr ""
+
+#: app/Admin/Translations.php:128
+msgid "Skip this step"
+msgstr ""
+
+#: app/Admin/Translations.php:129
+msgid "Initializing..."
+msgstr ""
+
+#: app/Admin/Translations.php:130
+msgid "Resetting..."
+msgstr ""
+
+#: app/Admin/Translations.php:131
+msgid "Running migration..."
+msgstr ""
+
+#. translators: Finishing as in 'Cleaning up files'
+#: app/Admin/Translations.php:133
+msgid "Finishing..."
+msgstr ""
+
+#. translators: %s will be replaced with 'Add button'
+#: app/Admin/Translations.php:144
+#: app/Admin/Translations.php:1129
+#: app/Admin/Translations.php:1134
+msgid "Add button"
+msgstr ""
+
+#: app/Admin/Translations.php:145
+msgid "Add group"
+msgstr ""
+
+#: app/Admin/Translations.php:148
+msgid "New button"
+msgstr ""
+
+#: app/Admin/Translations.php:149
+msgid "New group"
+msgstr ""
+
+#: app/Admin/Translations.php:152
+msgid "Advanced settings"
+msgstr ""
+
+#: app/Admin/Translations.php:154
+#: app/Admin/Translations.php:578
+msgid "Text"
+msgstr ""
+
+#. translators: Base is meant as default state of the button (not hovering or clicking)
+#: app/Admin/Translations.php:156
+msgid "Base"
+msgstr ""
+
+#. translators: Base is meant as default state of the button (not hovering or clicking)
+#: app/Admin/Translations.php:157
+#: app/Admin/Translations.php:347
+#: app/Admin/Translations.php:359
+msgid "Icon"
+msgstr ""
+
+#: app/Admin/Translations.php:158
+msgid "Search icon"
+msgstr ""
+
+#: app/Admin/Translations.php:161
+msgid "Image"
+msgstr ""
+
+#: app/Admin/Translations.php:162
+msgid "Select image"
+msgstr ""
+
+#: app/Admin/Translations.php:163
+msgid "Change image"
+msgstr ""
+
+#: app/Admin/Translations.php:164
+msgid "Select file"
+msgstr ""
+
+#: app/Admin/Translations.php:165
+msgid "Change file"
+msgstr ""
+
+#: app/Admin/Translations.php:166
+msgid "Click to remove this image"
+msgstr ""
+
+#: app/Admin/Translations.php:169
+msgid "First button"
+msgstr ""
+
+#: app/Admin/Translations.php:170
+msgid "Second button"
+msgstr ""
+
+#: app/Admin/Translations.php:173
+msgid "Rename"
+msgstr ""
+
+#: app/Admin/Translations.php:176
+msgid "Delete"
+msgstr ""
+
+#: app/Admin/Translations.php:179
+msgid "Duplicate"
+msgstr ""
+
+#. translators: This string will be used to replace %s in 'Are you very sure you want to remove this %s?'
+#: app/Admin/Translations.php:182
+msgid "page rule"
+msgstr ""
+
+#. translators: This string will be used to replace %s in 'Are you very sure you want to remove this %s?'
+#: app/Admin/Translations.php:184
+msgid "time schedule"
+msgstr ""
+
+#. translators: Interaction is meant as hover/click state
+#: app/Admin/Translations.php:187
+msgid "Interaction"
+msgstr ""
+
+#. translators: Background as in background color
+#: app/Admin/Translations.php:190
+msgid "Background"
+msgstr ""
+
+#: app/Admin/Translations.php:193
+msgid "Need help? Quick-start, tips & tricks"
+msgstr ""
+
+#: app/Admin/Translations.php:194
+msgid "Need help? Visit our knowledge base!"
+msgstr ""
+
+#: app/Admin/Translations.php:196
+msgid "Nothing found for:"
+msgstr ""
+
+#: app/Admin/Translations.php:197
+msgid "Search icons"
+msgstr ""
+
+#. translators: %1$s will be replaced with a action name, %2$s will be replaced with a link
+#: app/Admin/Translations.php:201
+msgid "Need help? Learn how to use <b>%1$s</b>."
+msgstr ""
+
+#: app/Admin/Translations.php:214
+msgid "OK"
+msgstr ""
+
+#: app/Admin/Translations.php:215
+msgid "OK, I'll fix this"
+msgstr ""
+
+#: app/Admin/Translations.php:217
+msgid "Close"
+msgstr ""
+
+#: app/Admin/Translations.php:218
+msgid "Cancel"
+msgstr ""
+
+#: app/Admin/Translations.php:221
+#: app/Admin/Translations.php:1023
+msgid "Yes please"
+msgstr ""
+
+#: app/Admin/Translations.php:222
+msgid "No thank you"
+msgstr ""
+
+#: app/Admin/Translations.php:225
+msgid "Dismiss"
+msgstr ""
+
+#: app/Admin/Translations.php:226
+msgid "I've changed my mind"
+msgstr ""
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:234
+msgid "Remove %s?"
+msgstr ""
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:239
+msgid "Are you very sure you want to remove this %1$s? Buttons that are still attached to this %2$s will become visible unless you attach them to another %3$s or hide them."
+msgstr ""
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:244
+msgid "There are no buttons attached to this %s. You can remove this safely."
+msgstr ""
+
+#. translators: This sentence will be used to remove a 'time schedule/page rule' and there are multiple buttons attached to it. %1$s will be a number, %2$s will be the 'time schedule / page rule'
+#: app/Admin/Translations.php:249
+msgid "There are <b>%1$s</b> buttons attached to this %2$s!"
+msgstr ""
+
+#. translators: This sentence will be used to remove a time schedule and there is only one button attached to it
+#: app/Admin/Translations.php:254
+msgid "There is <b>1</b> button attached to this %s!"
+msgstr ""
+
+#. translators: %s will be replaced with 'time schedule / page rule'
+#: app/Admin/Translations.php:259
+msgid "Do you want to remove this %s?"
+msgstr ""
+
+#: app/Admin/Translations.php:273
+msgid "Event tracker"
+msgstr ""
+
+#: app/Admin/Translations.php:274
+msgid "Event tracker (experimental)"
+msgstr ""
+
+#: app/Admin/Translations.php:297
+#: app/Admin/Translations.php:1165
+msgid "Revert changes"
+msgstr ""
+
+#: app/Admin/Translations.php:298
+msgid "Reverting..."
+msgstr ""
+
+#: app/Admin/Translations.php:300
+msgid "Are you sure you want to revert your changes?"
+msgstr ""
+
+#: app/Admin/Translations.php:301
+msgid "The current changes will be overwritten by the current published buttons and settings."
+msgstr ""
+
+#: app/Admin/Translations.php:304
+msgid "Could not revert settings"
+msgstr ""
+
+#: app/Admin/Translations.php:305
+msgid "Something went wrong while reverting your settings."
+msgstr ""
+
+#: app/Admin/Translations.php:321
+#: app/Admin/Translations.php:1107
+msgid "Menu style"
+msgstr ""
+
+#: app/Admin/Translations.php:322
+#: app/Admin/Translations.php:1113
+#: app/Admin/Translations.php:1119
+msgid "Group style"
+msgstr ""
+
+#: app/Admin/Translations.php:323
+msgid "Group icon"
+msgstr ""
+
+#: app/Admin/Translations.php:324
+msgid "Button style"
+msgstr ""
+
+#: app/Admin/Translations.php:325
+msgid "Button icon"
+msgstr ""
+
+#: app/Admin/Translations.php:326
+#: app/Admin/Translations.php:375
+msgid "Label"
+msgstr ""
+
+#: app/Admin/Translations.php:330
+msgid "Button name"
+msgstr ""
+
+#: app/Admin/Translations.php:331
+msgid "This is the button name."
+msgstr ""
+
+#: app/Admin/Translations.php:335
+msgid "Button color"
+msgstr ""
+
+#: app/Admin/Translations.php:336
+msgid "This is the color of your button group and also the default color for your buttons within this group."
+msgstr ""
+
+#: app/Admin/Translations.php:339
+msgid "Background image"
+msgstr ""
+
+#: app/Admin/Translations.php:340
+msgid "Upload an image if you want an image as a background instead of a color. Recommended aspect ratio: square (1:1)."
+msgstr ""
+
+#: app/Admin/Translations.php:343
+#: app/Admin/Translations.php:355
+msgid "Border radius"
+msgstr ""
+
+#: app/Admin/Translations.php:344
+msgid "Change the roundness of this button group."
+msgstr ""
+
+#: app/Admin/Translations.php:348
+msgid "Choose an icon from the icon library."
+msgstr ""
+
+#: app/Admin/Translations.php:351
+msgid "Icon color"
+msgstr ""
+
+#: app/Admin/Translations.php:352
+msgid "Change the icon color of this button."
+msgstr ""
+
+#: app/Admin/Translations.php:356
+msgid "Change the border radius of the image."
+msgstr ""
+
+#: app/Admin/Translations.php:360
+msgid "Choose an image to use as this button or group icon. Recommended aspect ratio: square (1:1)"
+msgstr ""
+
+#: app/Admin/Translations.php:363
+msgid "Image size"
+msgstr ""
+
+#: app/Admin/Translations.php:364
+msgid "Change the size of the image."
+msgstr ""
+
+#: app/Admin/Translations.php:367
+msgid "Graphic"
+msgstr ""
+
+#: app/Admin/Translations.php:368
+msgid "Choose whether to use an icon or image as the button icon."
+msgstr ""
+
+#: app/Admin/Translations.php:371
+msgid "Icon size"
+msgstr ""
+
+#: app/Admin/Translations.php:372
+msgid "Change the icon size of this button."
+msgstr ""
+
+#: app/Admin/Translations.php:376
+msgid "Change the label of this button."
+msgstr ""
+
+#: app/Admin/Translations.php:377
+msgid "Label text"
+msgstr ""
+
+#: app/Admin/Translations.php:380
+msgid "Label color"
+msgstr ""
+
+#: app/Admin/Translations.php:381
+msgid "Change the text and background color of the label for this button or group."
+msgstr ""
+
+#: app/Admin/Translations.php:384
+msgid "Font size & border radius"
+msgstr ""
+
+#: app/Admin/Translations.php:385
+msgid "Change the font size and border radius of the label for this button group."
+msgstr ""
+
+#: app/Admin/Translations.php:388
+msgid "Animation"
+msgstr ""
+
+#: app/Admin/Translations.php:389
+msgid "This will animate this button group to get the attention of the visitor. The animation repeats itself every 10 seconds."
+msgstr ""
+
+#: app/Admin/Translations.php:391
+msgid "No animation"
+msgstr ""
+
+#: app/Admin/Translations.php:392
+msgid "Buttonizer Hello"
+msgstr ""
+
+#: app/Admin/Translations.php:393
+msgid "Bounce"
+msgstr ""
+
+#: app/Admin/Translations.php:394
+msgid "Jelly"
+msgstr ""
+
+#: app/Admin/Translations.php:395
+msgid "Pulse"
+msgstr ""
+
+#: app/Admin/Translations.php:399
+msgid "Position"
+msgstr ""
+
+#: app/Admin/Translations.php:400
+msgid "Change the position of this button group."
+msgstr ""
+
+#: app/Admin/Translations.php:403
+msgid "Bottom right"
+msgstr ""
+
+#: app/Admin/Translations.php:404
+msgid "Bottom left"
+msgstr ""
+
+#: app/Admin/Translations.php:405
+msgid "Top right"
+msgstr ""
+
+#: app/Admin/Translations.php:406
+msgid "Top left"
+msgstr ""
+
+#: app/Admin/Translations.php:411
+msgid "Menu Style"
+msgstr ""
+
+#: app/Admin/Translations.php:412
+msgid "Change the menu style of this button group."
+msgstr ""
+
+#: app/Admin/Translations.php:415
+msgid "Default"
+msgstr ""
+
+#: app/Admin/Translations.php:416
+msgid "Faded"
+msgstr ""
+
+#: app/Admin/Translations.php:417
+msgid "Corner circle"
+msgstr ""
+
+#: app/Admin/Translations.php:418
+msgid "Build Up"
+msgstr ""
+
+#: app/Admin/Translations.php:419
+msgid "Pop"
+msgstr ""
+
+#: app/Admin/Translations.php:420
+msgid "Square"
+msgstr ""
+
+#: app/Admin/Translations.php:421
+msgid "Rectangle"
+msgstr ""
+
+#: app/Admin/Translations.php:425
+#: app/Admin/Translations.php:429
+msgid "Visibility"
+msgstr ""
+
+#: app/Admin/Translations.php:426
+msgid "Always show the label, show the label on hover or hide the label on <u>desktop devices</u>."
+msgstr ""
+
+#: app/Admin/Translations.php:430
+msgid "Always show or hide the label on <u>mobile devices</u>."
+msgstr ""
+
+#: app/Admin/Translations.php:433
+msgid "Always show label"
+msgstr ""
+
+#: app/Admin/Translations.php:434
+msgid "Show label on hover"
+msgstr ""
+
+#: app/Admin/Translations.php:435
+msgid "Hide label"
+msgstr ""
+
+#: app/Admin/Translations.php:438
+msgid "Show on"
+msgstr ""
+
+#: app/Admin/Translations.php:439
+msgid "Device visibility"
+msgstr ""
+
+#: app/Admin/Translations.php:440
+msgid "Choose if you want to make this button group visible on desktop and mobile devices."
+msgstr ""
+
+#: app/Admin/Translations.php:441
+msgid "Mobile"
+msgstr ""
+
+#: app/Admin/Translations.php:442
+msgid "Desktop"
+msgstr ""
+
+#: app/Admin/Translations.php:445
+msgid "Start opened"
+msgstr ""
+
+#: app/Admin/Translations.php:446
+msgid "This button group starts opened when this setting is enabled."
+msgstr ""
+
+#: app/Admin/Translations.php:449
+msgid "Use the same style of main button"
+msgstr ""
+
+#: app/Admin/Translations.php:450
+msgid "When enabled, this button will use the same style as the button group."
+msgstr ""
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:454
+msgid "Custom ID"
+msgstr ""
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:456
+msgid "Adds a custom 'id' HTML attribute to the button."
+msgstr ""
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:458
+msgid "You can add a custom ID to each button for styling purposes."
+msgstr ""
+
+#. translators: 'id' as in HTML attribute 'id'
+#: app/Admin/Translations.php:460
+msgid "ID name"
+msgstr ""
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:464
+msgid "Custom class"
+msgstr ""
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:466
+#: app/Admin/Translations.php:474
+msgid "Adds a custom 'class' HTML attribute to the button."
+msgstr ""
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:468
+#: app/Admin/Translations.php:475
+msgid "You can add a custom class to each button for styling purposes."
+msgstr ""
+
+#. translators: 'class' as in HTML attribute 'class'
+#: app/Admin/Translations.php:470
+msgid "Class name"
+msgstr ""
+
+#: app/Admin/Translations.php:473
+#: app/Admin/Translations.php:819
+msgid "Page rule"
+msgstr ""
+
+#: app/Admin/Translations.php:476
+msgid "Manage page rules"
+msgstr ""
+
+#: app/Admin/Translations.php:477
+msgid "You cannot select the same page rule as it's group!"
+msgstr ""
+
+#: app/Admin/Translations.php:480
+msgid "Show button when rule is triggered"
+msgstr ""
+
+#: app/Admin/Translations.php:481
+msgid "Hide button when rule is triggered"
+msgstr ""
+
+#: app/Admin/Translations.php:486
+#: app/Admin/Translations.php:990
+msgid "Exit intent"
+msgstr ""
+
+#: app/Admin/Translations.php:487
+msgid "Enable exit intent"
+msgstr ""
+
+#: app/Admin/Translations.php:488
+msgid "With this setting, you can trigger Buttonizer to animate before your guest exits your website."
+msgstr ""
+
+#: app/Admin/Translations.php:489
+msgid "Please note: Exit intent will <b>not trigger</b> in preview mode, only in your LIVE website."
+msgstr ""
+
+#: app/Admin/Translations.php:491
+msgid "When to trigger?"
+msgstr ""
+
+#: app/Admin/Translations.php:492
+msgid "Trigger when leaving browser window"
+msgstr ""
+
+#: app/Admin/Translations.php:493
+msgid "Trigger on inactivity (2 minutes)"
+msgstr ""
+
+#: app/Admin/Translations.php:496
+msgid "How often should it be triggered?"
+msgstr ""
+
+#: app/Admin/Translations.php:497
+msgid "Only trigger once per page"
+msgstr ""
+
+#: app/Admin/Translations.php:498
+msgid "Only trigger once per session"
+msgstr ""
+
+#: app/Admin/Translations.php:499
+msgid "Trigger every time"
+msgstr ""
+
+#: app/Admin/Translations.php:503
+msgid "Animation on intent"
+msgstr ""
+
+#: app/Admin/Translations.php:504
+msgid "Focused"
+msgstr ""
+
+#: app/Admin/Translations.php:505
+msgid "Open menu"
+msgstr ""
+
+#: app/Admin/Translations.php:506
+msgid "Jump once and open"
+msgstr ""
+
+#: app/Admin/Translations.php:507
+msgid "Flip and open"
+msgstr ""
+
+#: app/Admin/Translations.php:512
+msgid "Button action"
+msgstr ""
+
+#: app/Admin/Translations.php:513
+msgid "Choose a click action for this button."
+msgstr ""
+
+#: app/Admin/Translations.php:514
+msgid "Select button action"
+msgstr ""
+
+#: app/Admin/Translations.php:515
+msgid "No button action found for:"
+msgstr ""
+
+#: app/Admin/Translations.php:518
+msgid "Popular actions"
+msgstr ""
+
+#: app/Admin/Translations.php:519
+msgid "Click to chat"
+msgstr ""
+
+#: app/Admin/Translations.php:520
+msgid "Social Media"
+msgstr ""
+
+#: app/Admin/Translations.php:521
+msgid "Popup"
+msgstr ""
+
+#: app/Admin/Translations.php:523
+msgid "Call action (phone number)"
+msgstr ""
+
+#: app/Admin/Translations.php:524
+msgid "Mail action (email address)"
+msgstr ""
+
+#: app/Admin/Translations.php:525
+msgid "Back to top"
+msgstr ""
+
+#: app/Admin/Translations.php:526
+msgid "Go back one page"
+msgstr ""
+
+#: app/Admin/Translations.php:527
+msgid "Share page"
+msgstr ""
+
+#: app/Admin/Translations.php:528
+msgid "Some sms apps does not support a body tag. When this happens, it will simply open the sms app with the phone number already filled in."
+msgstr ""
+
+#: app/Admin/Translations.php:529
+msgid "Viber does not support a \"chat with phone number \" link. When a user clicks on this button it will open their \"add contact\" with the number filled in."
+msgstr ""
+
+#. translators: %s and %s will be replaced with links
+#: app/Admin/Translations.php:532
+msgid "New, Facebook Messenger Chat Widget! First, you'll need to <a %1$s>whitelist</a> your site on Facebook. Then add your <a %2$s>Page ID</a> into the input above."
+msgstr ""
+
+#. translators: %s and %s will be replaced with links
+#: app/Admin/Translations.php:537
+msgid "You need to install Poptin's WordPress plugin. You can find it <a %1$s>here</a>. Once you've made a Poptin paste the <a %2$s>direct link</a> into the input."
+msgstr ""
+
+#. translators: %s will become the social media platform, like example: Share on Twitter
+#: app/Admin/Translations.php:542
+msgid "Share on %s"
+msgstr ""
+
+#. translators: %s will become the social media platform, like example: Share via email
+#: app/Admin/Translations.php:548
+msgid "Share via %s"
+msgstr ""
+
+#: app/Admin/Translations.php:553
+msgid "This URL appears to be invalid. The button may not work as expected."
+msgstr ""
+
+#: app/Admin/Translations.php:554
+msgid "Do you miss <b>http://</b> or <b>https://</b>? Perhaps an unnecessary space is added somewhere."
+msgstr ""
+
+#: app/Admin/Translations.php:555
+msgid "<b>Insecure URL:</b> Sorry to interrupt, but we advice you to use HTTPS for your URLS. This is a safer way to transport data."
+msgstr ""
+
+#: app/Admin/Translations.php:559
+msgid "Javascript function"
+msgstr ""
+
+#: app/Admin/Translations.php:560
+msgid "Warning! Before you continue..."
+msgstr ""
+
+#: app/Admin/Translations.php:561
+msgid "You are changing this button action from custom javascript to a different action. Your javascript changes will be lost."
+msgstr ""
+
+#: app/Admin/Translations.php:562
+msgid "Are you sure you want to proceed?"
+msgstr ""
+
+#. translators: %s will be replaced with html attributes for the link
+#: app/Admin/Translations.php:567
+msgid "Fill in your phone number without any spaces and symbols. Read WhatsApps recommendations by <a %s>clicking here.</a>"
+msgstr ""
+
+#. translators: %1$s and %2$s will be replaced with links
+#: app/Admin/Translations.php:573
+msgid "When you want to use Twitter DM you will need to find your Twitter User ID and allow direct messages from anyone. To find your account ID <a %1$s>click here</a>. And to read more about how to allow direct messages from anyone, <a %2$s>click here</a>."
+msgstr ""
+
+#: app/Admin/Translations.php:579
+msgid "Message"
+msgstr ""
+
+#: app/Admin/Translations.php:580
+msgid "Username"
+msgstr ""
+
+#: app/Admin/Translations.php:582
+msgid "Recipient"
+msgstr ""
+
+#: app/Admin/Translations.php:583
+msgid "Subject"
+msgstr ""
+
+#: app/Admin/Translations.php:584
+msgid "Body"
+msgstr ""
+
+#: app/Admin/Translations.php:591
+msgid "Open new tab"
+msgstr ""
+
+#: app/Admin/Translations.php:592
+msgid "When the button is clicked, open in new tab."
+msgstr ""
+
+#: app/Admin/Translations.php:596
+msgid "Filters"
+msgstr ""
+
+#: app/Admin/Translations.php:597
+msgid "Styling"
+msgstr ""
+
+#: app/Admin/Translations.php:598
+msgid "Timeout & Scroll"
+msgstr ""
+
+#: app/Admin/Translations.php:610
+#: app/Admin/Translations.php:1079
+msgid "Buttonizer settings"
+msgstr ""
+
+#: app/Admin/Translations.php:613
+msgid "Icon library"
+msgstr ""
+
+#: app/Admin/Translations.php:614
+msgid "free"
+msgstr ""
+
+#: app/Admin/Translations.php:615
+msgid "Latest (automatic)"
+msgstr ""
+
+#: app/Admin/Translations.php:616
+msgid "If your theme automatically loads in a library, just select the correct icon library instead."
+msgstr ""
+
+#: app/Admin/Translations.php:620
+msgid "Select version"
+msgstr ""
+
+#: app/Admin/Translations.php:621
+msgid "Select the correct version of the library in order to use the icons in Buttonizer."
+msgstr ""
+
+#: app/Admin/Translations.php:626
+msgid "You have selected an icon library that has premium icons. Enter the library license code to view and use these."
+msgstr ""
+
+#: app/Admin/Translations.php:627
+msgid "How does this work?"
+msgstr ""
+
+#. translators: String will be replaced with 'integrity' or 'license'
+#: app/Admin/Translations.php:632
+msgid "Enter %s code"
+msgstr ""
+
+#: app/Admin/Translations.php:639
+msgid "Import icon library"
+msgstr ""
+
+#: app/Admin/Translations.php:640
+msgid "Should Buttonizer import the icon library into your theme? If your theme already imports the library you can disable this."
+msgstr ""
+
+#: app/Admin/Translations.php:646
+msgid "When enabled, Buttonizer will automatically log clicks to your Google Analytics website. You can force Buttonizer not to use the Google Analytics by disabling this switch."
+msgstr ""
+
+#. translators: Please keep the code-example 'UA-000000-2'
+#: app/Admin/Translations.php:649
+msgid "Insert the Google Analytics tracking code here. Example: UA-000000-2"
+msgstr ""
+
+#: app/Admin/Translations.php:651
+msgid "Where can I see my click data of my buttons in Google Analytics?"
+msgstr ""
+
+#: app/Admin/Translations.php:656
+msgid "Other settings"
+msgstr ""
+
+#: app/Admin/Translations.php:659
+msgid "Show admin top bar"
+msgstr ""
+
+#: app/Admin/Translations.php:660
+msgid "Hide Buttonizer in the admin top bar by disabling this setting."
+msgstr ""
+
+#: app/Admin/Translations.php:664
+msgid "Show tooltips"
+msgstr ""
+
+#: app/Admin/Translations.php:665
+msgid "Hide the tooltips by disabling this setting."
+msgstr ""
+
+#: app/Admin/Translations.php:669
+msgid "Subdomain support"
+msgstr ""
+
+#: app/Admin/Translations.php:670
+msgid "Some WordPress websites use subdomains for content purposes. Enable this setting to allow Buttonizer to load on your subdomains. Only enable this when you need it."
+msgstr ""
+
+#: app/Admin/Translations.php:676
+msgid "Reset"
+msgstr ""
+
+#: app/Admin/Translations.php:677
+msgid "This is a way to reset Buttonizer to the default settings."
+msgstr ""
+
+#: app/Admin/Translations.php:680
+msgid "What will happen when I click the red button below?"
+msgstr ""
+
+#: app/Admin/Translations.php:681
+msgid "The plugin will get a 'factory reset'. All settings of Buttonizer will get deleted, reverting back to when you first installed and activated Buttonizer."
+msgstr ""
+
+#: app/Admin/Translations.php:685
+msgid "Why would I do that?"
+msgstr ""
+
+#: app/Admin/Translations.php:686
+msgid "Perhaps you ruined your buttons, categories or settings and would like to start from scratch. Or maybe you just feel trying the reset button..."
+msgstr ""
+
+#: app/Admin/Translations.php:690
+msgid "I have a license, what about that?"
+msgstr ""
+
+#: app/Admin/Translations.php:691
+msgid "No worries! Nothing will happen with your license! It only resets the following:"
+msgstr ""
+
+#: app/Admin/Translations.php:694
+msgid "Your buttons"
+msgstr ""
+
+#: app/Admin/Translations.php:695
+msgid "Your button groups"
+msgstr ""
+
+#: app/Admin/Translations.php:696
+msgid "All time schedules"
+msgstr ""
+
+#: app/Admin/Translations.php:697
+msgid "All page rules"
+msgstr ""
+
+#: app/Admin/Translations.php:698
+msgid "All other settings of Buttonizer"
+msgstr ""
+
+#: app/Admin/Translations.php:699
+msgid "All published settings"
+msgstr ""
+
+#: app/Admin/Translations.php:704
+msgid "Okay, sounds good. What then?"
+msgstr ""
+
+#: app/Admin/Translations.php:705
+msgid "Buttonizer will revert back to the default settings and feel like a fresh installation. That's all."
+msgstr ""
+
+#: app/Admin/Translations.php:709
+msgid "Okay, I'm ready!"
+msgstr ""
+
+#: app/Admin/Translations.php:710
+msgid "Press the red button below to reset Buttonizer. There will be no more warnings."
+msgstr ""
+
+#: app/Admin/Translations.php:711
+msgid "Reset Buttonizer!"
+msgstr ""
+
+#: app/Admin/Translations.php:724
+msgid "Loaded changes from previous session"
+msgstr ""
+
+#: app/Admin/Translations.php:726
+msgid "You left the Buttonizer preview window. You will not see the changes you make."
+msgstr ""
+
+#: app/Admin/Translations.php:727
+msgid "Return to preview"
+msgstr ""
+
+#: app/Admin/Translations.php:728
+msgid "Desktop preview"
+msgstr ""
+
+#: app/Admin/Translations.php:729
+msgid "Tablet preview"
+msgstr ""
+
+#: app/Admin/Translations.php:730
+msgid "Mobile preview"
+msgstr ""
+
+#. translators: %s becomes version number (eg 2.4.2)
+#: app/Admin/Translations.php:735
+msgid "Version %s"
+msgstr ""
+
+#: app/Admin/Translations.php:739
+msgid "Knowledge base"
+msgstr ""
+
+#: app/Admin/Translations.php:740
+msgid "Find out everything you need to know about Buttonizer"
+msgstr ""
+
+#: app/Admin/Translations.php:743
+msgid "Support"
+msgstr ""
+
+#: app/Admin/Translations.php:745
+msgid "I need support"
+msgstr ""
+
+#: app/Admin/Translations.php:746
+msgid "Direct support with the Buttonizer developers"
+msgstr ""
+
+#: app/Admin/Translations.php:749
+msgid "Community"
+msgstr ""
+
+#: app/Admin/Translations.php:750
+msgid "Interact with other Buttonizers"
+msgstr ""
+
+#: app/Admin/Translations.php:753
+msgid "Buttonizer tour (recommended!)"
+msgstr ""
+
+#: app/Admin/Translations.php:754
+msgid "Start the 2 minute tour"
+msgstr ""
+
+#: app/Admin/Translations.php:758
+msgid "Buttonizer account"
+msgstr ""
+
+#: app/Admin/Translations.php:760
+msgid "My Account"
+msgstr ""
+
+#: app/Admin/Translations.php:763
+msgid "Upgrade or pricing"
+msgstr ""
+
+#: app/Admin/Translations.php:766
+msgid "Affiliation"
+msgstr ""
+
+#: app/Admin/Translations.php:767
+msgid "Earn $ by promoting Buttonizer"
+msgstr ""
+
+#: app/Admin/Translations.php:770
+msgid "Options"
+msgstr ""
+
+#: app/Admin/Translations.php:774
+msgid "Now editing:"
+msgstr ""
+
+#: app/Admin/Translations.php:775
+msgid "This creates a new group with 2 buttons inside."
+msgstr ""
+
+#: app/Admin/Translations.php:776
+msgid "This creates a new button, outside other groups."
+msgstr ""
+
+#: app/Admin/Translations.php:777
+msgid "Learn more about groups and buttons"
+msgstr ""
+
+#: app/Admin/Translations.php:778
+msgid "You can't drag the only button left in a group!"
+msgstr ""
+
+#: app/Admin/Translations.php:779
+msgid "Convert to group"
+msgstr ""
+
+#: app/Admin/Translations.php:782
+msgid "Delete button"
+msgstr ""
+
+#: app/Admin/Translations.php:783
+msgid "Delete group"
+msgstr ""
+
+#: app/Admin/Translations.php:784
+msgid "Are you sure you want to remove this button?"
+msgstr ""
+
+#: app/Admin/Translations.php:785
+msgid "Are you sure you want to remove this group?"
+msgstr ""
+
+#. translators: %s will be replaced with a number
+#: app/Admin/Translations.php:788
+msgid "Are you sure you want to remove this full group? It contains %s buttons."
+msgstr ""
+
+#. translators: %s will be replaced with the button name
+#: app/Admin/Translations.php:794
+msgid "Are you sure you want to remove the button called '%s'?"
+msgstr ""
+
+#: app/Admin/Translations.php:798
+msgid "You cannot delete this button because this the only button left."
+msgstr ""
+
+#: app/Admin/Translations.php:799
+msgid "You cannot delete this group because this the only group left."
+msgstr ""
+
+#: app/Admin/Translations.php:812
+msgid "Page rules"
+msgstr ""
+
+#: app/Admin/Translations.php:813
+msgid "Page Rule Manager"
+msgstr ""
+
+#: app/Admin/Translations.php:814
+msgid "You can setup page rules via this window. When you add pages or definitions to this page rule, the buttons attached to this page rule will be shown or hidden depending on their settings as soon this rule is triggered."
+msgstr ""
+
+#: app/Admin/Translations.php:815
+msgid "You can setup page rules that will get triggered on specific pages or user roles. You can create unlimited page rules with multiple rules to trigger."
+msgstr ""
+
+#: app/Admin/Translations.php:816
+msgid "Add page rule"
+msgstr ""
+
+#: app/Admin/Translations.php:817
+msgid "Add rule"
+msgstr ""
+
+#: app/Admin/Translations.php:818
+msgid "Name your page rule:"
+msgstr ""
+
+#: app/Admin/Translations.php:820
+msgid "Show the button on any page"
+msgstr ""
+
+#: app/Admin/Translations.php:821
+msgid "Remove page rule"
+msgstr ""
+
+#: app/Admin/Translations.php:825
+msgid "All conditions must meet (AND)"
+msgstr ""
+
+#: app/Admin/Translations.php:826
+msgid "At least one condition must meet (OR)"
+msgstr ""
+
+#: app/Admin/Translations.php:830
+msgid "and"
+msgstr ""
+
+#: app/Admin/Translations.php:831
+msgid "or"
+msgstr ""
+
+#: app/Admin/Translations.php:834
+msgid "Page"
+msgstr ""
+
+#: app/Admin/Translations.php:835
+msgid "Page title contains"
+msgstr ""
+
+#: app/Admin/Translations.php:836
+msgid "Blog"
+msgstr ""
+
+#: app/Admin/Translations.php:837
+msgid "Blog title contains"
+msgstr ""
+
+#: app/Admin/Translations.php:838
+msgid "Category"
+msgstr ""
+
+#: app/Admin/Translations.php:839
+msgid "URL contains"
+msgstr ""
+
+#: app/Admin/Translations.php:840
+msgid "URL begins with"
+msgstr ""
+
+#: app/Admin/Translations.php:841
+msgid "URL ends with"
+msgstr ""
+
+#: app/Admin/Translations.php:842
+msgid "User has role"
+msgstr ""
+
+#: app/Admin/Translations.php:845
+msgid "Select one or more items."
+msgstr ""
+
+#: app/Admin/Translations.php:846
+msgid "Are you sure you want to remove this rule?"
+msgstr ""
+
+#: app/Admin/Translations.php:847
+msgid "Aborted. Each page rule must keep at least one rule."
+msgstr ""
+
+#: app/Admin/Translations.php:848
+msgid "You still have selected values, are you sure you want to remove this?"
+msgstr ""
+
+#: app/Admin/Translations.php:849
+msgid "Rule value"
+msgstr ""
+
+#: app/Admin/Translations.php:860
+msgid "Time schedules"
+msgstr ""
+
+#: app/Admin/Translations.php:861
+msgid "Time schedule"
+msgstr ""
+
+#: app/Admin/Translations.php:862
+msgid "Time schedule manager"
+msgstr ""
+
+#: app/Admin/Translations.php:863
+msgid "You can setup time schedules that will get triggered during specific times of a day. It is even possible to change the schedule actions for specific days. You can create an unlimited amount of schedules."
+msgstr ""
+
+#: app/Admin/Translations.php:866
+msgid "Add schedule"
+msgstr ""
+
+#: app/Admin/Translations.php:867
+msgid "Add date"
+msgstr ""
+
+#: app/Admin/Translations.php:868
+msgid "New schedule"
+msgstr ""
+
+#: app/Admin/Translations.php:869
+msgid "Name the new time schedule:"
+msgstr ""
+
+#: app/Admin/Translations.php:870
+msgid "Rename schedule to:"
+msgstr ""
+
+#: app/Admin/Translations.php:871
+msgid "Show the button at any time"
+msgstr ""
+
+#. translators: %s becomes weekday or specific date ('Trigger on monday' or 'Trigger om January 1, 2019')
+#: app/Admin/Translations.php:874
+msgid "Trigger on %s"
+msgstr ""
+
+#. translators: 'till' as in '10:00 till 11:30'
+#: app/Admin/Translations.php:878
+msgid "till"
+msgstr ""
+
+#: app/Admin/Translations.php:881
+msgid "Remove schedule"
+msgstr ""
+
+#: app/Admin/Translations.php:882
+msgid "You must keep at least one schedule"
+msgstr ""
+
+#: app/Admin/Translations.php:883
+msgid "Current timezone:"
+msgstr ""
+
+#: app/Admin/Translations.php:886
+msgid "Remove date"
+msgstr ""
+
+#: app/Admin/Translations.php:887
+msgid "Are you sure you want to remove this date?"
+msgstr ""
+
+#. translators: The strings will be replaced with time (example: 10:10)
+#: app/Admin/Translations.php:894
+msgid "Sorry, the time '%1$s' was invalid. Reverting back to '%2$s'."
+msgstr ""
+
+#. translators: The strings will be replaced with time (example: 10:10)
+#: app/Admin/Translations.php:900
+msgid "The start time '%1$s' conflicts with the end time '%2$s'. Time has been reverted to '%3$s'. Make sure you have at least 5 minutes overlap."
+msgstr ""
+
+#. translators: The strings will be replaced with time (example: 10:10)
+#: app/Admin/Translations.php:906
+msgid "The end time '%1$s' conflicts with the start time '%2$s'. Time has been reverted to '%3$s'. Make sure you have at least 5 minutes overlap."
+msgstr ""
+
+#: app/Admin/Translations.php:913
+msgid "Weekdays"
+msgstr ""
+
+#: app/Admin/Translations.php:914
+msgid "Monday"
+msgstr ""
+
+#: app/Admin/Translations.php:915
+msgid "Tuesday"
+msgstr ""
+
+#: app/Admin/Translations.php:916
+msgid "Wednesday"
+msgstr ""
+
+#: app/Admin/Translations.php:917
+msgid "Thursday"
+msgstr ""
+
+#: app/Admin/Translations.php:918
+msgid "Friday"
+msgstr ""
+
+#: app/Admin/Translations.php:919
+msgid "Saturday"
+msgstr ""
+
+#: app/Admin/Translations.php:920
+msgid "Sunday"
+msgstr ""
+
+#: app/Admin/Translations.php:923
+msgid "Exclude dates"
+msgstr ""
+
+#: app/Admin/Translations.php:924
+msgid "You are able to add specific dates to show or hide the buttons attached to this time scheme. So you can say something like this: \"<i>I am opened on January 22th until 22:00 (10 PM) because of some special evening we organize.</i>\". You can add those dates and configure them. The rule will overwrite the default settings for that weekday."
+msgstr ""
+
+#: app/Admin/Translations.php:928
+msgid "Start triggering buttons from"
+msgstr ""
+
+#: app/Admin/Translations.php:929
+msgid "Click to add start date"
+msgstr ""
+
+#. translators: The string will become a date
+#: app/Admin/Translations.php:933
+msgid "Warning! Your start date '%s' hast past the end date of this schedule. If you do not change this date the schedule will not work."
+msgstr ""
+
+#: app/Admin/Translations.php:940
+msgid "Stop triggering buttons after (optional)"
+msgstr ""
+
+#: app/Admin/Translations.php:941
+msgid "Click to add ending date"
+msgstr ""
+
+#: app/Admin/Translations.php:942
+msgid "Select a date in the datepicker below"
+msgstr ""
+
+#. translators: The string will become a date
+#: app/Admin/Translations.php:945
+msgid "Warning! Your end date '%s' has past the start date of this schedule. If you do not change this date the schedule will not work."
+msgstr ""
+
+#: app/Admin/Translations.php:959
+msgid "Hi Buttonizer!"
+msgstr ""
+
+#: app/Admin/Translations.php:960
+msgid "It appears you've installed Buttonizer 2.0 before. But, you installed version 1.5 again later on and updated back to 2.0!"
+msgstr ""
+
+#: app/Admin/Translations.php:961
+msgid "The migration progress did not run as it did back then. In order to convert your buttons, press the button below!"
+msgstr ""
+
+#. translators: %1$s and %2$s will become HTML icons as preview
+#: app/Admin/Translations.php:964
+msgid "If this window keeps popping up, even when you've tried to convert the buttons, try to reset Buttonizer. Go to the 'cog' icon (%1$s) on the top bar, select 'Options %2$s' and the tab 'Reset' and follow the instructions."
+msgstr ""
+
+#: app/Admin/Translations.php:968
+msgid "Convert my buttons!"
+msgstr ""
+
+#: app/Admin/Translations.php:980
+msgid "Premium feature"
+msgstr ""
+
+#: app/Admin/Translations.php:981
+msgid "Hi there, this function is a premium feature. We will describe what this feature will do:"
+msgstr ""
+
+#: app/Admin/Translations.php:982
+msgid "What you get as a premium user:"
+msgstr ""
+
+#: app/Admin/Translations.php:983
+msgid "Go pro"
+msgstr ""
+
+#: app/Admin/Translations.php:986
+msgid "Show button(groups) using the advanced time schedules"
+msgstr ""
+
+#: app/Admin/Translations.php:987
+msgid "Show button(groups) on specific pages using advanced page rules"
+msgstr ""
+
+#: app/Admin/Translations.php:988
+msgid "Create multiple button groups"
+msgstr ""
+
+#: app/Admin/Translations.php:989
+msgid "Custom button background &amp; icon image"
+msgstr ""
+
+#: app/Admin/Translations.php:991
+msgid "Show or hide on scroll"
+msgstr ""
+
+#: app/Admin/Translations.php:992
+msgid "Show on timeout"
+msgstr ""
+
+#: app/Admin/Translations.php:993
+msgid "Be able to set CSS class names and button IDs"
+msgstr ""
+
+#: app/Admin/Translations.php:994
+msgid "Execute javascript on button clicks"
+msgstr ""
+
+#: app/Admin/Translations.php:998
+msgid "My first time schedule"
+msgstr ""
+
+#: app/Admin/Translations.php:1002
+msgid "My first page rule"
+msgstr ""
+
+#: app/Admin/Translations.php:1004
+msgid "You are able to add multiple groups on different positions"
+msgstr ""
+
+#: app/Admin/Translations.php:1015
+msgid "Welcome to Buttonizer"
+msgstr ""
+
+#. translators: %s will become 'Buttonizer'
+#: app/Admin/Translations.php:1018
+msgid "We are pleased to welcome you to <b>%s</b>!"
+msgstr ""
+
+#: app/Admin/Translations.php:1021
+msgid "We've created a tour for our new users. Would you like to take the tour?"
+msgstr ""
+
+#: app/Admin/Translations.php:1022
+msgid "No thanks, I know how it works"
+msgstr ""
+
+#: app/Admin/Translations.php:1025
+msgid "Exit tour"
+msgstr ""
+
+#: app/Admin/Translations.php:1028
+msgid "Welcome to the Buttonizer tour!"
+msgstr ""
+
+#: app/Admin/Translations.php:1029
+msgid "Start the tour and save time. Master the Buttonizer skills in only two minutes."
+msgstr ""
+
+#. translators: First %1$s will be an left-key icon, second %2$s will be right-key icon, third %3$s will be an keyboard icon
+#: app/Admin/Translations.php:1032
+msgid "You can use the %1$s and %2$s keys on your %3$s to navigate."
+msgstr ""
+
+#: app/Admin/Translations.php:1037
+msgid "Buttonizer bar"
+msgstr ""
+
+#: app/Admin/Translations.php:1038
+msgid "Manage all your Floating Action Buttons and Floating menu's in the Buttonizer bar."
+msgstr ""
+
+#: app/Admin/Translations.php:1041
+msgid "Preview"
+msgstr ""
+
+#: app/Admin/Translations.php:1042
+msgid "Watch the impact of your changes in the preview pane. Your buttons will only be visible to your website visitor after you click on 'Publish'."
+msgstr ""
+
+#: app/Admin/Translations.php:1045
+msgid "Top bar"
+msgstr ""
+
+#: app/Admin/Translations.php:1046
+msgid "In the top bar, you can:"
+msgstr ""
+
+#: app/Admin/Translations.php:1049
+msgid "Click the <b>'X'</b> to go back to WordPress"
+msgstr ""
+
+#: app/Admin/Translations.php:1050
+msgid "<b>Revert</b> changes you have made"
+msgstr ""
+
+#: app/Admin/Translations.php:1051
+msgid "<b>Publish</b> all your changes"
+msgstr ""
+
+#: app/Admin/Translations.php:1052
+msgid "Access the <b>general settings</b>"
+msgstr ""
+
+#. translators: %s will be replaced with an arrow and an ENTER (new line)
+#: app/Admin/Translations.php:1058
+msgid "Click here %s to go to Buttonizer's general settings."
+msgstr ""
+
+#: app/Admin/Translations.php:1063
+msgid "Menu"
+msgstr ""
+
+#: app/Admin/Translations.php:1066
+msgid "Want to know what you can do with Buttonizer? Take a look at our knowledge base!"
+msgstr ""
+
+#: app/Admin/Translations.php:1067
+msgid "Visit our support page for help from us or other users."
+msgstr ""
+
+#: app/Admin/Translations.php:1068
+msgid "Visit our community page and interact with other Buttonizer users!"
+msgstr ""
+
+#: app/Admin/Translations.php:1069
+msgid "View your account details and license."
+msgstr ""
+
+#: app/Admin/Translations.php:1070
+msgid "Upgrade or extend your license."
+msgstr ""
+
+#: app/Admin/Translations.php:1071
+msgid "Happy with the plugin? Become an ambassador and earn some cash ;-)"
+msgstr ""
+
+#: app/Admin/Translations.php:1072
+msgid "Change general settings like icon libraries and Google Analytics."
+msgstr ""
+
+#: app/Admin/Translations.php:1076
+msgid "Click on <b>Options</b> to open Buttonizer's general settings."
+msgstr ""
+
+#: app/Admin/Translations.php:1082
+msgid "In this section, you will be able to choose other icon libraries, the icon library version and whether Buttonizer should import the icon library."
+msgstr ""
+
+#: app/Admin/Translations.php:1083
+msgid "Want to track your button events? Place your Google Analytics code here!"
+msgstr ""
+
+#: app/Admin/Translations.php:1084
+msgid "Completely reset Buttonizers data."
+msgstr ""
+
+#: app/Admin/Translations.php:1088
+msgid "Button group"
+msgstr ""
+
+#: app/Admin/Translations.php:1089
+msgid "A button group contains buttons."
+msgstr ""
+
+#: app/Admin/Translations.php:1090
+msgid "Button groups are only visible when there are <u><b>2 or more buttons</b></u> within the group."
+msgstr ""
+
+#: app/Admin/Translations.php:1091
+msgid "The buttons in a button group are dedicated to one position. Add multiple button groups if you want to create more floating action buttons dedicated to different positions."
+msgstr ""
+
+#: app/Admin/Translations.php:1094
+msgid "Click here to show group settings."
+msgstr ""
+
+#: app/Admin/Translations.php:1097
+msgid "Group settings"
+msgstr ""
+
+#: app/Admin/Translations.php:1098
+msgid "Change the style of the button group here."
+msgstr ""
+
+#: app/Admin/Translations.php:1099
+msgid "Click on the left arrow to go back."
+msgstr ""
+
+#: app/Admin/Translations.php:1102
+#: app/Admin/Translations.php:1155
+msgid "Position & device visibility"
+msgstr ""
+
+#: app/Admin/Translations.php:1103
+#: app/Admin/Translations.php:1156
+msgid "When you change the position of the button group it will move the whole group, including the buttons."
+msgstr ""
+
+#: app/Admin/Translations.php:1104
+msgid "Choose whether you want the <b><u>whole group</u></b> to be visible on desktop or mobile devices."
+msgstr ""
+
+#: app/Admin/Translations.php:1108
+msgid "Setup Buttonizer to open automatically!"
+msgstr ""
+
+#: app/Admin/Translations.php:1109
+msgid "Change the style of your floating menu."
+msgstr ""
+
+#: app/Admin/Translations.php:1110
+msgid "Buttonizer will animate every 10 seconds in order to capture the visitor's attention."
+msgstr ""
+
+#: app/Admin/Translations.php:1114
+msgid "Change the color of the button group."
+msgstr ""
+
+#: app/Admin/Translations.php:1115
+msgid "Change the border radius of the button group!"
+msgstr ""
+
+#: app/Admin/Translations.php:1116
+#: app/Admin/Translations.php:1121
+msgid "Choose an image to use as a background of the button group."
+msgstr ""
+
+#: app/Admin/Translations.php:1120
+msgid "Choose your favorite icon from your selected icon library."
+msgstr ""
+
+#: app/Admin/Translations.php:1123
+msgid "Quick setting to show or hide buttons depending device!"
+msgstr ""
+
+#: app/Admin/Translations.php:1125
+msgid "Click here to add a new button."
+msgstr ""
+
+#. translators: %s will be replaced with 'Add button'
+#: app/Admin/Translations.php:1128
+msgid "Don't click on next... Click on '%s'"
+msgstr ""
+
+#. translators: %s will be replaced with 'Add button'
+#: app/Admin/Translations.php:1133
+msgid "If you don't want to click '%s', I can do you the honor :)"
+msgstr ""
+
+#: app/Admin/Translations.php:1136
+msgid "Here, on the left... If you won't click it, I will click it >:-)"
+msgstr ""
+
+#: app/Admin/Translations.php:1137
+msgid "Hello? Please click that button..."
+msgstr ""
+
+#: app/Admin/Translations.php:1140
+msgid "You have created a new button! This is a button. Buttons are contained within a group."
+msgstr ""
+
+#: app/Admin/Translations.php:1141
+msgid "Click here to open the menu."
+msgstr ""
+
+#: app/Admin/Translations.php:1143
+msgid "Edit the style of the button."
+msgstr ""
+
+#: app/Admin/Translations.php:1144
+msgid "Make the button appear/hide on certain pages and during certain times! This function is only available for our premium users."
+msgstr ""
+
+#: app/Admin/Translations.php:1145
+msgid "Rename the button."
+msgstr ""
+
+#: app/Admin/Translations.php:1146
+msgid "Make a copy of the button."
+msgstr ""
+
+#: app/Admin/Translations.php:1147
+msgid "Delete the button."
+msgstr ""
+
+#: app/Admin/Translations.php:1149
+msgid "Click here to show the button settings."
+msgstr ""
+
+#: app/Admin/Translations.php:1151
+msgid "Button settings"
+msgstr ""
+
+#: app/Admin/Translations.php:1152
+msgid "These are the button settings. Pretty similar to the group settings."
+msgstr ""
+
+#: app/Admin/Translations.php:1157
+msgid "You can choose whether you want the <b><u>whole group</u></b> to be visible on desktop or mobile devices."
+msgstr ""
+
+#: app/Admin/Translations.php:1160
+msgid "When enabled, the button will copy the button and label style of the group."
+msgstr ""
+
+#: app/Admin/Translations.php:1161
+msgid "By turning it of you can change the style of the button."
+msgstr ""
+
+#: app/Admin/Translations.php:1164
+msgid "Revert or save"
+msgstr ""
+
+#: app/Admin/Translations.php:1166
+msgid "Delete all the changes you've made this session."
+msgstr ""
+
+#: app/Admin/Translations.php:1168
+msgid "Save and publish the changes you've made this session."
+msgstr ""
+
+#: app/Admin/Translations.php:1171
+msgid "That was it!"
+msgstr ""
+
+#. translators: %s will be the link to the community forums
+#: app/Admin/Translations.php:1174
+msgid "Thank you for taking the tour, that's all folks! We hope you're ready to start implementing Buttonizer to meet your goals! If you have any questions, ask them on the %s forums!"
+msgstr ""
+
+#: app/Admin/Translations.php:1177
+msgid "If you have any feedback regarding the Buttonizer Tour, we'd love to hear it!"
+msgstr ""
